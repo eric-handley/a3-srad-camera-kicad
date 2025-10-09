@@ -1,0 +1,136 @@
+%%{init: {
+ 'themeVariables': { 'fontSize': '14px' },
+ 'flowchart': { 'padding': 10, 'nodeSpacing': 30, 'rankSpacing': 60, 'curve': 'linear' }
+}}%%
+graph LR
+%% Top-level modules
+subgraph CAM["Camera Module"]
+  SENSOR["IMX290/IMX219<br/>Sensor<br/>(1080p60)"]
+end
+
+subgraph LAB["Lower Avionics Bay"]
+  MPS["Modular Power Supply<br/>(5V Main)"]
+  FC["Flight Computer"]
+end
+
+BAT["Optional Backup<br/>Battery<br/>(3.7V LiPo,<br/>No Charging)"]
+
+subgraph PCB["Custom Camera PCB"]
+  %% Power path
+  subgraph POWER["Power / Power-Path"]
+    INPROT["Input Protection<br/>(Fuse/TVS/Inrush)"]
+    PWRSW["Power Switch"]
+    PMIC["TI TPS65086<br/>(3xBuck, 5xLDO,<br/>Sequenced Rails)"]
+    DDRVTT["DDR VTT/VREF<br/>Terminator"]
+    SUPV["Supervisor/Watchdog<br/>(POR + Rail Control)"]
+  end
+
+  %% RK domain
+  subgraph RK["RK356x System"]
+    RKSOC["RK356x SoC<br/>(H.265 Encoder)"]
+    RAM["DDR3L 512MB"]
+    NAND["SPI NOR Flash<br/>256MB Boot"]
+    SDHOST["MicroSD Card<br/>(Video + IMU Files)"]
+  end
+
+  %% STM domain
+  subgraph STM["STM32F405x System"]
+    STMMCU["STM32F405x<br/>(Supervisor + IMU Logger)"]
+  end
+
+  %% Sensors
+  IMU["LSM6DSO IMU"]
+
+  %% I/O and Debug
+  subgraph CONNRK["I/O / Debug (RK)"]
+    USBR["USB-C (RK Prog)"]
+    USBCCTRL["USB-C CC/PD + ESD"]
+    UARTH["UART Header (RK Console)"]
+  end
+
+  subgraph CONNSTM["I/O / Debug (STM))"]
+    SWDH["SWD Header (STM)"]
+    LVLSHIFT["Level Translators<br/>(1.8V↔3.3V)"]
+    USRBTN["User Button"]
+  end
+
+  %% LEDs
+  LED1["Power LED"]
+  LED2["Status LED"]
+end
+
+%% → DDRVTT
+PMIC -->|1.35V VDD/VDDQ| RAM
+
+%% → IMU
+PMIC -->|3.3V Quiet| IMU
+STMMCU <-->|"I2C"| IMU
+
+%% → INPROT
+MPS -->|5V| INPROT
+
+%% → LED1
+PMIC --> LED1
+
+%% → LED2
+STMMCU --> LED2
+
+%% → LVLSHIFT
+RKSOC <-->|"UART w/ RTS/CTS<br/>(IMU Stream + Time-Set)"| LVLSHIFT
+
+%% → NAND
+RKSOC -->|"SPI"| NAND
+
+%% → PMIC
+BAT -.->|3.7V Backup Supply| PMIC
+PWRSW --> PMIC
+SUPV -.->|Reset/Enable| PMIC
+
+%% → PWRSW
+INPROT --> PWRSW
+
+%% → RAM
+PMIC -->|1.35V VDD/VDDQ| RAM
+DDRVTT -->|VTT/VREF| RAM
+RKSOC ---|"DDR3L Interface"| RAM
+
+%% → RKSOC
+SENSOR -->|"CSI-2 MIPI<br/>(2-lane)"| RKSOC
+SENSOR <-->|"I2C (Control 1.8V)"| RKSOC
+PMIC -->|1.8V| RKSOC
+PMIC -->|1.2V Core| RKSOC
+SUPV -.->|Reset| RKSOC
+USBCCTRL -->|USB| RKSOC
+UARTH -->|UART| RKSOC
+
+%% → SDHOST
+RKSOC <-->|"SDMMC 4-bit"| SDHOST
+
+%% → SENSOR
+PMIC -->|2.8V Analog| SENSOR
+PMIC -->|1.8V I/O| SENSOR
+
+%% → STMMCU
+PMIC -->|3.3V| STMMCU
+PMIC <-->|"I2C (Power Ctrl/IRQ)"| STMMCU
+FC -->|"UART (Start/Stop)"| STMMCU
+LVLSHIFT <-->|UART| STMMCU
+SWDH -->|SWD| STMMCU
+USRBTN --> STMMCU
+SUPV -.->|Reset| STMMCU
+
+%% → USBCCTRL
+USBR -->|USB| USBCCTRL
+
+%% Styling
+classDef dataStyle fill:#99ccff,stroke:#0066cc,stroke-width:2px
+classDef powerStyle fill:#ffdd00,stroke:#dd8800,stroke-width:2px
+classDef storageStyle fill:#cc99ff,stroke:#6600cc,stroke-width:2px
+classDef sensorStyle fill:#99ff99,stroke:#009900,stroke-width:2px
+classDef subStyle fill:#eeeeee,stroke:#111111,stroke-width:2px
+
+class PMIC,PWRSW,INPROT,DDRVTT,SUPV,MPS,BAT powerStyle
+class STMMCU,RKSOC,FC,LVLSHIFT dataStyle
+class NAND,SDHOST,RAM storageStyle
+class SENSOR,IMU sensorStyle
+class POWER,CONNRK,CONNSTM,RK,STM,LEDS,LAB,CAM,SENS subStyle
