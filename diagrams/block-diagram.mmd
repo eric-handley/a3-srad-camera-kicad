@@ -27,7 +27,8 @@ graph
             IMU["LSM6DS3 IMU"]
         end
 
-        subgraph STOR["Storage"]
+        subgraph STOR["Storage/Memory"]
+            RAM["DDR3L<br/>512MB"]
             NAND["NOR Flash<br/>256MB Boot"]
             SD["MicroSD<br/>64-128GB"]
         end
@@ -36,16 +37,19 @@ graph
             RC["RK356x<br/>H.264/5 Encoder"]
             STM["STM32F405x<br/>Main Controller"]
         end 
+
+        PMIC
     end
     
-    MPS -->|5V| PCB
-    BAT -->|3.3V| PCB
-    FC -->|UART| STM
+    MPS -->|5V| PMIC
+    FC --> STM
+    SENSOR -->|CSI-2| RC
     
     
+    RC -->|DDR3L</br>Interface|RAM
     RC -->|SPI| NAND
-    RC <-->|SPI Data </br> UART Control| STM
+    STM -->|SPI IMU Data </br> UART Control| RC
     
-    STM -->|SDIO| SD
+    RC -->|SDMMC| SD
     STM <-->|I2C| IMU
-    CAM -->|CSI-2| RC
+    BAT -->|3.3V| PMIC
