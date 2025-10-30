@@ -1,2 +1,5 @@
 *.lck
 kicad/fp-info-cache
+/schematics
+/symbols
+/docs
