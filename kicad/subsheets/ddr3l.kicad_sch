@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c622af4d-9e14-4d4c-a021-ee9e8150bc6d")
-	(paper "A4")
+	(paper "User" 140 190)
 	(lib_symbols
 		(symbol "srad-camera-symbols:MT41K256M16TW-107{colon}P"
 			(exclude_from_sim no)
@@ -1931,9 +1931,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "SOC_BUS?"
+		(shape output)
+		(at 31.75 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5960962-03ef-4715-97f8-6c2e0f28bf66")
+	)
 	(symbol
 		(lib_id "srad-camera-symbols:MT41K256M16TW-107{colon}P")
-		(at 93.98 96.52 0)
+		(at 78.74 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1941,7 +1952,7 @@
 		(dnp no)
 		(uuid "af63bc4e-d3c6-4bee-80f7-8f1aaa99c8b7")
 		(property "Reference" "U5"
-			(at 93.98 29.718 0)
+			(at 78.74 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +1961,7 @@
 			)
 		)
 		(property "Value" "MT41K256M16TW-107:P"
-			(at 93.98 31.75 0)
+			(at 78.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1970,7 @@
 			)
 		)
 		(property "Footprint" "FBGA-96_L14.0-W8.0-R16-C6-P0.80-TL"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1979,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20190702/C253882_073A45851B86D33155EFFA955E523761.pdf"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1998,7 @@
 			)
 		)
 		(property "SYMBOL" "MT41K256M16TW-107:P"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2008,7 @@
 			)
 		)
 		(property "DEVICE" "MT41K256M16TW-107:P"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2018,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "MT41K256M16TW-107:PTR"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,7 +2028,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C253882"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2038,7 @@
 			)
 		)
 		(property "MANUFACTURER" "micron(镁光)"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2037,7 +2048,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "MT41K256M16TW-107:P"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2058,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "TFBGA-96"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2068,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2078,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20190702/C253882_073A45851B86D33155EFFA955E523761.pdf"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2088,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2098,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2108,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 93.98 96.52 0)
+			(at 78.74 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

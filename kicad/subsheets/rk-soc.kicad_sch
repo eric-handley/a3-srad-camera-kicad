@@ -10442,6 +10442,204 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "CSI_BUS"
+		(shape output)
+		(at 96.52 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a9cc79b-f859-4426-9526-cbcac7e22645")
+	)
+	(hierarchical_label "16"
+		(shape output)
+		(at 96.52 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3caa561d-0c44-4b70-afdc-15568bf177ab")
+	)
+	(hierarchical_label "15"
+		(shape output)
+		(at 96.52 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3caa561d-0c44-4b70-afdc-15568bf177ab")
+	)
+	(hierarchical_label "10"
+		(shape output)
+		(at 96.52 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "11"
+		(shape output)
+		(at 96.52 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "12"
+		(shape output)
+		(at 96.52 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "13"
+		(shape output)
+		(at 96.52 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "14"
+		(shape output)
+		(at 96.52 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "4"
+		(shape output)
+		(at 96.52 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "3"
+		(shape output)
+		(at 96.52 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "1"
+		(shape output)
+		(at 96.52 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "2"
+		(shape output)
+		(at 96.52 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "5"
+		(shape output)
+		(at 96.52 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "6"
+		(shape output)
+		(at 96.52 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "7"
+		(shape output)
+		(at 96.52 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "8"
+		(shape output)
+		(at 96.52 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "9"
+		(shape output)
+		(at 96.52 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d9fd616-0e39-4d81-a266-83f3e162f649")
+	)
+	(hierarchical_label "DDR_BUS?"
+		(shape output)
+		(at 96.52 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9eebbac6-855f-42a7-bdc0-15d4d864f37c")
+	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
 		(at 50.8 472.44 0)
