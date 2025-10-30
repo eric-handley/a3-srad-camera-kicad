@@ -572,6 +572,78 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE",
+          "name": "DEVICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB PART CLASS",
+          "name": "JLCPCB PART CLASS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC PART NAME",
+          "name": "LCSC PART NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART",
+          "name": "MANUFACTURER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER FOOTPRINT",
+          "name": "SUPPLIER FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER PART",
+          "name": "SUPPLIER PART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL",
+          "name": "SYMBOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADD INTO BOM",
+          "name": "ADD INTO BOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONVERT TO PCB",
+          "name": "CONVERT TO PCB",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET",
+          "name": "DATASHEET",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -633,6 +705,34 @@
     [
       "da62c771-e8c9-451f-8df1-ec995aadcb11",
       "Root"
+    ],
+    [
+      "6bb226bc-8621-46e9-a0f1-5501f65ad069",
+      "RK809-5 PMIC"
+    ],
+    [
+      "cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299",
+      "STM32U575RGT6 MCU"
+    ],
+    [
+      "53c61148-5ca8-449f-9011-3672d8a04f56",
+      "LSM6DSRTR IMU"
+    ],
+    [
+      "2d2335c5-b8ff-4d43-ae83-f45f6f125b07",
+      "USBC 2.0 Port"
+    ],
+    [
+      "f62984d3-000f-4116-a13f-09b83b0ce025",
+      "MicroSD Port (page 6)"
+    ],
+    [
+      "279fc251-45a8-41a3-8fcf-5855d7fe07da",
+      "RK3566 SoC"
+    ],
+    [
+      "51b69045-7733-4023-95b9-0aef3b91d808",
+      "MT41K256 RAM"
     ]
   ],
   "text_variables": {}
