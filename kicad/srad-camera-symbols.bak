@@ -181,7 +181,7 @@
 					(color 160 0 0 1)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(circle
