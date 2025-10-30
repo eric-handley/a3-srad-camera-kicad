@@ -4,31 +4,33 @@
  'flowchart': { 'padding': 10, 'nodeSpacing': 30, 'rankSpacing': 60, 'curve': 'linear' }
 }}%%
 graph BT
-%% STPMIC1 Power Rail Assignments:
+%% RK809-5 + MP2143 Power Rail Assignments (from Power Spec Rev. 1):
 %% Buck Converters (High Efficiency Switching):
-%%   BUCK1: 1.2V (1500mA max) → RK356x Core + IMX290 Digital (DVDD)
-%%   BUCK2: 1.35V (1000mA max) → DDR3L RAM + REFDDR
-%%   BUCK3: 1.92V (500mA max) → LDO1 Input + LDO2 Input + LDO3 Input + LDO6 Input
-%%   BUCK4: 3.4V (2000mA max) → STM32U575 + LDO5 Input + Level Shifters (3.3V)
-%% LDO Regulators (Low Noise Linear):
-%%   LDO1: 1.8V (from BUCK3 1.92V) → IMU quiet power
-%%   LDO2: 1.8V (from BUCK3 1.92V) → RK356x I/O + Level Shifters (1.8V)
-%%   LDO3: 1.8V (from BUCK3 1.92V) → IMX290 Sensor I/O (OVDD)
-%%   LDO4: 3.3V (from VIN/Auto) → RK356x USB PHY
-%%   LDO5: 2.9V (from BUCK4 3.4V) → IMX290 Sensor Analog (AVDD)
-%%   LDO6: 1.8V (from BUCK3 1.92V) → MicroSD Card (VDD + I/O)
-%% Special Functions:
-%%   REFDDR: BUCK2/2 → 0.675V reference for DDR (VREF pin)
-%%   DDRVTT: NOT USED (RK356x has on-die termination - ODT)
+%%   MP2143: 0.9V (3000mA max) → RK3566 VDD_LOGIC (CPU/GPU/NPU core)
+%%   BUCK1: 1.2V (2500mA max) → IMX290 Digital (DVDD)
+%%   BUCK2: 1.35V (2500mA max) → DDR3L RAM VDD/VDDQ
+%%   BUCK3: 2.2V (1500mA max) → LDO1/2/3/4/5 Input Rail
+%%   BUCK4: 1.8V (1500mA max) → RK3566 VDD_IO + MicroSD
+%%   BUCK5: 3.3V (2500mA max) → STM32U575 + RK3566 USB_AVDD + LDO7 Input
+%% LDO Regulators (Low Noise Linear, all from RK809-5):
+%%   LDO1: 0.675V (from BUCK3 2.2V, 400mA max) → DDR3L VREF
+%%   LDO2: 0.9V (from BUCK3 2.2V, 400mA max) → RK3566 AVDD_0V9 (analog rails)
+%%   LDO3: 1.8V (from BUCK3 2.2V, 100mA max) → LSM6DSRTR IMU (VDD + VDDIO)
+%%   LDO4: 1.8V (from BUCK3 2.2V, 400mA max) → RK3566 AVDD_1V8 (analog rails) + Level Shifters (1.8V)
+%%   LDO5: 1.8V (from BUCK3 2.2V, 400mA max) → IMX290 Sensor I/O (OVDD)
+%%   LDO6: UNUSED
+%%   LDO7: 2.9V (from BUCK5 3.3V, 400mA max) → IMX290 Sensor Analog (AVDD)
+%%   LDO8: UNUSED
+%%   LDO9: UNUSED
 %%
 %% IMX290 Sensor Power Requirements (3 rails):
-%%   AVDD (2.9V): 54mA typ, 111mA max active | 0.1mA standby
-%%   OVDD (1.8V): 16mA typ, 29mA max active | 0.1mA standby
-%%   DVDD (1.2V): 77mA typ, 214mA max active | 14mA standby
+%%   AVDD (2.9V): 83mA max active | 0.1mA standby
+%%   OVDD (1.8V): 1mA max active | 0.1mA standby
+%%   DVDD (1.2V): 118.5mA max active | 14mA standby
 
 %% Top-level modules
 subgraph CAM["Camera Module"]
-  SENSOR["IMX290/IMX219<br/>Sensor<br/>(1080p60)"]
+  SENSOR["IMX290<br/>Sensor<br/>(1080p60)"]
 end
 
 subgraph LAB["Lower Avionics Bay"]
@@ -36,23 +38,21 @@ subgraph LAB["Lower Avionics Bay"]
   FC["Flight Computer"]
 end
 
-BAT["Optional Backup<br/>Battery<br/>(3.7V LiPo)"]
-
 subgraph PCB["Custom Camera PCB"]
   %% Power path
   subgraph POWER["Power / Power-Path"]
     INPROT["Input Protection<br/>(Fuse/TVS/Inrush)"]
     PWRSW["Power Switch"]
-    PMIC["STPMIC1APQR<br/>(4xBuck, 6xLDO,<br/>Sequenced Rails)"]
+    PMIC["RK809-5 PMIC<br/>(5xBuck, 9xLDO,<br/>Sequenced Rails)"]
+    MP2143BUCK["MP2143 Buck<br/>(0.9V @ 3A)"]
     SUPV["Supervisor/Watchdog<br/>(POR + Rail Control)"]
   end
 
   %% RK domain
-  subgraph RK["RK356x System"]
-    RKSOC["RK356x SoC<br/>(H.265 Encoder)"]
+  subgraph RK["RK3566 System"]
+    RKSOC["RK3566 SoC<br/>(H.265 Encoder)"]
     RAM["DDR3L 512MB"]
-    NAND["SPI NOR Flash<br/>256MB Boot"]
-    SDHOST["MicroSD Card<br/>(Video + IMU Files)"]
+    SDHOST["MicroSD Card<br/>(Boot + Video + IMU Files)"]
   end
 
   %% STM domain
@@ -70,7 +70,7 @@ subgraph PCB["Custom Camera PCB"]
     UARTH["UART Header (RK Console)"]
   end
 
-  subgraph CONNSTM["I/O / Debug (STM))"]
+  subgraph CONNSTM["I/O / Debug (STM)"]
     SWDH["SWD Header (STM)"]
     LVLSHIFT["Level Translators<br/>(1.8V↔3.3V)"]
     USRBTN["User Button"]
@@ -82,7 +82,7 @@ subgraph PCB["Custom Camera PCB"]
 end
 
 %% → IMU
-PMIC -->|"LDO1: 1.8V Quiet (from BUCK3)"| IMU
+PMIC -->|"LDO3: 1.8V Quiet (from BUCK3)"| IMU
 STMMCU <-->|"I2C"| IMU
 
 %% → INPROT
@@ -96,15 +96,14 @@ STMMCU --> LED2
 
 %% → LVLSHIFT
 RKSOC <-->|"UART w/ RTS/CTS<br/>(IMU Stream + Time-Set)"| LVLSHIFT
-PMIC -->|"LDO2: 1.8V (from BUCK3)"| LVLSHIFT
-PMIC -->|"BUCK4: 3.4V"| LVLSHIFT
+PMIC -->|"LDO4: 1.8V (from BUCK3)"| LVLSHIFT
+PMIC -->|"BUCK5: 3.3V"| LVLSHIFT
 
-%% → NAND
-RKSOC -->|"SPI"| NAND
+%% → MP2143BUCK
+PWRSW -->|"5V"| MP2143BUCK
 
 %% → PMIC
-BAT -.->|"3.7V Backup Supply"| PMIC
-PWRSW --> PMIC
+PWRSW -->|"5V (VCC9)"| PMIC
 SUPV -.->|"Reset/Enable"| PMIC
 
 %% → PWRSW
@@ -112,30 +111,32 @@ INPROT --> PWRSW
 
 %% → RAM
 PMIC -->|"BUCK2: 1.35V VDD/VDDQ"| RAM
-PMIC -->|"REFDDR: 0.675V VREF"| RAM
+PMIC -->|"LDO1: 0.675V VREF"| RAM
 RKSOC ---|"DDR3L Interface"| RAM
 
 %% → RKSOC
 SENSOR -->|"CSI-2 MIPI<br/>(2-lane)"| RKSOC
 SENSOR <-->|"I2C (Control 1.8V)"| RKSOC
-PMIC -->|"LDO2: 1.8V I/O (from BUCK3)"| RKSOC
-PMIC -->|"BUCK1: 1.2V Core"| RKSOC
-PMIC -->|"LDO4: 3.3V USB PHY"| RKSOC
+PMIC -->|"BUCK4: 1.8V I/O"| RKSOC
+MP2143BUCK -->|"0.9V VDD_LOGIC Core"| RKSOC
+PMIC -->|"LDO4: 1.8V AVDD_1V8"| RKSOC
+PMIC -->|"LDO2: 0.9V AVDD_0V9"| RKSOC
+PMIC -->|"BUCK5: 3.3V USB_AVDD PHY"| RKSOC
 SUPV -.->|"Reset"| RKSOC
 USBCCTRL -->|"USB"| RKSOC
 UARTH -->|"UART"| RKSOC
 
 %% → SDHOST
 RKSOC <-->|"SDMMC 4-bit"| SDHOST
-PMIC -->|"LDO6: 1.8V (from BUCK3)"| SDHOST
+PMIC -->|"BUCK4: 1.8V"| SDHOST
 
 %% → SENSOR
-PMIC -->|"LDO5: 2.9V Analog/AVDD (from BUCK4)"| SENSOR
-PMIC -->|"LDO3: 1.8V I/O/OVDD (from BUCK3)"| SENSOR
+PMIC -->|"LDO7: 2.9V Analog/AVDD (from BUCK5)"| SENSOR
+PMIC -->|"LDO5: 1.8V I/O/OVDD (from BUCK3)"| SENSOR
 PMIC -->|"BUCK1: 1.2V Digital/DVDD"| SENSOR
 
 %% → STMMCU
-PMIC -->|"BUCK4: 3.4V"| STMMCU
+PMIC -->|"BUCK5: 3.3V"| STMMCU
 PMIC <-->|"I2C (Power Ctrl/IRQ)"| STMMCU
 FC -->|"UART (Start/Stop)"| STMMCU
 LVLSHIFT <-->|"UART"| STMMCU
@@ -153,9 +154,9 @@ classDef storageStyle fill:#cc99ff,stroke:#6600cc,stroke-width:2px
 classDef sensorStyle fill:#99ff99,stroke:#009900,stroke-width:2px
 classDef subStyle fill:#eeeeee,stroke:#111111,stroke-width:2px
 
-class PMIC,PWRSW,INPROT,SUPV,MPS,BAT powerStyle
+class PMIC,PWRSW,INPROT,SUPV,MPS,MP2143BUCK powerStyle
 class STMMCU,RKSOC,FC,LVLSHIFT dataStyle
-class NAND,SDHOST,RAM storageStyle
+class SDHOST,RAM storageStyle
 class SENSOR,IMU sensorStyle
 class POWER,CONNRK,CONNSTM,RK,STM,LEDS,LAB,CAM,SENS subStyle
 ```
