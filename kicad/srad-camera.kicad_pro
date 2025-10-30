@@ -480,7 +480,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "i do not know how this works"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/IDK"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -644,6 +653,90 @@
           "label": "DATASHEET",
           "name": "DATASHEET",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LOCKING FEATURE",
+          "name": "LOCKING FEATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTING TYPE",
+          "name": "MOUNTING TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF CONTACTS",
+          "name": "NUMBER OF CONTACTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE",
+          "name": "OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH",
+          "name": "PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLEMENTARY FEATURES",
+          "name": "SUPPLEMENTARY FEATURES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CARD TYPE",
+          "name": "CARD TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FFC, FCB THICKNESS",
+          "name": "FFC, FCB THICKNESS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT ABOVE BOARD",
+          "name": "HEIGHT ABOVE BOARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONNECTOR TYPE",
+          "name": "CONNECTOR TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT TYPE",
+          "name": "CONTACT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ADDITIONAL CARD DETECTION PINS",
+          "name": "ADDITIONAL CARD DETECTION PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CARD CONNECTION MODE",
+          "name": "CARD CONNECTION MODE",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -712,11 +805,11 @@
     ],
     [
       "cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299",
-      "STM32U575RGT6 MCU"
+      "STM32U575RGT6"
     ],
     [
       "53c61148-5ca8-449f-9011-3672d8a04f56",
-      "LSM6DSRTR IMU"
+      "LSM6DSRTR"
     ],
     [
       "2d2335c5-b8ff-4d43-ae83-f45f6f125b07",
@@ -724,7 +817,7 @@
     ],
     [
       "f62984d3-000f-4116-a13f-09b83b0ce025",
-      "MicroSD Port (page 6)"
+      "MicroSD Port"
     ],
     [
       "279fc251-45a8-41a3-8fcf-5855d7fe07da",
