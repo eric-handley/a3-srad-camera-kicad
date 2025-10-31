@@ -17328,7 +17328,7 @@
 		(dnp no)
 		(uuid "d9496f75-a0ee-4b6f-a6c0-9fed0b58018d")
 		(property "Reference" "R10"
-			(at 132.842 55.626 90)
+			(at 132.334 55.626 90)
 			(effects
 				(font
 					(size 1 1)
