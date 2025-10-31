@@ -800,6 +800,14 @@
       "Root"
     ],
     [
+      "7609dbdd-9f9c-4b95-995a-5c84c03ab6a6",
+      "Power Supply"
+    ],
+    [
+      "2d2335c5-b8ff-4d43-ae83-f45f6f125b07",
+      "USBC 2.0 OTG"
+    ],
+    [
       "6bb226bc-8621-46e9-a0f1-5501f65ad069",
       "RK809-5 PMIC"
     ],
@@ -812,14 +820,6 @@
       "LSM6DSRTR"
     ],
     [
-      "2d2335c5-b8ff-4d43-ae83-f45f6f125b07",
-      "USBC 2.0 OTG"
-    ],
-    [
-      "f62984d3-000f-4116-a13f-09b83b0ce025",
-      "MicroSD Port"
-    ],
-    [
       "279fc251-45a8-41a3-8fcf-5855d7fe07da",
       "RK3566 SoC"
     ],
@@ -828,8 +828,8 @@
       "MT41K256 DDR3L"
     ],
     [
-      "7609dbdd-9f9c-4b95-995a-5c84c03ab6a6",
-      "Power Supply"
+      "f62984d3-000f-4116-a13f-09b83b0ce025",
+      "MicroSD Port"
     ]
   ],
   "text_variables": {}
