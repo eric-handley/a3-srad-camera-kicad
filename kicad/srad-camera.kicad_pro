@@ -876,10 +876,6 @@
     [
       "f62984d3-000f-4116-a13f-09b83b0ce025",
       "MicroSD Port"
-    ],
-    [
-      "dfe8653c-27a9-4e90-8bab-6fc147fdbc58",
-      "3V3 - 1V8 Shift"
     ]
   ],
   "text_variables": {}

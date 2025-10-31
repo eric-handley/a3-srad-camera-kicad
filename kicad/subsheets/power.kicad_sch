@@ -1742,7 +1742,7 @@
 			(uuid "3d6e4392-a6b5-4fc6-a6dc-09ed89e81ccc")
 		)
 		(instances
-			(project ""
+			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
 					(reference "R29")
 					(unit 1)
@@ -1973,7 +1973,7 @@
 			(uuid "d0f830db-3ba4-4ddd-a4a3-2465e6608379")
 		)
 		(instances
-			(project ""
+			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
 					(reference "U7")
 					(unit 1)
