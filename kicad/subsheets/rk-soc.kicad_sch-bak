@@ -10442,7 +10442,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "{MIPI_BUS}"
+	(hierarchical_label "CSI[1..22]"
 		(shape output)
 		(at 96.52 78.74 0)
 		(effects
@@ -10473,7 +10473,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59b")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VDDA_0V9_IMG"
 		(shape input)
@@ -10484,7 +10484,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59c")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCCIO_ACODEC"
 		(shape input)
@@ -10495,7 +10495,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59d")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCC_3V3_PMU"
 		(shape input)
@@ -10506,7 +10506,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59e")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCCA_1V8_PMU"
 		(shape input)
@@ -10517,7 +10517,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59f")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCCA_1V8"
 		(shape input)
@@ -10528,7 +10528,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a0")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCCIO_SD"
 		(shape input)
@@ -10539,7 +10539,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a1")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCCA_1V8_IMG"
 		(shape input)
@@ -10550,7 +10550,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a2")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VDD_LOGIC"
 		(shape input)
@@ -10561,7 +10561,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a3")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VDD_NPU"
 		(shape input)
@@ -10572,7 +10572,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a4")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VDD_DDR"
 		(shape input)
@@ -10583,7 +10583,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a5")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VDD_CPU"
 		(shape input)
@@ -10594,7 +10594,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a6")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VDD_GPU"
 		(shape input)
@@ -10605,7 +10605,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a7")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCC_3V3"
 		(shape input)
@@ -10616,7 +10616,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a8")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCC_1V8"
 		(shape input)
@@ -10627,7 +10627,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5a9")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "VCC_3V3_SD_IN"
 		(shape input)
@@ -10638,7 +10638,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a5aa")
+		(uuid "7dc7e948-0080-4544-85fe-daddcaa7a59a")
 	)
 	(hierarchical_label "DDR_BUS_?"
 		(shape output)

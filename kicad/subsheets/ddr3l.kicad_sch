@@ -1931,6 +1931,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "VCC_1V8_DDR"
+		(shape output)
+		(at 31.75 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7067ba5f-50a9-44b1-aef0-58d76ce58b1a")
+	)
+	(hierarchical_label "VCC_0V6_DDR"
+		(shape output)
+		(at 31.75 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7067ba5f-50a9-44b1-aef0-58d76ce58b1b")
+	)
 	(hierarchical_label "SOC_BUS?"
 		(shape output)
 		(at 31.75 71.12 0)

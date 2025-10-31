@@ -2187,7 +2187,7 @@
 	)
 	(text "SWD"
 		(exclude_from_sim no)
-		(at 119.634 81.534 0)
+		(at 104.902 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2402,10 +2402,6 @@
 		(uuid "d2af9477-6a61-441d-875e-6e966ed0348a")
 	)
 	(no_connect
-		(at 87.63 45.72)
-		(uuid "d821b30b-86b9-4f4c-8c1d-72b72c759287")
-	)
-	(no_connect
 		(at 52.07 53.34)
 		(uuid "dbf6d24b-2c55-4a9a-a568-5543c3e7a0d1")
 	)
@@ -2424,6 +2420,16 @@
 	(no_connect
 		(at 87.63 88.9)
 		(uuid "f848542d-af9a-4f74-a905-cb3ad607279a")
+	)
+	(wire
+		(pts
+			(xy 93.98 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00aa85a9-0469-42ce-8735-b12b08b15ab3")
 	)
 	(wire
 		(pts
@@ -3431,6 +3437,17 @@
 			(justify left)
 		)
 		(uuid "b9240b8f-1047-4115-b78e-e29f783562da")
+	)
+	(hierarchical_label "PA0"
+		(shape output)
+		(at 93.98 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c56e2b98-973d-4992-a6fb-fc26239752bb")
 	)
 	(hierarchical_label "PB9"
 		(shape input)

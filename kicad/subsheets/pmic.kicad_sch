@@ -1106,16 +1106,6 @@
 					(hide yes)
 				)
 			)
-			(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/F65B38A152E6EF59E85755BE54B41266.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
 			(property "SUPPLIER" "LCSC"
 				(at 0 0 0)
 				(effects

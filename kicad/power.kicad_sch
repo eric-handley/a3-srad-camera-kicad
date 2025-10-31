@@ -1,0 +1,1915 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "75925872-1cd3-47bf-b6c6-9823fcb09932")
+	(paper "User" 140 130)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 2.032)
+					(mid 0.5058 1.524)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:AP61300Z6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP61300Z6"
+				(at 6.35 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/datasheet/download/AP61300%2FAP61302.pdf"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.4V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 3A output current, Low IQ Synchronous Buck Converter, PFM/PWM, SOT-563"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2.2MHz PFM/PWM DC/DC AP61300QZ6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?563*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP61300Z6_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP61300Z6_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:AP63203WU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP63203WU"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2A Buck DC/DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP63203WU_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP63203WU_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:TPS54560BDDA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "TPS54560BDDA"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54560b.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "buck controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*R*PDSO*G8*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS54560BDDA_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS54560BDDA_1_1"
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "RT/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "5A"
+		(exclude_from_sim no)
+		(at 92.456 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e62ff0b-037d-4cfa-a970-50dece519e1f")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 58.42 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "546424c9-cd49-423d-b66c-fe669656bdc3")
+	)
+	(text "3A"
+		(exclude_from_sim no)
+		(at 59.182 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8eadcbf6-d6ab-45f0-9557-a1157aaf6115")
+	)
+	(junction
+		(at 43.18 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "482ce107-25cb-4e8a-b22e-0ec0749dfd98")
+	)
+	(junction
+		(at 71.12 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7bfde0-448d-4a24-906b-ebff5a1af3e6")
+	)
+	(junction
+		(at 40.64 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "787e31bd-7343-453c-861c-404e81c39bcd")
+	)
+	(junction
+		(at 78.74 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82c4bc17-156f-4a95-a295-00a0d6e8b428")
+	)
+	(junction
+		(at 81.28 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc086118-9a8b-4f86-948c-92d6a17b5abe")
+	)
+	(junction
+		(at 55.88 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daaee33d-f53d-4508-9e0a-fb4dba879f3f")
+	)
+	(wire
+		(pts
+			(xy 40.64 64.77) (xy 55.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f69e1ae-6581-47d4-b8e1-1287f7b6765e")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262f8e5d-2dfb-4f00-bcc7-9522412e77a7")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 45.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426bb531-06d1-46a5-964f-94508374f3ff")
+	)
+	(wire
+		(pts
+			(xy 40.64 54.61) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55644b14-75d9-429e-9c66-025f501fabc4")
+	)
+	(wire
+		(pts
+			(xy 45.72 59.69) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b68228e-b600-4ed6-8660-1e0050180d0f")
+	)
+	(wire
+		(pts
+			(xy 55.88 64.77) (xy 81.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643c74d9-5a73-4676-9fba-4e2824866ed7")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6668c253-d43e-4105-b419-cac84ff67c73")
+	)
+	(wire
+		(pts
+			(xy 38.1 54.61) (xy 40.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76525864-d3b4-4eba-8601-0967f078d961")
+	)
+	(wire
+		(pts
+			(xy 81.28 64.77) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95714b21-6e24-4245-bb03-6fd8cbf0aede")
+	)
+	(wire
+		(pts
+			(xy 40.64 63.5) (xy 40.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e45c05-0ccc-4dcc-93af-8bdc89c7144e")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 78.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bba8da6-b58e-467f-a127-ce7aa4be58a0")
+	)
+	(wire
+		(pts
+			(xy 66.04 57.15) (xy 71.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a033bb-48c0-4fcc-a5bb-be9f70ae18ee")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 78.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ecfbcd-8465-4179-96fc-639f543eeab7")
+	)
+	(wire
+		(pts
+			(xy 81.28 58.42) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8851d4e-bf29-4537-b915-223d82818b6c")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7466d1-6a6e-46bf-b6f7-3ae59ab55dbd")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b7de73-52b9-43f8-88a7-ae2ddcc7113a")
+	)
+	(wire
+		(pts
+			(xy 71.12 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bc0b30-6f8f-4ee3-8b6f-a12dbd90ea06")
+	)
+	(wire
+		(pts
+			(xy 78.74 57.15) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58f125c-651c-41c8-b90f-6d96a3d7d135")
+	)
+	(wire
+		(pts
+			(xy 40.64 54.61) (xy 43.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faab60a8-d431-4ec2-9f07-ae0f133cdadd")
+	)
+	(hierarchical_label "VOUT_0V9"
+		(shape output)
+		(at 85.09 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "329e4989-c31d-4475-bace-24304ad03918")
+	)
+	(hierarchical_label "VOUT_3V3"
+		(shape output)
+		(at 85.09 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "721159c3-21ca-4af1-9443-ee63737e7968")
+	)
+	(hierarchical_label "VIN_5V"
+		(shape input)
+		(at 38.1 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd5bd22f-e0f8-4507-889a-624643b2b784")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 68.58 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0478d164-0f2a-4b75-8ccf-0f57c3b1dd78")
+		(property "Reference" "C1"
+			(at 68.58 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 68.5863 51.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d06e6e6-4b14-460f-abc2-6528005114df")
+		)
+		(pin "2"
+			(uuid "ccdcd2ee-6d27-4367-ad57-97f796ca86a6")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 74.93 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e98f484-e9f0-4404-942f-0883496ea456")
+		(property "Reference" "L1"
+			(at 74.9237 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9uH"
+			(at 74.93 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e745f20b-0d7e-4cf6-8775-0a5c0ae39322")
+		)
+		(pin "1"
+			(uuid "ede473d6-7b94-4918-acbd-ca57cc4d2dfd")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP61300Z6")
+		(at 55.88 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760c97d0-4b32-444c-9535-94fe3fd2e88e")
+		(property "Reference" "U7"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP61300Z6"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP61300%2FAP61302.pdf"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4V-5.5V input voltage, 0.6V-3.6V adjustable output voltage, 3A output current, Low IQ Synchronous Buck Converter, PFM/PWM, SOT-563"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4ab94060-e83a-4141-9e77-907a4f900a38")
+		)
+		(pin "3"
+			(uuid "925e2224-77d9-4d29-9c27-449ad720a165")
+		)
+		(pin "5"
+			(uuid "e72d219c-d9d1-42ae-982d-856fc2ae675f")
+		)
+		(pin "2"
+			(uuid "1cb9f35a-1c6f-43dd-9f70-500bfa6ae7f5")
+		)
+		(pin "4"
+			(uuid "190299c6-8386-4ff8-9f01-519f3bb76640")
+		)
+		(pin "1"
+			(uuid "d0f830db-3ba4-4ddd-a4a3-2465e6608379")
+		)
+		(instances
+			(project ""
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS54560BDDA")
+		(at 88.9 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "815e060c-f821-4a65-bb50-4461caf3118a")
+		(property "Reference" "U6"
+			(at 88.9 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54560BDDAR"
+			(at 88.9 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54560b.pdf"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5A, Step Down DC-DC Converter, 4.5-60V Input Voltage, Texas R-PDSO-G8"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5faa8178-4e0d-4d7c-bbe1-8a0dc9b8fc9f")
+		)
+		(pin "2"
+			(uuid "089a8050-15c9-4d13-8b05-5d2457f28262")
+		)
+		(pin "3"
+			(uuid "bf47c6cc-c347-49f1-8b7a-2e59f6f3f2e3")
+		)
+		(pin "5"
+			(uuid "1b012d8e-d34b-48ef-aa1f-da4cf4fb57f0")
+		)
+		(pin "6"
+			(uuid "ea3be411-3fab-434e-9afc-6dc974d33437")
+		)
+		(pin "1"
+			(uuid "cdae8445-7b06-4886-9aa4-e38945e00487")
+		)
+		(pin "7"
+			(uuid "c95e37a4-80c6-4579-8d58-bc0b3634681b")
+		)
+		(pin "9"
+			(uuid "a2b73ba0-ea6b-43c0-992f-28abf500d115")
+		)
+		(pin "8"
+			(uuid "2a2a8bad-7c6f-495e-a2cb-515ce1cad882")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63203WU")
+		(at 55.88 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "893024c6-fdf2-485b-b3ab-6393c573966b")
+		(property "Reference" "U1"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63203WU"
+			(at 55.88 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0f67d2b5-68ac-4695-a252-17bc9ce5278c")
+		)
+		(pin "2"
+			(uuid "27875b9a-044a-48ca-b532-6f64e007e9c5")
+		)
+		(pin "3"
+			(uuid "4666f5d3-16b8-4212-8414-317e382b7084")
+		)
+		(pin "5"
+			(uuid "3383341b-ee16-4918-8874-2a3d82cbb4e6")
+		)
+		(pin "6"
+			(uuid "dafeb793-7f4b-4ddb-a996-109b796c2584")
+		)
+		(pin "1"
+			(uuid "d63a17d5-bdc4-4c33-808f-a0f550d05e28")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f7ea17-0924-4853-abdd-ed62ac38ee14")
+		(property "Reference" "C3"
+			(at 78.9877 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2x22uF"
+			(at 78.994 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc0a66fd-7cc2-4f29-9376-957838f0ace1")
+		)
+		(pin "2"
+			(uuid "7d1819ee-6780-4f79-addf-4307853a95e3")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8af1e86-52ce-49f6-a456-d8c97e5eb50d")
+		(property "Reference" "C2"
+			(at 38.608 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 38.608 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0c188c-b45d-458b-bd6c-3e60ff8648e4")
+		)
+		(pin "2"
+			(uuid "013dd59a-6196-49af-8cf6-54c4378b6b4e")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccf13512-b049-4878-baa1-7134de05a0d4")
+		(property "Reference" "#PWR02"
+			(at 55.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af479b6c-418e-4364-9785-37581f99d901")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1128,6 +1128,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Would be SDMMC_DET_L\nNot needed as MicroSD always present"
+		(exclude_from_sim no)
+		(at 144.018 38.1 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "f38aaa4f-1dac-49c0-961b-9135c15103c8")
+	)
 	(junction
 		(at 120.65 48.26)
 		(diameter 0)
@@ -1295,6 +1306,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faecab34-2912-4974-ab20-fc5958c7031c")
+	)
+	(no_connect
+		(at 142.24 38.1)
+		(uuid "9d415275-3e1a-4189-8e9f-1b0000e968c0")
 	)
 	(bus_entry
 		(at 43.18 45.72)
@@ -1579,16 +1594,6 @@
 			(type default)
 		)
 		(uuid "40739fb4-e967-4744-a023-56f0b05c438d")
-	)
-	(wire
-		(pts
-			(xy 147.32 38.1) (xy 167.64 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428dfcb0-2d4a-46d8-abf6-595673fc18a5")
 	)
 	(wire
 		(pts
@@ -2260,17 +2265,6 @@
 		)
 		(uuid "d8165384-523d-476b-8c92-fcd357493fd5")
 	)
-	(hierarchical_label "SDMMC_DET_L"
-		(shape output)
-		(at 167.64 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05615c12-a461-42d7-a33d-0c5ca4b80b73")
-	)
 	(hierarchical_label "SDMMC{CLK CMD D[0..3]}"
 		(shape bidirectional)
 		(at 40.64 30.48 180)
@@ -2504,75 +2498,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 144.78 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cf25933-996b-4247-a521-c1023b7be5a2")
-		(property "Reference" "R29"
-			(at 146.812 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33 Ohm 5%"
-			(at 146.812 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 144.78 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c34b680-5068-4efe-bcba-88da1259a2c6")
-		)
-		(pin "2"
-			(uuid "208bd80e-40fb-49b0-af04-44850694ef75")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "R29")
 					(unit 1)
 				)
 			)

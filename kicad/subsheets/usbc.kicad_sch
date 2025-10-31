@@ -2838,7 +2838,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 35.814 32.766 90)
+			(at 41.275 32.639 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +3242,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 35.941 42.545 90)
+			(at 41.402 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
