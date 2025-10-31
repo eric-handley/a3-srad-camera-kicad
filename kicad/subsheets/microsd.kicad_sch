@@ -1182,12 +1182,6 @@
 		(uuid "37fd4d2f-3533-41c5-b03d-38d7a511ae16")
 	)
 	(junction
-		(at 128.27 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "417f735f-07bb-48c2-abd8-492b27b815cb")
-	)
-	(junction
 		(at 106.68 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1222,12 +1216,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bad8729-f436-4c9d-b026-a5a17a017185")
-	)
-	(junction
-		(at 124.46 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8287c2bc-411d-4292-8efc-c5e0336871d9")
 	)
 	(junction
 		(at 120.65 43.18)
@@ -1266,16 +1254,16 @@
 		(uuid "9fed98a5-5ee9-47fc-9a96-bfbc0a681a67")
 	)
 	(junction
-		(at 128.27 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4b814b7-2169-427c-958d-21b252bf9864")
-	)
-	(junction
 		(at 139.7 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c686d1cc-ffff-49a6-a3df-0bbd116a42f9")
+	)
+	(junction
+		(at 124.46 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce336821-1703-42f2-8996-81311f97a347")
 	)
 	(junction
 		(at 120.65 58.42)
@@ -1447,6 +1435,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 35.56) (xy 119.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e522a4c-1a44-4bb0-9e77-177539336ad6")
+	)
+	(wire
+		(pts
 			(xy 139.7 35.56) (xy 139.7 25.4)
 		)
 		(stroke
@@ -1547,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 38.1) (xy 124.46 52.07)
+			(xy 124.46 35.56) (xy 124.46 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1667,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 119.38 35.56)
+			(xy 124.46 35.56) (xy 139.7 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1707,17 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 139.7 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6994ce9c-82e2-42ef-800f-9a4da9ace2ef")
-	)
-	(wire
-		(pts
-			(xy 128.27 58.42) (xy 124.46 58.42)
+			(xy 124.46 58.42) (xy 139.7 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 38.1) (xy 124.46 38.1)
+			(xy 119.38 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1867,16 +1855,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 128.27 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ea29af-3e3a-4991-bd2c-4595453698a7")
-	)
-	(wire
-		(pts
 			(xy 119.38 48.26) (xy 120.65 48.26)
 		)
 		(stroke
@@ -1914,16 +1892,6 @@
 			(type default)
 		)
 		(uuid "9aad4796-6a59-40a2-8627-abd647ef8ad9")
-	)
-	(wire
-		(pts
-			(xy 124.46 38.1) (xy 142.24 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8b513d-3041-4d4f-9c13-e71d17655a93")
 	)
 	(wire
 		(pts
@@ -2004,16 +1972,6 @@
 			(type default)
 		)
 		(uuid "b4fb3c49-fc72-4ca8-8205-ae12c801a23d")
-	)
-	(wire
-		(pts
-			(xy 128.27 58.42) (xy 128.27 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f34a2a-ed01-4181-9bcb-0d3ebd14ada0")
 	)
 	(wire
 		(pts
@@ -2154,16 +2112,6 @@
 			(type default)
 		)
 		(uuid "e817ce2b-f240-408b-86b4-a7bd1e41c259")
-	)
-	(wire
-		(pts
-			(xy 128.27 35.56) (xy 128.27 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9769859-e1b8-450c-acb9-dbe24216f2dc")
 	)
 	(wire
 		(pts
@@ -2308,16 +2256,15 @@
 		(dnp no)
 		(uuid "0bf78425-cc20-43ad-827f-5fd996e1c307")
 		(property "Reference" "D10"
-			(at 125.73 60.706 90)
+			(at 124.46 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TVS Vr3.3 Vb4"
-			(at 126.492 62.992 90)
+			(at 124.46 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,76 +2652,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Small")
-		(at 128.27 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ae24597-27f2-4e9a-b880-b18b0627bcdc")
-		(property "Reference" "D11"
-			(at 127.254 60.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS Vr3.3 Vb4"
-			(at 127.254 63.246 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82a46e69-6caf-4cdb-9856-28b38c81e061")
-		)
-		(pin "2"
-			(uuid "75240125-8e21-436c-af4a-dccc7d099214")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "D11")
 					(unit 1)
 				)
 			)

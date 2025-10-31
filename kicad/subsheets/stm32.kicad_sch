@@ -2175,13 +2175,14 @@
 		)
 		(uuid "ae5d5291-d7c7-4079-a2fd-f5b6290de040")
 	)
-	(text "RK3566 CTRL"
+	(text "RK3566 \nCTRL/DATA"
 		(exclude_from_sim no)
-		(at 113.538 52.07 0)
+		(at 107.188 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "ca68968b-59ae-49e2-afe5-011905743a98")
 	)
@@ -2194,16 +2195,6 @@
 			)
 		)
 		(uuid "efe6a12a-bd18-4a99-b2b3-4796585a85c0")
-	)
-	(text "RK3566 DATA"
-		(exclude_from_sim no)
-		(at 112.776 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fc70c873-1333-4a18-89c5-48ba27954f8e")
 	)
 	(junction
 		(at 67.31 29.21)
@@ -2326,6 +2317,10 @@
 		(uuid "247d5ff3-6112-48f5-920a-b0c69b1e2e93")
 	)
 	(no_connect
+		(at 87.63 119.38)
+		(uuid "2ae4a054-9967-44c9-8206-73fb57c44d2a")
+	)
+	(no_connect
 		(at 87.63 76.2)
 		(uuid "33f5dc33-fcab-4da0-a296-6aaf30d5297b")
 	)
@@ -2392,6 +2387,10 @@
 	(no_connect
 		(at 87.63 101.6)
 		(uuid "ba3d29e0-72f3-4e8a-96b0-d4b1f5017e5a")
+	)
+	(no_connect
+		(at 87.63 121.92)
+		(uuid "bcd0657b-7f10-4dd7-b1c5-3fd37da20ef0")
 	)
 	(no_connect
 		(at 87.63 91.44)
@@ -2550,16 +2549,6 @@
 			(type default)
 		)
 		(uuid "2afa27da-c7e5-4fbf-8cc6-825b38217c48")
-	)
-	(wire
-		(pts
-			(xy 93.98 121.92) (xy 87.63 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e38a835-5c30-4077-80ee-65e1032cc6dc")
 	)
 	(wire
 		(pts
@@ -2900,16 +2889,6 @@
 			(type default)
 		)
 		(uuid "9943cf3a-4203-4121-8517-5b1bb22b7676")
-	)
-	(wire
-		(pts
-			(xy 93.98 119.38) (xy 87.63 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a54ed1f-886d-4f37-9390-4ae9ce46de6d")
 	)
 	(wire
 		(pts
@@ -3404,28 +3383,6 @@
 			(justify left)
 		)
 		(uuid "ab076457-7f08-4810-a8ab-40fa978d88a5")
-	)
-	(hierarchical_label "I2C2_SDA"
-		(shape bidirectional)
-		(at 93.98 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae0c10d7-520f-42fb-ac22-b825b9840d4a")
-	)
-	(hierarchical_label "I2C2_SCL"
-		(shape bidirectional)
-		(at 93.98 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b28658ec-7fa2-4bd4-be00-d58c366d2c02")
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
@@ -4088,7 +4045,6 @@
 		)
 		(pin "34"
 			(uuid "06c16ddc-8df6-47d0-8e8b-8ed6e487b909")
-			(alternate "I2C2_SCL")
 		)
 		(pin "29"
 			(uuid "17cc8f49-b65c-4fb6-879f-b67a2a7ee73e")
@@ -4168,7 +4124,6 @@
 		)
 		(pin "35"
 			(uuid "1b12370a-255f-4e55-b5e2-5903fdb86d27")
-			(alternate "I2C2_SDA")
 		)
 		(pin "3"
 			(uuid "f05df933-5406-419b-ad43-c7571294471d")

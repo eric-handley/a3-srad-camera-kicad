@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "851505a1-a893-4fc9-a221-e174f9a64d6f")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "RK35661_RK3566-altium-import:root_0_RK3566_"
 			(exclude_from_sim no)
@@ -10675,7 +10675,7 @@
 	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
-		(at 50.8 472.44 0)
+		(at 179.07 165.1 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10683,7 +10683,7 @@
 		(dnp no)
 		(uuid "3b0afa22-a5b4-4d7b-b7e0-42b5d49720f0")
 		(property "Reference" "U4"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10692,7 +10692,7 @@
 			)
 		)
 		(property "Value" "RK3566"
-			(at 51.054 469.392 0)
+			(at 179.324 162.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10701,7 +10701,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:BGA-565_L15.5-W14.4-P0.40_RK3566_1"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +10710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +10719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10728,7 @@
 			)
 		)
 		(property "SYMBOL" "RK3566"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10738,7 +10738,7 @@
 			)
 		)
 		(property "DEVICE" "RK3566"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10748,7 +10748,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "RK3566"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +10758,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C2943786"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,7 +10768,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Rockchip(瑞芯微)"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10778,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "RK3566"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +10788,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "BGA-565(15.5x14.4)"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10798,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +10808,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/58C1D355804B22318A1D6A9C85EA3A92.pdf"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +10818,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10828,7 +10828,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10838,7 +10838,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 50.8 472.44 0)
+			(at 179.07 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,7 +14431,7 @@
 	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
-		(at 50.8 377.19 0)
+		(at 177.8 73.66 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14439,7 +14439,7 @@
 		(dnp no)
 		(uuid "61582a85-edf1-492c-93a4-cdc7f60a35af")
 		(property "Reference" "U4"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14448,7 @@
 			)
 		)
 		(property "Value" "RK3566"
-			(at 50.8 374.65 0)
+			(at 177.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14457,7 +14457,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:BGA-565_L15.5-W14.4-P0.40_RK3566_1"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +14475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +14484,7 @@
 			)
 		)
 		(property "SYMBOL" "RK3566"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +14494,7 @@
 			)
 		)
 		(property "DEVICE" "RK3566"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14504,7 +14504,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "RK3566"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14514,7 +14514,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C2943786"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14524,7 +14524,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Rockchip(瑞芯微)"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14534,7 +14534,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "RK3566"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14544,7 +14544,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "BGA-565(15.5x14.4)"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14554,7 +14554,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14564,7 +14564,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/58C1D355804B22318A1D6A9C85EA3A92.pdf"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,7 +14574,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14584,7 +14584,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14594,7 +14594,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 50.8 377.19 0)
+			(at 177.8 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16309,7 @@
 	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
-		(at 50.8 795.02 0)
+		(at 312.42 232.41 0)
 		(unit 8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16317,7 +16317,7 @@
 		(dnp no)
 		(uuid "949db805-4c80-40aa-8a0c-9729874744bc")
 		(property "Reference" "U4"
-			(at 44.704 798.322 0)
+			(at 306.324 235.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16326,7 +16326,7 @@
 			)
 		)
 		(property "Value" "RK3566"
-			(at 44.704 796.29 0)
+			(at 306.324 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16335,7 +16335,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:BGA-565_L15.5-W14.4-P0.40_RK3566_1"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16344,7 +16344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16353,7 +16353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,7 +16362,7 @@
 			)
 		)
 		(property "SYMBOL" "RK3566"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16372,7 +16372,7 @@
 			)
 		)
 		(property "DEVICE" "RK3566"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16382,7 +16382,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "RK3566"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16392,7 +16392,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C2943786"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16402,7 +16402,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Rockchip(瑞芯微)"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16412,7 +16412,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "RK3566"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16422,7 +16422,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "BGA-565(15.5x14.4)"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16432,7 +16432,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16442,7 +16442,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/58C1D355804B22318A1D6A9C85EA3A92.pdf"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16452,7 +16452,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16462,7 +16462,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16472,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 50.8 795.02 0)
+			(at 312.42 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20065,7 +20065,7 @@
 	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
-		(at 50.8 548.64 0)
+		(at 176.53 240.03 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20073,7 +20073,7 @@
 		(dnp no)
 		(uuid "aeb40164-23b9-4b4d-b985-9be6ae098042")
 		(property "Reference" "U4"
-			(at 48.006 548.64 0)
+			(at 173.736 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20082,7 +20082,7 @@
 			)
 		)
 		(property "Value" "RK3566"
-			(at 48.006 546.354 0)
+			(at 173.736 237.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20091,7 +20091,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:BGA-565_L15.5-W14.4-P0.40_RK3566_1"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20100,7 +20100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20109,7 +20109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,7 +20118,7 @@
 			)
 		)
 		(property "SYMBOL" "RK3566"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20128,7 +20128,7 @@
 			)
 		)
 		(property "DEVICE" "RK3566"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20138,7 +20138,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "RK3566"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20148,7 +20148,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C2943786"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20158,7 +20158,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Rockchip(瑞芯微)"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20168,7 +20168,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "RK3566"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20178,7 +20178,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "BGA-565(15.5x14.4)"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20188,7 +20188,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20198,7 +20198,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/58C1D355804B22318A1D6A9C85EA3A92.pdf"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20208,7 +20208,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20218,7 +20218,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20228,7 +20228,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 50.8 548.64 0)
+			(at 176.53 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21943,7 +21943,7 @@
 	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
-		(at 50.8 726.44 0)
+		(at 312.42 163.83 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21951,7 +21951,7 @@
 		(dnp no)
 		(uuid "ef201f68-8f75-4adf-a510-6a7c8efcdb99")
 		(property "Reference" "U4"
-			(at 44.704 730.504 0)
+			(at 306.324 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21960,7 +21960,7 @@
 			)
 		)
 		(property "Value" "RK3566"
-			(at 44.704 728.472 0)
+			(at 306.324 165.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21969,7 +21969,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:BGA-565_L15.5-W14.4-P0.40_RK3566_1"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21978,7 +21978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21987,7 +21987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21996,7 +21996,7 @@
 			)
 		)
 		(property "SYMBOL" "RK3566"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22006,7 +22006,7 @@
 			)
 		)
 		(property "DEVICE" "RK3566"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22016,7 +22016,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "RK3566"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22026,7 +22026,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C2943786"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22036,7 +22036,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Rockchip(瑞芯微)"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22046,7 +22046,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "RK3566"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22056,7 +22056,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "BGA-565(15.5x14.4)"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22066,7 +22066,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22076,7 +22076,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/58C1D355804B22318A1D6A9C85EA3A92.pdf"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22086,7 +22086,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22096,7 +22096,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22106,7 +22106,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 50.8 726.44 0)
+			(at 312.42 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23821,7 +23821,7 @@
 	)
 	(symbol
 		(lib_id "RK35661_RK3566-altium-import:root_0_RK3566_")
-		(at 50.8 640.08 0)
+		(at 312.42 67.31 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23829,7 +23829,7 @@
 		(dnp no)
 		(uuid "f8b919a0-e0e6-4f68-ad51-476994cbdacb")
 		(property "Reference" "U4"
-			(at 48.006 640.08 0)
+			(at 309.626 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23838,7 +23838,7 @@
 			)
 		)
 		(property "Value" "RK3566"
-			(at 48.006 638.302 0)
+			(at 309.626 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23847,7 +23847,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:BGA-565_L15.5-W14.4-P0.40_RK3566_1"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23856,7 +23856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23865,7 +23865,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23874,7 +23874,7 @@
 			)
 		)
 		(property "SYMBOL" "RK3566"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23884,7 +23884,7 @@
 			)
 		)
 		(property "DEVICE" "RK3566"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23894,7 +23894,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "RK3566"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23904,7 +23904,7 @@
 			)
 		)
 		(property "SUPPLIER PART" "C2943786"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23914,7 +23914,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Rockchip(瑞芯微)"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23924,7 +23924,7 @@
 			)
 		)
 		(property "MANUFACTURER PART" "RK3566"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23934,7 +23934,7 @@
 			)
 		)
 		(property "SUPPLIER FOOTPRINT" "BGA-565(15.5x14.4)"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23944,7 +23944,7 @@
 			)
 		)
 		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23954,7 +23954,7 @@
 			)
 		)
 		(property "DATASHEET" "https://atta.szlcsc.com/upload/public/pdf/source/20240126/58C1D355804B22318A1D6A9C85EA3A92.pdf"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23964,7 +23964,7 @@
 			)
 		)
 		(property "SUPPLIER" "LCSC"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23974,7 +23974,7 @@
 			)
 		)
 		(property "ADD INTO BOM" "yes"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23984,7 +23984,7 @@
 			)
 		)
 		(property "CONVERT TO PCB" "yes"
-			(at 50.8 640.08 0)
+			(at 312.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
