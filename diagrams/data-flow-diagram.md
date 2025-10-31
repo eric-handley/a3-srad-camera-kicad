@@ -43,15 +43,15 @@ graph
     end
 
     MPS -->|5V| PMIC
-    FC -->|UART| STM
+    FC <-->|UART| STM
     SENSOR -->|CSI-2| RC
 
 
     RC <-->|DDR3L</br>Interface|RAM
-    STM -->|"SPI Data </br> UART Control"| RC
+    STM -->|"UART</br>Control/Data"| RC
 
     RC <-->|SDMMC| SD
     STM <-->|I2C| IMU
 
-    STM -->|"I2C Control"| PMIC
+    STM -->|I2C| PMIC
 ```
