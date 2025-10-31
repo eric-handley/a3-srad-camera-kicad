@@ -479,7 +479,53 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/LSM6DSRTR/INT1": [
+        "3V3 LOGIC"
+      ],
+      "/LSM6DSRTR/INT2": [
+        "3V3 LOGIC"
+      ],
+      "/LSM6DSRTR/SCL": [
+        "3V3 LOGIC"
+      ],
+      "/LSM6DSRTR/SDA": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_CLK": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_EN": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_INT": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_RESETB": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_SCL": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_SDA": [
+        "3V3 LOGIC"
+      ],
+      "/PMIC_SLEEP": [
+        "3V3 LOGIC"
+      ],
+      "/STM32U575RGT6/USART1_RX": [
+        "3V3 LOGIC"
+      ],
+      "/STM32U575RGT6/USART1_TX": [
+        "3V3 LOGIC"
+      ],
+      "/STM_RX{slash}RK_TX": [
+        "3V3 LOGIC"
+      ],
+      "/STM_TX{slash}RK_RX": [
+        "3V3 LOGIC"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -830,6 +876,10 @@
     [
       "f62984d3-000f-4116-a13f-09b83b0ce025",
       "MicroSD Port"
+    ],
+    [
+      "dfe8653c-27a9-4e90-8bab-6fc147fdbc58",
+      "3V3 - 1V8 Shift"
     ]
   ],
   "text_variables": {}

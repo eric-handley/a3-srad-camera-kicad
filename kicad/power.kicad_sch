@@ -1760,7 +1760,7 @@
 		(dnp no)
 		(uuid "55969345-09fa-47e9-9d06-3bcfb5ef4b30")
 		(property "Reference" "L1"
-			(at 73.6537 63.754 90)
+			(at 72.136 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "Value" "0.68uH"
-			(at 73.66 66.04 90)
+			(at 72.1423 58.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,7 +1803,7 @@
 			)
 		)
 		(property "I_{SAT}" ">3.5A"
-			(at 73.66 56.134 90)
+			(at 76.454 56.134 90)
 			(show_name yes)
 			(effects
 				(font
@@ -1813,7 +1813,7 @@
 			)
 		)
 		(property "DCR" "<30 mOhm"
-			(at 73.66 58.166 90)
+			(at 76.454 58.166 90)
 			(show_name yes)
 			(effects
 				(font
@@ -2126,7 +2126,7 @@
 		(dnp no)
 		(uuid "9ef3b04b-c880-4942-b674-9c4453ae6821")
 		(property "Reference" "L7"
-			(at 73.6537 28.194 90)
+			(at 72.136 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2134,7 @@
 			)
 		)
 		(property "Value" "1uH"
-			(at 73.66 30.48 90)
+			(at 72.1423 22.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2169,7 @@
 			)
 		)
 		(property "I_{SAT}" ">3.5A"
-			(at 73.66 20.574 90)
+			(at 76.454 20.574 90)
 			(show_name yes)
 			(effects
 				(font
@@ -2179,7 +2179,7 @@
 			)
 		)
 		(property "DCR" "<30 mOhm"
-			(at 73.66 22.606 90)
+			(at 76.454 22.606 90)
 			(show_name yes)
 			(effects
 				(font
