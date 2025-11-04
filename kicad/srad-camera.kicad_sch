@@ -1847,17 +1847,6 @@
 		)
 		(uuid "304d5873-1e99-41e8-9953-de3553b2603a")
 	)
-	(text "TODO: \nsimplify swd "
-		(exclude_from_sim no)
-		(at -155.194 97.028 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "420466f9-36ca-4015-8f58-28ffb351ba85")
-	)
 	(text "0.9V"
 		(exclude_from_sim no)
 		(at 138.176 47.752 0)
@@ -1914,9 +1903,9 @@
 		)
 		(uuid "52d9efb6-9e54-4322-90d4-9e4ffaf81aec")
 	)
-	(text "TODO: add switch\non 3v3 input \nfor stm32"
+	(text "TODO: add switch\non 3v3 input \nfor stm32\n\nadd boot0\nadd reset"
 		(exclude_from_sim no)
-		(at 59.944 77.978 0)
+		(at 44.45 112.014 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2510,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 127) (xy 48.26 127)
+			(xy 44.45 127) (xy 48.26 127)
 		)
 		(stroke
 			(width 0)
@@ -2570,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 48.26 129.54)
+			(xy 44.45 129.54) (xy 48.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 127) (xy 40.64 127)
+			(xy 36.83 127) (xy 39.37 127)
 		)
 		(stroke
 			(width 0)
@@ -3633,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 129.54) (xy 40.64 129.54)
+			(xy 36.83 129.54) (xy 39.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5156,7 +5145,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 43.18 129.54 270)
+		(at 41.91 129.54 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5165,7 +5154,7 @@
 		(dnp no)
 		(uuid "708336fd-06ff-4498-9042-8065f0b081d5")
 		(property "Reference" "R8"
-			(at 43.18 131.318 90)
+			(at 41.91 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5162,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 43.18 133.35 90)
+			(at 41.91 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 129.54 0)
+			(at 41.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 129.54 0)
+			(at 41.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5188,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 43.18 129.54 0)
+			(at 41.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5213,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 43.18 127 270)
+		(at 41.91 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5232,7 +5221,7 @@
 		(dnp no)
 		(uuid "709afb1f-6481-4dd6-928c-72e41f23bc5b")
 		(property "Reference" "R6"
-			(at 46.228 125.984 90)
+			(at 45.466 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5229,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 46.228 128.016 90)
+			(at 45.466 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 127 0)
+			(at 41.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 127 0)
+			(at 41.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5255,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 43.18 127 0)
+			(at 41.91 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,8 +5811,7 @@
 	(symbol
 		(lib_name "Conn_01x02_1")
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 34.29 153.67 0)
-		(mirror y)
+		(at 34.29 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5856,7 +5844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 152.4 0)
+			(at 35.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +5853,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 152.4 0)
+			(at 35.56 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7050,106 +7038,6 @@
 				(justify left)
 			)
 		)
-		(pin "I2C1_SCL" bidirectional
-			(at 76.2 152.4 0)
-			(uuid "99734894-8246-4771-a514-955e53e2e7d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C1_SDA" bidirectional
-			(at 76.2 154.94 0)
-			(uuid "2fd39fea-452e-49b4-9f0e-4344228a06d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C3_SCL" bidirectional
-			(at 76.2 142.24 0)
-			(uuid "8c6bb912-d692-4532-8cc3-79dfb35c1f9e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C3_SDA" bidirectional
-			(at 76.2 139.7 0)
-			(uuid "09265fe4-7c97-4c32-bf35-92bc82f246e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB8" input
-			(at 76.2 147.32 0)
-			(uuid "9e74ffb1-19ec-4bcd-893a-2a9e8f0674f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB9" input
-			(at 76.2 149.86 0)
-			(uuid "9aff771f-8480-4dc4-96f2-70849c884f1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART1_TX" bidirectional
-			(at 48.26 152.4 180)
-			(uuid "94a79dc2-6388-401b-86a7-d3d8c773a335")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART1_RX" bidirectional
-			(at 48.26 154.94 180)
-			(uuid "43246257-c590-41c0-b011-d4db275fda5e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_RX" bidirectional
-			(at 48.26 140.97 180)
-			(uuid "f43ea38e-ba2d-44fd-8163-56875425810f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_TX" bidirectional
-			(at 48.26 143.51 180)
-			(uuid "2fbbf75a-cbdb-46bc-b58f-8c5c43ad7c72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PC2" output
 			(at 76.2 127 0)
 			(uuid "e23f402a-87f7-4a7c-b950-ed8d35060b11")
@@ -7170,9 +7058,69 @@
 				(justify right)
 			)
 		)
-		(pin "PC4" input
+		(pin "I2C2_SCL" bidirectional
+			(at 76.2 152.4 0)
+			(uuid "8c78e2af-27a4-46fd-810e-d629ff8cbc0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" bidirectional
+			(at 76.2 154.94 0)
+			(uuid "7fe29d92-d1d4-435f-b57b-e1cd15ab0f5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SCL" bidirectional
+			(at 76.2 142.24 0)
+			(uuid "8fd74491-b973-443b-b796-724f0731df10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C3_SDA" bidirectional
+			(at 76.2 139.7 0)
+			(uuid "a5727228-ace3-42bf-b211-2baaa5f00e45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB12" input
+			(at 76.2 147.32 0)
+			(uuid "f731f1a3-e4b3-4c77-9e29-dcf1a55881fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB13" input
+			(at 76.2 149.86 0)
+			(uuid "d30f6684-6808-4fb0-9ac1-af580fdfccd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC15" input
 			(at 76.2 132.08 0)
-			(uuid "1b0c233f-2dc4-453f-82e0-779c1c7b6960")
+			(uuid "1b86273b-9af8-4ae4-bfc3-1ea4030ff4dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,9 +7128,9 @@
 				(justify right)
 			)
 		)
-		(pin "PC5" input
+		(pin "PH0" input
 			(at 76.2 134.62 0)
-			(uuid "96e4252c-9786-487b-8b7e-79d337d64019")
+			(uuid "4035f224-d936-4fde-8af7-e687678944c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,14 +7138,54 @@
 				(justify right)
 			)
 		)
-		(pin "PC6" input
+		(pin "PH1" input
 			(at 76.2 137.16 0)
-			(uuid "6568625b-db2c-4612-991b-2cd918e28358")
+			(uuid "dd55d82c-d276-41c3-8410-dc58cb3e2238")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USART1_RX" bidirectional
+			(at 48.26 140.97 180)
+			(uuid "9065b020-26cb-4fce-9624-97b15a7adb2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_TX" bidirectional
+			(at 48.26 143.51 180)
+			(uuid "0c9f4dcc-d43b-477c-aef4-b6a84cea1aa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_RX" bidirectional
+			(at 48.26 152.4 180)
+			(uuid "06f05892-6e9d-45c7-bb74-8512b06e34fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_TX" bidirectional
+			(at 48.26 154.94 180)
+			(uuid "ed27cf18-cb3c-48d5-94f2-75a1285ee1eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

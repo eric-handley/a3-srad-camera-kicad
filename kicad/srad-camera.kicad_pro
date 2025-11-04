@@ -519,6 +519,12 @@
       "/STM32U575RGT6/USART1_TX": [
         "3V3 LOGIC"
       ],
+      "/STM32U575RGT6/USART2_RX": [
+        "3V3 LOGIC"
+      ],
+      "/STM32U575RGT6/USART2_TX": [
+        "3V3 LOGIC"
+      ],
       "/STM_RX{slash}RK_TX": [
         "3V3 LOGIC"
       ],
