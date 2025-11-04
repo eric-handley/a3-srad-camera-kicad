@@ -1973,7 +1973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af63bc4e-d3c6-4bee-80f7-8f1aaa99c8b7")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 78.74 15.748 0)
 			(effects
 				(font
@@ -2430,7 +2430,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
