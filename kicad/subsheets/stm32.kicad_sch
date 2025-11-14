@@ -2143,9 +2143,20 @@
 		)
 		(uuid "07bd6868-0805-491b-ade5-8f102d61ea05")
 	)
+	(text "DEBUG"
+		(exclude_from_sim no)
+		(at 196.85 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36044dd4-d878-40dd-9e44-3c60302e581c")
+	)
 	(text "RK3566 \nCTRL/DATA"
 		(exclude_from_sim no)
-		(at 202.946 40.894 0)
+		(at 205.486 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2177,7 +2188,7 @@
 	)
 	(text "PMIC\n"
 		(exclude_from_sim no)
-		(at 145.542 43.434 0)
+		(at 148.082 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2187,7 +2198,7 @@
 	)
 	(text "IMU"
 		(exclude_from_sim no)
-		(at 195.58 64.008 0)
+		(at 198.12 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2218,7 +2229,7 @@
 	)
 	(text "FC CTRL"
 		(exclude_from_sim no)
-		(at 153.162 64.516 0)
+		(at 155.702 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3272,7 +3283,7 @@
 		(uuid "fec7d8d5-b22b-47de-8b3d-7c6579464bec")
 	)
 	(image
-		(at 175.26 44.45)
+		(at 177.8 82.042)
 		(uuid "bd75724c-e381-43ad-9e86-7c9199a5e776")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAygAAAMVCAIAAAATckfVAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdd1wT9/8H8M8FSEhkBgS1ggFUHLgQ0VYUFATcrbVVXLUuat3a8i0oFQdu0ap11rZWW61aa7EO"
