@@ -413,13 +413,13 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "error",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -479,59 +479,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/LSM6DSRTR/INT1": [
-        "3V3 LOGIC"
-      ],
-      "/LSM6DSRTR/INT2": [
-        "3V3 LOGIC"
-      ],
-      "/LSM6DSRTR/SCL": [
-        "3V3 LOGIC"
-      ],
-      "/LSM6DSRTR/SDA": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_CLK": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_EN": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_INT": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_RESETB": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_SCL": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_SDA": [
-        "3V3 LOGIC"
-      ],
-      "/PMIC_SLEEP": [
-        "3V3 LOGIC"
-      ],
-      "/STM32U575RGT6/USART1_RX": [
-        "3V3 LOGIC"
-      ],
-      "/STM32U575RGT6/USART1_TX": [
-        "3V3 LOGIC"
-      ],
-      "/STM32U575RGT6/USART2_RX": [
-        "3V3 LOGIC"
-      ],
-      "/STM32U575RGT6/USART2_TX": [
-        "3V3 LOGIC"
-      ],
-      "/STM_RX{slash}RK_TX": [
-        "3V3 LOGIC"
-      ],
-      "/STM_TX{slash}RK_RX": [
-        "3V3 LOGIC"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -593,34 +541,40 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
+          "label": "V",
+          "name": "V",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -789,11 +743,23 @@
           "label": "CARD CONNECTION MODE",
           "name": "CARD CONNECTION MODE",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I_{SAT}",
+          "name": "I_{SAT}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -835,7 +801,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "/home/erichandley/UVR/",
+    "plot_directory": "../plots",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
