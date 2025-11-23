@@ -842,14 +842,6 @@
       "RK3566 SoC"
     ],
     [
-      "51b69045-7733-4023-95b9-0aef3b91d808",
-      "MT41K256 DDR3L"
-    ],
-    [
-      "f62984d3-000f-4116-a13f-09b83b0ce025",
-      "MicroSD Port"
-    ],
-    [
       "bc57332b-40b9-4ce4-9f21-5e9cd84ef305",
       "VCCIO 5-7"
     ],
@@ -872,6 +864,14 @@
     [
       "ebdbfe46-9733-485c-9ca3-58f0449d57c1",
       "MIPI CSI-DSI, HDMI"
+    ],
+    [
+      "51b69045-7733-4023-95b9-0aef3b91d808",
+      "MT41K256 DDR3L"
+    ],
+    [
+      "f62984d3-000f-4116-a13f-09b83b0ce025",
+      "MicroSD Port"
     ]
   ],
   "text_variables": {}

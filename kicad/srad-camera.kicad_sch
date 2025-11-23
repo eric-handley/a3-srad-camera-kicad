@@ -10142,7 +10142,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11"
-					(page "8")
+					(page "14")
 				)
 			)
 		)
@@ -10877,7 +10877,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11"
-					(page "9")
+					(page "15")
 				)
 			)
 		)
