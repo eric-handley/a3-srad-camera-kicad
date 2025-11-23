@@ -728,304 +728,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:FDN340P"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FDN340P"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "2A Id, 20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FDN340P_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FDN340P_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1130,10 +832,11 @@
 	)
 	(text "Would be SDMMC_DET_L\nNot needed as MicroSD always present"
 		(exclude_from_sim no)
-		(at 144.018 38.1 0)
+		(at 155.448 38.608 0)
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
+				(italic yes)
 			)
 			(justify left)
 		)
@@ -1170,16 +873,16 @@
 		(uuid "371b97ed-b03d-4006-bc7c-09457c5f3044")
 	)
 	(junction
-		(at 139.7 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37c58197-de17-4309-bf61-359633139a61")
-	)
-	(junction
 		(at 92.71 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37fd4d2f-3533-41c5-b03d-38d7a511ae16")
+	)
+	(junction
+		(at 134.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "506e7fc6-6046-43f4-98a6-dd9e213b3010")
 	)
 	(junction
 		(at 106.68 58.42)
@@ -1188,16 +891,10 @@
 		(uuid "51be128c-cc28-4247-941d-c0b4178d0e9f")
 	)
 	(junction
-		(at 154.94 33.02)
+		(at 138.43 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d82bc59-210f-4e75-970e-1483aad11d5a")
-	)
-	(junction
-		(at 154.94 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "681ae8c2-9396-48ae-ba68-5d7639e8f0d6")
+		(uuid "557a2823-d60e-43fc-a278-2ef6432f3002")
 	)
 	(junction
 		(at 67.31 50.8)
@@ -1210,12 +907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d09aa27-613a-49aa-ad75-b89689dfd079")
-	)
-	(junction
-		(at 139.7 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bad8729-f436-4c9d-b026-a5a17a017185")
 	)
 	(junction
 		(at 120.65 43.18)
@@ -1254,10 +945,16 @@
 		(uuid "9fed98a5-5ee9-47fc-9a96-bfbc0a681a67")
 	)
 	(junction
-		(at 139.7 40.64)
+		(at 138.43 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c686d1cc-ffff-49a6-a3df-0bbd116a42f9")
+		(uuid "a7d36103-9c8b-4675-817c-71f11fa09749")
+	)
+	(junction
+		(at 134.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b73322e5-688e-440d-9f76-0bf28835a08b")
 	)
 	(junction
 		(at 124.46 35.56)
@@ -1272,22 +969,10 @@
 		(uuid "cf9c69ba-0273-4498-9f00-9a88d0f7e3dd")
 	)
 	(junction
-		(at 151.13 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d03b46fb-658d-42ec-b4af-9eba333901c9")
-	)
-	(junction
 		(at 120.65 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c13a49-76c7-47ab-a3dd-95d5bd5751e1")
-	)
-	(junction
-		(at 151.13 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f70716dd-ca86-4b91-9b6f-5b9e845d3d75")
 	)
 	(junction
 		(at 72.39 58.42)
@@ -1295,8 +980,14 @@
 		(color 0 0 0 0)
 		(uuid "faecab34-2912-4974-ab20-fc5958c7031c")
 	)
+	(junction
+		(at 142.24 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc76d239-db2c-4d38-93b1-460eb09dd95a")
+	)
 	(no_connect
-		(at 142.24 38.1)
+		(at 153.67 38.1)
 		(uuid "9d415275-3e1a-4189-8e9f-1b0000e968c0")
 	)
 	(bus_entry
@@ -1365,36 +1056,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 31.75) (xy 151.13 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "007aedec-5be9-4380-a6f1-3557d759ab8b")
-	)
-	(wire
-		(pts
-			(xy 154.94 31.75) (xy 154.94 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "014dd44c-3367-460b-be0e-74ce65f25e8f")
-	)
-	(wire
-		(pts
-			(xy 162.56 33.02) (xy 167.64 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "017ab630-7fe2-47a0-98e7-de9976bd6edc")
-	)
-	(wire
-		(pts
 			(xy 124.46 57.15) (xy 124.46 58.42)
 		)
 		(stroke
@@ -1402,6 +1063,16 @@
 			(type default)
 		)
 		(uuid "021d3ba2-2736-48ad-a81d-3996896cdc06")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 134.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050cbabd-f4b0-4ffd-9fdd-f4277b1aa630")
 	)
 	(wire
 		(pts
@@ -1425,6 +1096,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 35.56) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d82e49b-a6bc-418e-b6ce-a97937d7bc2f")
+	)
+	(wire
+		(pts
 			(xy 67.31 57.15) (xy 67.31 58.42)
 		)
 		(stroke
@@ -1442,26 +1123,6 @@
 			(type default)
 		)
 		(uuid "0e522a4c-1a44-4bb0-9e77-177539336ad6")
-	)
-	(wire
-		(pts
-			(xy 139.7 35.56) (xy 139.7 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e42a9c-4f0c-4c4d-8ee7-b6aa310e47c0")
-	)
-	(wire
-		(pts
-			(xy 134.62 40.64) (xy 139.7 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142ddf95-1afb-4e02-b9fd-66810ced3d44")
 	)
 	(wire
 		(pts
@@ -1485,13 +1146,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 25.4) (xy 151.13 26.67)
+			(xy 138.43 49.53) (xy 142.24 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22921984-6aaa-42fe-b384-c23643e47f0c")
+		(uuid "1ce6558e-a4b8-4b30-b114-f89421cdde6e")
 	)
 	(wire
 		(pts
@@ -1512,16 +1173,6 @@
 			(type default)
 		)
 		(uuid "2583d750-d3e7-47c6-b40a-6547e9d4cc0b")
-	)
-	(wire
-		(pts
-			(xy 139.7 45.72) (xy 144.78 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285f1f64-8a8e-4f31-b278-87b8189f9007")
 	)
 	(wire
 		(pts
@@ -1552,16 +1203,6 @@
 			(type default)
 		)
 		(uuid "31a70aff-ffd0-4781-9b39-0ff8228828ba")
-	)
-	(wire
-		(pts
-			(xy 154.94 25.4) (xy 151.13 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37886b47-b4d5-4880-9b1d-26b83330479c")
 	)
 	(wire
 		(pts
@@ -1625,16 +1266,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 33.02) (xy 144.78 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d3ac7d-2b30-4c1a-a868-077c165fad9b")
-	)
-	(wire
-		(pts
 			(xy 64.77 48.26) (xy 72.39 48.26)
 		)
 		(stroke
@@ -1665,13 +1296,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 35.56) (xy 139.7 35.56)
+			(xy 142.24 35.56) (xy 152.4 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d733917-4904-400c-9aff-09acc98226ec")
+		(uuid "6188a0a5-0665-41ae-9660-f411181446ca")
 	)
 	(wire
 		(pts
@@ -1695,23 +1326,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 139.7 40.64)
+			(xy 134.62 35.56) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66c39206-5e90-4933-a33a-78f8e0f8286b")
+		(uuid "6920faaa-c408-4c08-87dc-57f5edc04841")
 	)
 	(wire
 		(pts
-			(xy 124.46 58.42) (xy 139.7 58.42)
+			(xy 124.46 58.42) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6daaaadb-1650-4fc5-ba5d-ec400734f491")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73488229-8d3a-4f68-9c28-a54cec010415")
 	)
 	(wire
 		(pts
@@ -1722,6 +1363,16 @@
 			(type default)
 		)
 		(uuid "783c8ccd-017c-42dc-9153-f20712fd4f22")
+	)
+	(wire
+		(pts
+			(xy 138.43 35.56) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b87d646-8612-4bee-91b4-4da36ed90d9b")
 	)
 	(wire
 		(pts
@@ -1755,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 38.1) (xy 142.24 38.1)
+			(xy 119.38 38.1) (xy 153.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1802,16 +1453,6 @@
 			(type default)
 		)
 		(uuid "858bd744-7ea5-44a8-bffe-fb6633330a20")
-	)
-	(wire
-		(pts
-			(xy 139.7 40.64) (xy 139.7 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "878db2c3-d01b-414b-bb45-b4592690e996")
 	)
 	(wire
 		(pts
@@ -1875,13 +1516,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 33.02) (xy 157.48 33.02)
+			(xy 134.62 49.53) (xy 134.62 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "952f49fe-0865-4955-aab8-5e97da857162")
+		(uuid "94fcc5f1-b611-4dba-bec0-2ef8d42ed8f2")
 	)
 	(bus
 		(pts
@@ -1925,6 +1566,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b2699a-61e6-4299-b1af-03d2460e88fa")
+	)
+	(wire
+		(pts
 			(xy 119.38 43.18) (xy 120.65 43.18)
 		)
 		(stroke
@@ -1962,36 +1613,6 @@
 			(type default)
 		)
 		(uuid "b37f8547-3719-4b88-92bf-125a5d35ce22")
-	)
-	(wire
-		(pts
-			(xy 151.13 33.02) (xy 154.94 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fb3c49-fc72-4ca8-8205-ae12c801a23d")
-	)
-	(wire
-		(pts
-			(xy 151.13 25.4) (xy 149.86 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ce80ed-c1cc-4ca2-93ab-2288a2a6cce2")
-	)
-	(wire
-		(pts
-			(xy 154.94 25.4) (xy 167.64 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95bb337-8e4a-4a1b-b8e3-4d5ce21c4ca2")
 	)
 	(wire
 		(pts
@@ -2045,16 +1666,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 25.4) (xy 154.94 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c43602-47d3-48b4-8f0d-2d0991ddfade")
-	)
-	(wire
-		(pts
 			(xy 87.63 38.1) (xy 87.63 52.07)
 		)
 		(stroke
@@ -2075,13 +1686,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 139.7 58.42)
+			(xy 134.62 49.53) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfe42683-3eda-4f47-b236-2edc66401052")
+		(uuid "dd34d138-3aca-4d56-a5b5-d86f8a838011")
 	)
 	(wire
 		(pts
@@ -2092,6 +1703,16 @@
 			(type default)
 		)
 		(uuid "e03d52df-40e6-4937-b8fb-38b33c4f8e9e")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e163835f-62fa-43dd-afa3-5e5b27a3431a")
 	)
 	(bus
 		(pts
@@ -2125,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 45.72) (xy 139.7 45.72)
+			(xy 134.62 49.53) (xy 138.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2152,6 +1773,16 @@
 			(type default)
 		)
 		(uuid "f718258b-5b1d-4d9f-90b5-f48815db4c3d")
+	)
+	(wire
+		(pts
+			(xy 142.24 49.53) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc41bd55-abd6-41e3-b2ab-9ba5090ce11f")
 	)
 	(label "CMD"
 		(at 54.61 38.1 0)
@@ -2224,20 +1855,9 @@
 		)
 		(uuid "3ca4ac64-5610-43c8-a637-535b3ebf957d")
 	)
-	(hierarchical_label "SDMMC_PWR"
-		(shape input)
-		(at 167.64 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b19c734b-9b2e-49ad-a7b4-fd50ad7cbf60")
-	)
 	(hierarchical_label "VCC_3V3"
 		(shape input)
-		(at 167.64 25.4 0)
+		(at 152.4 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2700,7 +2320,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 144.78 43.18 0)
+		(at 142.24 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2709,7 +2329,7 @@
 		(dnp no)
 		(uuid "63c50895-9524-4af2-9e91-f4d0f79379d2")
 		(property "Reference" "C113"
-			(at 146.812 41.91 0)
+			(at 144.272 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2338,7 @@
 			)
 		)
 		(property "Value" "100nF 5%"
-			(at 146.812 44.45 0)
+			(at 144.272 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2347,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2736,7 +2356,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2365,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2374,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2383,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2392,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2401,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2410,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 144.78 43.18 0)
+			(at 142.24 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,120 +2428,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
 					(reference "C113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 151.13 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64f8d86d-3f3c-4d11-b51a-917d3f24ea9d")
-		(property "Reference" "C110"
-			(at 150.114 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF 5%"
-			(at 150.114 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD CONNECTION MODE" ""
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD TYPE" ""
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLEMENTARY FEATURES" ""
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1db290fc-4e24-44b7-8e15-65cc119a9778")
-		)
-		(pin "2"
-			(uuid "2715446c-c265-4004-8f9f-3558c6b907c2")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -3164,7 +2670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b00384d-ce39-4ade-bbbf-9ad2c9846218")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -3213,119 +2719,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b39ab60-db40-4983-8aaa-abf484caabc1")
-		(property "Reference" "R32"
-			(at 164.846 29.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 164.846 31.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 160.02 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD CONNECTION MODE" ""
-			(at 160.02 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD TYPE" ""
-			(at 160.02 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 160.02 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLEMENTARY FEATURES" ""
-			(at 160.02 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b240ce4-71c6-48e9-8279-2f031f8335f2")
-		)
-		(pin "2"
-			(uuid "f7b9945e-e757-4319-9ab5-a040a9c86291")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "R32")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3101,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 139.7 43.18 0)
+		(at 138.43 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3716,7 +3110,7 @@
 		(dnp no)
 		(uuid "a12e1d9b-2232-418b-9c58-a95a4bd9be85")
 		(property "Reference" "C112"
-			(at 141.986 47.244 0)
+			(at 138.43 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3118,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 141.986 49.276 0)
+			(at 138.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3126,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3144,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3153,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3162,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3171,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3180,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3189,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 139.7 43.18 0)
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,123 +3321,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDN340P")
-		(at 144.78 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2991e41-54c2-44ae-aa5b-8d10d861a93b")
-		(property "Reference" "Q1"
-			(at 140.462 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FDN340P"
-			(at 140.462 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 146.685 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "FDN340P"
-			(at 144.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 144.78 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD CONNECTION MODE" ""
-			(at 144.78 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD TYPE" ""
-			(at 144.78 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 144.78 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLEMENTARY FEATURES" ""
-			(at 144.78 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec6c3be6-79e0-4988-a2a0-01c6852ecbdc")
-		)
-		(pin "2"
-			(uuid "267bed93-9c06-470d-a194-2e119b614d90")
-		)
-		(pin "3"
-			(uuid "6d83a166-2abc-4198-9a4c-a9ae731d4858")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4278,7 +3555,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 134.62 43.18 0)
+		(at 134.62 45.72 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4287,7 +3564,7 @@
 		(dnp no)
 		(uuid "bf5f6774-4ac5-4dc7-9d4f-e802cdf27f30")
 		(property "Reference" "C111"
-			(at 137.795 47.117 0)
+			(at 132.588 44.5657 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4296,7 +3573,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 138.176 49.276 0)
+			(at 132.588 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,7 +3582,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +3591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +3600,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +3609,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +3618,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +3627,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +3636,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +3645,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 134.62 43.18 0)
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,120 +3887,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 154.94 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fda40b61-0b71-4c44-b6fe-9bb70033723e")
-		(property "Reference" "R31"
-			(at 156.464 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100M"
-			(at 156.464 29.9721 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD CONNECTION MODE" ""
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD TYPE" ""
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLEMENTARY FEATURES" ""
-			(at 154.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbedf01c-7087-4ef2-9d71-55b67049bf5a")
-		)
-		(pin "2"
-			(uuid "6dbdad3d-7aa7-421e-a281-5eb27fc54051")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/f62984d3-000f-4116-a13f-09b83b0ce025"
-					(reference "R31")
 					(unit 1)
 				)
 			)
