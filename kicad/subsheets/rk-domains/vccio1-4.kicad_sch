@@ -6,6 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "VCCIO 1/2/3/4")
+		(date "2025-11-23")
+		(rev "1.0")
+		(company "UVic Rocketry")
+		(comment 1 "Author: Eric Handley")
 	)
 	(lib_symbols
 		(symbol "C_Small_16"
@@ -12382,7 +12386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "202ccea5-6b19-4f55-8963-6283770893f0")
-		(property "Reference" "R47"
+		(property "Reference" "R44"
 			(at 177.8 66.294 90)
 			(effects
 				(font
@@ -12479,7 +12483,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "R47")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -12495,7 +12499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "274d831c-e98c-4e42-847e-6508275672ca")
-		(property "Reference" "C129"
+		(property "Reference" "C114"
 			(at 179.832 75.9525 0)
 			(effects
 				(font
@@ -12603,7 +12607,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "C129")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -12619,7 +12623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45133519-73b7-44b7-9d15-f41b9e20eed9")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 172.72 139.7 0)
 			(effects
 				(font
@@ -12670,7 +12674,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -12686,7 +12690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56a847c2-0469-417c-b4f9-ff47aa435236")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR078"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -12737,7 +12741,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "#PWR069")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -12753,7 +12757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f04eb3-0410-4dbd-a46b-494aab23b71c")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR077"
 			(at 186.69 52.07 0)
 			(effects
 				(font
@@ -12804,7 +12808,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "#PWR074")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -12822,7 +12826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d323eeb-5a02-4f26-97e2-703754ccff5f")
-		(property "Reference" "C135"
+		(property "Reference" "C115"
 			(at 118.1164 88.2734 90)
 			(effects
 				(font
@@ -12928,7 +12932,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "C135")
+					(reference "C115")
 					(unit 1)
 				)
 			)
@@ -12945,7 +12949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aca038e-e9d0-4e9a-b2f9-648ee6a94cc5")
-		(property "Reference" "C134"
+		(property "Reference" "C113"
 			(at 176.5236 46.3634 90)
 			(effects
 				(font
@@ -13051,7 +13055,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "C134")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -14992,7 +14996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa491c0-0e28-4aa0-8800-95c527ed5a07")
-		(property "Reference" "C137"
+		(property "Reference" "C116"
 			(at 174.752 129.2925 0)
 			(effects
 				(font
@@ -15100,7 +15104,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "C137")
+					(reference "C116")
 					(unit 1)
 				)
 			)
@@ -15117,7 +15121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dced80-e859-4825-af6f-7e227b31f841")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR079"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -15168,7 +15172,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da/746a399b-d324-4398-80ad-90e9781d2066"
-					(reference "#PWR075")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
