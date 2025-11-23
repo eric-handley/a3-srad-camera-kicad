@@ -3,7 +3,10 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "1069b27c-173d-467a-b3b6-4872819e4260")
-	(paper "User" 140 140)
+	(paper "A4")
+	(title_block
+		(title "USB C Port")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
@@ -1679,100 +1682,100 @@
 		)
 	)
 	(junction
-		(at 67.31 50.8)
+		(at 140.97 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0daa11ed-1c57-4374-aca0-090c733060cb")
 	)
 	(junction
-		(at 92.71 22.86)
+		(at 166.37 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4005f915-d1ca-49cd-8c41-1149da8e266d")
 	)
 	(junction
-		(at 67.31 62.23)
+		(at 140.97 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42e79431-6d7d-48d0-bd85-3c40e0e4daed")
 	)
 	(junction
-		(at 49.53 78.74)
+		(at 123.19 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b2910da-e423-4dda-ba99-9203f9644075")
 	)
 	(junction
-		(at 64.77 50.8)
+		(at 138.43 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b8eadc3-22a8-4b29-b9fa-4097340819d8")
 	)
 	(junction
-		(at 71.12 45.72)
+		(at 144.78 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "515f5f82-304c-4705-9bf3-0ceda7dc1c32")
 	)
 	(junction
-		(at 106.68 22.86)
+		(at 180.34 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72a95e1c-7202-4a6e-8bcd-42ff356f6a25")
 	)
 	(junction
-		(at 87.63 74.93)
+		(at 161.29 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98f0dc4d-ef8f-4e6f-98af-0d9dfe2946b3")
 	)
 	(junction
-		(at 26.67 33.02)
+		(at 100.33 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa558640-5777-4c04-adbe-505b653a0ae6")
 	)
 	(junction
-		(at 41.91 71.12)
+		(at 115.57 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acb0a7e0-4746-482f-844c-5cef396b2e3c")
 	)
 	(junction
-		(at 102.87 22.86)
+		(at 176.53 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d32ce288-50c4-4df4-ae9d-e11e0a2e737d")
 	)
 	(junction
-		(at 64.77 45.72)
+		(at 138.43 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d887c1f2-aee0-4756-8fb7-cd6838ab14c7")
 	)
 	(junction
-		(at 102.87 35.56)
+		(at 176.53 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7f3d497-1b53-4133-a965-c12dadf6445d")
 	)
 	(junction
-		(at 44.45 78.74)
+		(at 118.11 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1b6a6ed-e262-41e7-b427-8f8eb56be86e")
 	)
 	(no_connect
-		(at 34.29 36.83)
+		(at 107.95 78.74)
 		(uuid "d3fdfb7e-b569-46c5-97c9-0cc5e0ab6fbc")
 	)
 	(no_connect
-		(at 34.29 39.37)
+		(at 107.95 81.28)
 		(uuid "e8ba2207-3524-44f9-be46-ae3f407cbadf")
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85) (xy 49.53 78.74)
+			(xy 123.19 111.76) (xy 123.19 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1782,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 71.12 62.23)
+			(xy 140.97 104.14) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1792,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 33.02) (xy 26.67 34.29)
+			(xy 100.33 74.93) (xy 100.33 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 71.12) (xy 41.91 71.12)
+			(xy 113.03 113.03) (xy 115.57 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 29.21) (xy 106.68 22.86)
+			(xy 180.34 71.12) (xy 180.34 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1822,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 44.45) (xy 64.77 45.72)
+			(xy 138.43 86.36) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1832,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 31.75) (xy 26.67 33.02)
+			(xy 100.33 73.66) (xy 100.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1842,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 64.77 52.07)
+			(xy 138.43 92.71) (xy 138.43 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 50.8) (xy 77.47 50.8)
+			(xy 156.21 92.71) (xy 151.13 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 39.37 77.47)
+			(xy 113.03 120.65) (xy 113.03 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1872,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 29.21) (xy 102.87 22.86)
+			(xy 176.53 71.12) (xy 176.53 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 34.29) (xy 33.02 34.29)
+			(xy 107.95 76.2) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 71.12) (xy 39.37 72.39)
+			(xy 113.03 113.03) (xy 113.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 22.86) (xy 102.87 22.86)
+			(xy 173.99 64.77) (xy 176.53 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1912,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 69.85) (xy 41.91 71.12)
+			(xy 115.57 111.76) (xy 115.57 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1922,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 83.82) (xy 87.63 82.55)
+			(xy 161.29 125.73) (xy 161.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 26.67) (xy 92.71 22.86)
+			(xy 166.37 68.58) (xy 166.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 71.12) (xy 41.91 71.12)
+			(xy 118.11 113.03) (xy 115.57 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 106.68 34.29)
+			(xy 180.34 77.47) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1962,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 78.74) (xy 44.45 78.74)
+			(xy 123.19 120.65) (xy 118.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 33.02) (xy 26.67 33.02)
+			(xy 99.06 74.93) (xy 100.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 64.77 46.99)
+			(xy 138.43 87.63) (xy 138.43 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1992,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 22.86) (xy 106.68 22.86)
+			(xy 176.53 64.77) (xy 180.34 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2002,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 22.86) (xy 92.71 22.86)
+			(xy 163.83 64.77) (xy 166.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2012,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 22.86) (xy 95.25 22.86)
+			(xy 166.37 64.77) (xy 168.91 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2022,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 35.56) (xy 102.87 34.29)
+			(xy 176.53 77.47) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2032,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 71.12) (xy 44.45 72.39)
+			(xy 118.11 113.03) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2042,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 45.72) (xy 77.47 45.72)
+			(xy 156.21 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 71.12 55.88)
+			(xy 144.78 87.63) (xy 144.78 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2062,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 78.74) (xy 49.53 81.28)
+			(xy 123.19 120.65) (xy 123.19 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 35.56) (xy 102.87 35.56)
+			(xy 166.37 77.47) (xy 176.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2085,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 44.45 77.47)
+			(xy 118.11 120.65) (xy 118.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 34.29) (xy 27.94 34.29)
+			(xy 100.33 76.2) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 31.75) (xy 27.94 31.75)
+			(xy 100.33 73.66) (xy 101.6 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2115,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 67.31 55.88)
+			(xy 140.97 92.71) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 38.1) (xy 102.87 35.56)
+			(xy 176.53 80.01) (xy 176.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 92.71 35.56)
+			(xy 166.37 76.2) (xy 166.37 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 90.17 74.93)
+			(xy 161.29 116.84) (xy 163.83 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 49.53) (xy 64.77 50.8)
+			(xy 138.43 91.44) (xy 138.43 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 71.12 62.23)
+			(xy 144.78 102.87) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 71.12 45.72)
+			(xy 138.43 87.63) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 74.93) (xy 87.63 77.47)
+			(xy 161.29 116.84) (xy 161.29 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 72.39 50.8)
+			(xy 140.97 92.71) (xy 146.05 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 87.63 74.93)
+			(xy 158.75 116.84) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 72.39 45.72)
+			(xy 144.78 87.63) (xy 146.05 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 31.75) (xy 34.29 31.75)
+			(xy 106.68 73.66) (xy 107.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 60.96) (xy 67.31 62.23)
+			(xy 140.97 102.87) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 44.45 78.74)
+			(xy 113.03 120.65) (xy 118.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 35.56) (xy 106.68 35.56)
+			(xy 176.53 77.47) (xy 180.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 62.23) (xy 67.31 63.5)
+			(xy 140.97 104.14) (xy 140.97 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 74.93) (xy 80.01 74.93)
+			(xy 152.4 116.84) (xy 153.67 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 22.86) (xy 109.22 22.86)
+			(xy 180.34 64.77) (xy 182.88 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 67.31 50.8)
+			(xy 138.43 92.71) (xy 140.97 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2305,7 @@
 	)
 	(hierarchical_label "VBUSDET"
 		(shape output)
-		(at 90.17 74.93 0)
+		(at 163.83 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2313,7 +2316,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape output)
-		(at 82.55 50.8 0)
+		(at 156.21 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2324,7 +2327,7 @@
 	)
 	(hierarchical_label "VBUS_5V"
 		(shape output)
-		(at 109.22 22.86 0)
+		(at 182.88 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2335,7 +2338,7 @@
 	)
 	(hierarchical_label "USB_DM"
 		(shape output)
-		(at 82.55 45.72 0)
+		(at 156.21 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2346,7 +2349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 83.82 0)
+		(at 161.29 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2354,7 +2357,7 @@
 		(dnp no)
 		(uuid "1bbb786b-876b-4072-b11b-40dae7566977")
 		(property "Reference" "#PWR093"
-			(at 87.63 90.17 0)
+			(at 161.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2366,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 87.63 0)
+			(at 161.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 83.82 0)
+			(at 161.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 83.82 0)
+			(at 161.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 83.82 0)
+			(at 161.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2414,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 97.79 22.86 270)
+		(at 171.45 64.77 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2420,7 +2423,7 @@
 		(dnp no)
 		(uuid "2e7ced35-cea8-4c39-b4d1-f7bdeca27630")
 		(property "Reference" "FB1"
-			(at 96.266 26.162 90)
+			(at 169.926 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2432,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 94.488 26.67 90)
+			(at 168.148 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 24.638 90)
+			(at 171.45 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 22.86 0)
+			(at 171.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +2460,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 97.79 22.86 0)
+			(at 171.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2469,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 97.79 22.86 90)
+			(at 171.45 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2478,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 97.79 22.86 90)
+			(at 171.45 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2487,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 97.79 22.86 90)
+			(at 171.45 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2496,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 97.79 22.86 90)
+			(at 171.45 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2505,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 97.79 22.86 90)
+			(at 171.45 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 38.1 0)
+		(at 176.53 80.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2536,7 +2539,7 @@
 		(dnp no)
 		(uuid "33fbeb36-2e31-4b37-a0e9-86a0224222f8")
 		(property "Reference" "#PWR019"
-			(at 102.87 44.45 0)
+			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 41.91 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 38.1 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 38.1 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 38.1 0)
+			(at 176.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2596,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 78.74 74.93 90)
+		(at 152.4 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2602,7 +2605,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d4e82f1-c001-4984-b3be-8055fc1c18cf")
 		(property "Reference" "#PWR092"
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2614,7 @@
 			)
 		)
 		(property "Value" "USB_5V"
-			(at 71.916 74.93 90)
+			(at 145.576 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 74.93 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 74.93 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2640,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 78.74 74.93 0)
+			(at 152.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2662,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 74.93 45.72 270)
+		(at 148.59 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2668,7 +2671,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e4c6119-e823-4325-a6bd-54489862c36e")
 		(property "Reference" "R14"
-			(at 74.93 41.0433 90)
+			(at 148.59 82.9533 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2676,7 +2679,7 @@
 			)
 		)
 		(property "Value" "2.2R"
-			(at 74.93 43.2632 90)
+			(at 148.59 85.1732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 45.72 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 45.72 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2705,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 74.93 45.72 0)
+			(at 148.59 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,7 +2714,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 74.93 45.72 90)
+			(at 148.59 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +2723,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 74.93 45.72 90)
+			(at 148.59 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2732,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 74.93 45.72 90)
+			(at 148.59 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2741,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 74.93 45.72 90)
+			(at 148.59 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2750,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 74.93 45.72 90)
+			(at 148.59 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 31.75 0)
+		(at 180.34 73.66 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2782,7 +2785,7 @@
 		(fields_autoplaced yes)
 		(uuid "57413910-45a5-445f-9b6f-a99d2d6ecc67")
 		(property "Reference" "C6"
-			(at 109.0041 30.5314 0)
+			(at 182.6641 72.4414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +2794,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.0041 32.9557 0)
+			(at 182.6641 74.8657 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +2803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,7 +2821,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2830,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,7 +2839,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2848,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2857,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2866,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2875,7 @@
 			)
 		)
 		(property "V" ""
-			(at 106.68 31.75 0)
+			(at 180.34 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +2900,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 71.12 58.42 90)
+		(at 144.78 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2905,7 +2908,7 @@
 		(dnp no)
 		(uuid "628805a5-ccc2-4351-bc6e-dc7296b6a63f")
 		(property "Reference" "D3"
-			(at 72.644 58.42 90)
+			(at 146.304 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2917,7 @@
 			)
 		)
 		(property "Value" "TVS Vr3.3 Vb4 <1uF"
-			(at 72.644 60.4521 90)
+			(at 146.304 102.3621 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 58.42 0)
+			(at 144.78 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 58.42 0)
+			(at 144.78 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2944,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 71.12 58.42 0)
+			(at 144.78 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2953,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 71.12 58.42 90)
+			(at 144.78 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2962,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 71.12 58.42 90)
+			(at 144.78 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +2971,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 71.12 58.42 90)
+			(at 144.78 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2980,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 71.12 58.42 90)
+			(at 144.78 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +2989,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 71.12 58.42 90)
+			(at 144.78 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3014,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 49.53 46.99 0)
+		(at 123.19 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3019,7 +3022,7 @@
 		(dnp no)
 		(uuid "68011860-f507-4b58-97c1-66122ed75062")
 		(property "Reference" "USB1"
-			(at 49.53 25.146 0)
+			(at 123.19 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3030,7 @@
 			)
 		)
 		(property "Value" "12402012E212A"
-			(at 49.53 27.432 0)
+			(at 123.19 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3038,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:USB-SMD_TYPE-C16PIN-1"
-			(at 53.34 46.99 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3044,7 +3047,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 53.34 46.99 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3056,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 49.53 46.99 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3065,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 49.53 46.99 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3074,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 49.53 46.99 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3083,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 49.53 46.99 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3092,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 49.53 46.99 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3101,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 49.53 46.99 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3171,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 44.45 74.93 0)
+		(at 118.11 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3176,7 +3179,7 @@
 		(dnp no)
 		(uuid "6d6800a9-7b91-4ee3-a4be-2d5b759c5233")
 		(property "Reference" "FB2"
-			(at 44.958 73.152 0)
+			(at 118.618 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3188,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 45.466 71.374 0)
+			(at 119.126 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.672 74.93 90)
+			(at 116.332 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3216,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3225,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,7 +3234,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3243,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3252,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3261,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 44.45 74.93 0)
+			(at 118.11 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3286,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ5.0A")
-		(at 92.71 30.48 270)
+		(at 166.37 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3292,7 +3295,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c475677-4279-4490-bae3-301d5081c532")
 		(property "Reference" "D1"
-			(at 90.6781 29.2678 90)
+			(at 164.3381 71.1778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3304,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0A"
-			(at 90.6781 31.6921 90)
+			(at 164.3381 73.6021 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3313,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 87.63 30.48 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3322,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 92.71 29.21 0)
+			(at 166.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +3331,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
-			(at 92.71 30.48 0)
+			(at 166.37 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3340,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 92.71 30.48 90)
+			(at 166.37 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3349,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 92.71 30.48 90)
+			(at 166.37 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3358,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 92.71 30.48 90)
+			(at 166.37 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3367,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 92.71 30.48 90)
+			(at 166.37 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3376,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 92.71 30.48 90)
+			(at 166.37 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3401,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 90.17 22.86 90)
+		(at 163.83 64.77 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3408,7 +3411,7 @@
 		(fields_autoplaced yes)
 		(uuid "85456453-344d-4643-a9eb-efc3f51dd737")
 		(property "Reference" "#PWR091"
-			(at 93.98 22.86 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3420,7 @@
 			)
 		)
 		(property "Value" "USB_5V"
-			(at 83.346 22.86 90)
+			(at 157.006 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 22.86 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 22.86 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3446,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 90.17 22.86 0)
+			(at 163.83 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3468,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 87.63 80.01 0)
+		(at 161.29 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3474,7 +3477,7 @@
 		(dnp no)
 		(uuid "94029406-d4ee-4957-8a4f-f53e4952c8e6")
 		(property "Reference" "R52"
-			(at 88.9 79.248 0)
+			(at 162.56 121.158 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3483,7 +3486,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 88.9 81.026 0)
+			(at 162.56 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3513,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3522,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3531,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3540,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3549,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3558,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 87.63 80.01 0)
+			(at 161.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3583,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 31.75 0)
+		(at 176.53 73.66 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3590,7 +3593,7 @@
 		(fields_autoplaced yes)
 		(uuid "949c02f9-c374-4a5f-8db8-c25156e2412b")
 		(property "Reference" "C5"
-			(at 100.5459 30.5314 0)
+			(at 174.2059 72.4414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3602,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 100.5459 32.9557 0)
+			(at 174.2059 74.8657 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3629,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3638,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3647,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3656,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3665,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3674,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 102.87 31.75 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3699,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 64.77 31.75 270)
+		(at 138.43 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3705,7 +3708,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1689ece-f7e5-4a85-9d65-1e6f8ed1075a")
 		(property "Reference" "#PWR090"
-			(at 60.96 31.75 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3717,7 @@
 			)
 		)
 		(property "Value" "USB_5V"
-			(at 71.594 31.75 90)
+			(at 145.254 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 31.75 0)
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 31.75 0)
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 64.77 31.75 0)
+			(at 138.43 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3765,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Small")
-		(at 67.31 58.42 90)
+		(at 140.97 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3770,7 +3773,7 @@
 		(dnp no)
 		(uuid "ad3e4961-226a-4193-9017-670f169a26db")
 		(property "Reference" "D2"
-			(at 61.976 58.42 90)
+			(at 135.636 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3782,7 @@
 			)
 		)
 		(property "Value" "D_TVS <1uF"
-			(at 69.85 59.6899 90)
+			(at 143.51 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 58.42 0)
+			(at 140.97 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3801,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 58.42 0)
+			(at 140.97 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3810,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 67.31 58.42 0)
+			(at 140.97 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +3819,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 67.31 58.42 90)
+			(at 140.97 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3825,7 +3828,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 67.31 58.42 90)
+			(at 140.97 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3837,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 67.31 58.42 90)
+			(at 140.97 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3846,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 67.31 58.42 90)
+			(at 140.97 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3855,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 67.31 58.42 90)
+			(at 140.97 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3880,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 30.48 31.75 270)
+		(at 104.14 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +3889,7 @@
 		(fields_autoplaced yes)
 		(uuid "b75d12f6-8e14-497e-9382-361bc756a8e9")
 		(property "Reference" "R12"
-			(at 30.48 27.0733 90)
+			(at 104.14 68.9833 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3894,7 +3897,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 30.48 29.2932 90)
+			(at 104.14 71.2032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 31.75 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 31.75 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3923,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 30.48 31.75 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3932,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 30.48 31.75 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3941,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 30.48 31.75 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +3950,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 30.48 31.75 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +3959,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 30.48 31.75 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3968,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 30.48 31.75 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 33.02 270)
+		(at 99.06 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3998,7 +4001,7 @@
 		(dnp no)
 		(uuid "b927dff2-a9cb-41e8-a932-9e63540cd77c")
 		(property "Reference" "#PWR020"
-			(at 19.05 33.02 0)
+			(at 92.71 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4010,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 33.02 90)
+			(at 93.98 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 33.02 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 33.02 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4036,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 33.02 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4058,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 82.55 74.93 270)
+		(at 156.21 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4063,7 +4066,7 @@
 		(dnp no)
 		(uuid "bb46ff34-751f-439e-8b31-86036338bfdc")
 		(property "Reference" "R46"
-			(at 80.772 70.866 90)
+			(at 154.432 112.776 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4072,7 +4075,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 80.772 72.644 90)
+			(at 154.432 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4102,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4111,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4120,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4129,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4138,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4147,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 82.55 74.93 0)
+			(at 156.21 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 63.5 0)
+		(at 140.97 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4178,7 +4181,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca87942a-a51f-4c2c-afa7-f65a726ae9e2")
 		(property "Reference" "#PWR021"
-			(at 67.31 69.85 0)
+			(at 140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4190,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 68.58 0)
+			(at 140.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 63.5 0)
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 63.5 0)
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 63.5 0)
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4238,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 81.28 0)
+		(at 123.19 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4244,7 +4247,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddf00134-c9a5-4018-995c-8910165591f2")
 		(property "Reference" "#PWR022"
-			(at 49.53 87.63 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4256,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 86.36 0)
+			(at 123.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 81.28 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 81.28 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 81.28 0)
+			(at 123.19 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4304,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 39.37 74.93 0)
+		(at 113.03 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4309,7 +4312,7 @@
 		(dnp no)
 		(uuid "e5850abf-d0c4-4d54-9997-8bfc2f28257a")
 		(property "Reference" "R16"
-			(at 37.592 74.168 0)
+			(at 111.252 116.078 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4318,7 +4321,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 37.592 75.946 0)
+			(at 111.252 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4339,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4348,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4357,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4366,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4375,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4384,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4393,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 39.37 74.93 0)
+			(at 113.03 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4418,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 74.93 50.8 90)
+		(at 148.59 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4424,7 +4427,7 @@
 		(fields_autoplaced yes)
 		(uuid "f14438af-4086-4430-a731-c2c6edbadbe3")
 		(property "Reference" "R15"
-			(at 74.93 53.0523 90)
+			(at 148.59 94.9623 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4432,7 +4435,7 @@
 			)
 		)
 		(property "Value" "2.2R"
-			(at 74.93 55.2722 90)
+			(at 148.59 97.1822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 50.8 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 50.8 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4461,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 74.93 50.8 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4470,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 74.93 50.8 90)
+			(at 148.59 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4479,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 74.93 50.8 90)
+			(at 148.59 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4488,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 74.93 50.8 90)
+			(at 148.59 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4497,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 74.93 50.8 90)
+			(at 148.59 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4506,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 74.93 50.8 90)
+			(at 148.59 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4531,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 30.48 34.29 90)
+		(at 104.14 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4537,7 +4540,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc5866f5-c732-4a44-ad92-0dfbcee088c2")
 		(property "Reference" "R13"
-			(at 30.48 36.5423 90)
+			(at 104.14 78.4523 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4545,7 +4548,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 30.48 38.7622 90)
+			(at 104.14 80.6722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 34.29 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 34.29 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4574,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 30.48 34.29 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4583,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 30.48 34.29 90)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4592,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 30.48 34.29 90)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4601,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 30.48 34.29 90)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4610,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 30.48 34.29 90)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4619,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 30.48 34.29 90)
+			(at 104.14 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)

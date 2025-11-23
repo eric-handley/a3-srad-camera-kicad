@@ -848,6 +848,30 @@
     [
       "f62984d3-000f-4116-a13f-09b83b0ce025",
       "MicroSD Port"
+    ],
+    [
+      "bc57332b-40b9-4ce4-9f21-5e9cd84ef305",
+      "VCCIO 5-7"
+    ],
+    [
+      "b02e9bc7-ee33-4919-a384-9a6d4f12bf5d",
+      "DDR PHY"
+    ],
+    [
+      "797477a3-3a48-4b27-a4d8-748eafbd5280",
+      "PMUIO 1-2, OSC"
+    ],
+    [
+      "ae41bc57-04fb-4570-b431-dc406bf562eb",
+      "USB AVDD"
+    ],
+    [
+      "746a399b-d324-4398-80ad-90e9781d2066",
+      "VCCIO 1-4"
+    ],
+    [
+      "ebdbfe46-9733-485c-9ca3-58f0449d57c1",
+      "MIPI CSI-DSI, HDMI"
     ]
   ],
   "text_variables": {}
