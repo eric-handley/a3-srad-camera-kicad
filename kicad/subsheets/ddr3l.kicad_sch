@@ -17289,7 +17289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "046c64fb-70cd-4f9e-aa38-e71dccd05f24")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 100.33 67.31 0)
 			(effects
 				(font
@@ -17339,7 +17339,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17705,7 +17705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32d90c52-c38e-4353-a81e-85396bb463bb")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 54.61 190.5 0)
 			(effects
 				(font
@@ -17755,7 +17755,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17770,7 +17770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f47a28-28e3-4f53-9c04-aa7060b8be79")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 100.33 40.64 0)
 			(effects
 				(font
@@ -17820,7 +17820,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20843,7 +20843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ee39ee-5068-4603-bd8c-d2e5251b156f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 95.25 185.42 0)
 			(effects
 				(font
@@ -20893,7 +20893,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -21022,7 +21022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da83f75d-6aaa-4c6c-870a-e5472a1865f9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 71.12 190.5 0)
 			(effects
 				(font
@@ -21072,7 +21072,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
