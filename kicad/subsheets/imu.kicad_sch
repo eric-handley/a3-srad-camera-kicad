@@ -1249,7 +1249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ac4eaaf-d9d1-442b-a757-c7f604bf5962")
-		(property "Reference" "R29"
+		(property "Reference" "R32"
 			(at 165.1 66.548 90)
 			(effects
 				(font
@@ -1346,7 +1346,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "R29")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1362,7 +1362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3357f1c9-af6a-4f84-867c-31485d0d63ef")
-		(property "Reference" "C52"
+		(property "Reference" "C65"
 			(at 147.828 109.728 0)
 			(effects
 				(font
@@ -1470,7 +1470,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "C52")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -1637,7 +1637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6785314c-2889-44a8-b17d-a8be4b7deba4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR055"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -1687,7 +1687,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "#PWR045")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1702,7 +1702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cb92652-4ac4-4bc5-92a7-6adac9982f45")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR056"
 			(at 170.18 107.95 0)
 			(effects
 				(font
@@ -1752,7 +1752,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "#PWR046")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1767,7 +1767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9a180ed-936a-4c4e-9a60-1ae9fc429c4e")
-		(property "Reference" "C51"
+		(property "Reference" "C64"
 			(at 172.466 96.774 0)
 			(effects
 				(font
@@ -1875,7 +1875,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "C51")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -1890,7 +1890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b07f84af-c159-4cf0-a332-d7add7af1592")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR057"
 			(at 149.86 121.92 0)
 			(effects
 				(font
@@ -1940,7 +1940,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "#PWR047")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1955,7 +1955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee31652b-020a-4724-831f-aeb608eea843")
-		(property "Reference" "R30"
+		(property "Reference" "R33"
 			(at 165.1 71.12 90)
 			(effects
 				(font
@@ -2052,7 +2052,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/53c61148-5ca8-449f-9011-3672d8a04f56"
-					(reference "R30")
+					(reference "R33")
 					(unit 1)
 				)
 			)
