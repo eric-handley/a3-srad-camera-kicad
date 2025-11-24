@@ -745,7 +745,7 @@
 	)
 	(text "I2C 0x6A"
 		(exclude_from_sim no)
-		(at 130.048 86.868 0)
+		(at 129.54 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)

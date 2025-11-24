@@ -22138,12 +22138,6 @@
 		(uuid "68b12f78-784a-4b65-b733-b660d02033bb")
 	)
 	(junction
-		(at 69.85 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6afe39e9-1a30-4ef0-a1df-619d179a7ce9")
-	)
-	(junction
 		(at 106.68 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -22364,12 +22358,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8225cd6-4c67-44d3-b6d5-dbf3de971659")
-	)
-	(junction
-		(at 67.31 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc8bd6a2-1ecb-4791-a413-db2a5bfb3a40")
 	)
 	(junction
 		(at 113.03 105.41)
@@ -22945,7 +22933,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 121.92) (xy 69.85 120.65)
+			(xy 67.31 121.92) (xy 67.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -23042,16 +23030,6 @@
 			(type default)
 		)
 		(uuid "471a64e0-72c6-47de-936b-5ffbb24fe392")
-	)
-	(wire
-		(pts
-			(xy 69.85 105.41) (xy 69.85 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49abd090-691d-4246-803e-3800e1725ad5")
 	)
 	(wire
 		(pts
@@ -23226,7 +23204,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 105.41) (xy 73.66 105.41)
+			(xy 67.31 105.41) (xy 73.66 105.41)
 		)
 		(stroke
 			(width 0)
@@ -23404,6 +23382,17 @@
 		)
 		(uuid "701399c5-82dd-4223-80d3-4270d6e83a2d")
 	)
+	(polyline
+		(pts
+			(xy 87.63 129.54) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0.25)
+			(type dash)
+			(color 0 0 255 1)
+		)
+		(uuid "70654ece-4fe7-43be-9e1c-6419c5547514")
+	)
 	(wire
 		(pts
 			(xy 63.5 41.91) (xy 64.77 41.91)
@@ -23436,7 +23425,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 120.65) (xy 69.85 120.65)
+			(xy 73.66 120.65) (xy 67.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -23726,6 +23715,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c049c4-62c2-4fd2-a001-64fd960a1d61")
+	)
+	(wire
+		(pts
 			(xy 167.64 52.07) (xy 196.85 52.07)
 		)
 		(stroke
@@ -23987,7 +23986,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 97.79) (xy 64.77 97.79)
+			(xy 64.77 97.79) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -24047,16 +24046,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 97.79) (xy 67.31 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6d5f06-0086-4b37-b4ee-e305a73d2128")
-	)
-	(wire
-		(pts
 			(xy 113.03 80.01) (xy 113.03 78.74)
 		)
 		(stroke
@@ -24074,17 +24063,6 @@
 			(type default)
 		)
 		(uuid "cf388ecc-a508-41a3-94c6-82171c844532")
-	)
-	(polyline
-		(pts
-			(xy 102.87 129.54) (xy 87.63 129.54)
-		)
-		(stroke
-			(width 0.25)
-			(type dash)
-			(color 0 0 255 1)
-		)
-		(uuid "d4167a4f-53c5-4150-85bf-a483f818a1f6")
 	)
 	(wire
 		(pts
@@ -24105,16 +24083,6 @@
 			(type default)
 		)
 		(uuid "d5e44940-e8ec-4de2-9614-3521782e9c6f")
-	)
-	(wire
-		(pts
-			(xy 67.31 97.79) (xy 73.66 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68c0774-ec2e-4272-9bac-e3d70463b7d7")
 	)
 	(wire
 		(pts
@@ -24228,6 +24196,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 105.41) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e456906c-e48d-4cd9-abef-052ebdcb50d3")
+	)
+	(wire
+		(pts
 			(xy 73.66 113.03) (xy 80.01 113.03)
 		)
 		(stroke
@@ -24335,16 +24313,6 @@
 			(type default)
 		)
 		(uuid "f8b0b5db-9191-4513-9364-f1b305bab2b1")
-	)
-	(wire
-		(pts
-			(xy 67.31 113.03) (xy 73.66 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f8a024-2452-45e2-9781-d42565d72d51")
 	)
 	(wire
 		(pts
@@ -24492,6 +24460,17 @@
 			(justify left)
 		)
 		(uuid "2db78d32-dac9-4e3b-bb39-ab42ec0d7e01")
+	)
+	(hierarchical_label "VDD_GPU_NPU"
+		(shape input)
+		(at 63.5 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ca10ebb-24b2-4513-9676-025a0028ebb3")
 	)
 	(hierarchical_label "VCCA_1V8"
 		(shape input)
@@ -25189,7 +25168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 121.92 0)
+		(at 67.31 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25199,7 +25178,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c03993a-d2b6-4ec7-b1cc-335786ad550c")
 		(property "Reference" "#PWR063"
-			(at 69.85 128.27 0)
+			(at 67.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25208,7 +25187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 125.984 0)
+			(at 67.31 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25216,7 +25195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 121.92 0)
+			(at 67.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25225,7 +25204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 121.92 0)
+			(at 67.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25234,7 +25213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 121.92 0)
+			(at 67.31 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31759,6 +31738,73 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe52ce1-ef0f-4984-9a6f-5eed3ca50129")
+		(property "Reference" "#PWR0108"
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "943e00c0-7513-4c17-9e43-e9458752c88e")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)

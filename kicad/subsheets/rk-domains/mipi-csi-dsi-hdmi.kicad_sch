@@ -11900,7 +11900,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 154.94 33.02)
+			(xy 160.02 33.02) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12200,7 +12200,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 33.02) (xy 149.86 33.02)
+			(xy 148.59 33.02) (xy 152.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12720,7 +12720,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 33.02) (xy 148.59 33.02)
+			(xy 139.7 33.02) (xy 148.59 33.02)
 		)
 		(stroke
 			(width 0)
@@ -12884,7 +12884,7 @@
 	)
 	(hierarchical_label "VCCA_1V8_IMG"
 		(shape input)
-		(at 147.32 33.02 180)
+		(at 139.7 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13106,7 +13106,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 156.21 33.02 270)
+		(at 160.02 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13115,7 +13115,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f0c4c5a-48fb-4aa1-9035-ce70bbdc86b3")
 		(property "Reference" "#PWR091"
-			(at 152.4 33.02 0)
+			(at 156.21 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +13124,7 @@
 			)
 		)
 		(property "Value" "MIPI_AVDD_1V8"
-			(at 166.5417 33.02 90)
+			(at 170.3517 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13132,7 +13132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13141,7 +13141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13150,7 +13150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 156.21 33.02 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,7 +16365,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 33.02 270)
+		(at 154.94 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16373,7 +16373,7 @@
 		(dnp no)
 		(uuid "c2619ae6-7a35-4995-a730-d9e5085885c5")
 		(property "Reference" "R48"
-			(at 152.4 35.4767 90)
+			(at 154.94 35.4767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16381,7 +16381,7 @@
 			)
 		)
 		(property "Value" "1R"
-			(at 152.4 37.338 90)
+			(at 154.94 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16389,7 +16389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16398,7 +16398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16407,7 +16407,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16416,7 +16416,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16425,7 +16425,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16434,7 +16434,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16443,7 +16443,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16452,7 +16452,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 152.4 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

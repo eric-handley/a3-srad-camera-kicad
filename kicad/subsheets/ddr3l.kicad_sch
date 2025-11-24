@@ -3504,6 +3504,28 @@
 			"WEn" "CK_N" "CK_P" "CKE" "RESETn"
 		)
 	)
+	(text "+1.35V"
+		(exclude_from_sim no)
+		(at 199.644 123.952 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+				(italic yes)
+			)
+		)
+		(uuid "054651dc-c216-4aea-8780-ce726b0e7803")
+	)
+	(text "+0.675V"
+		(exclude_from_sim no)
+		(at 213.868 123.952 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+				(italic yes)
+			)
+		)
+		(uuid "13b1c0de-a9b4-4b8d-a5c5-1128083e8770")
+	)
 	(junction
 		(at 194.31 92.71)
 		(diameter 0)
@@ -17102,17 +17124,6 @@
 		)
 		(uuid "a963e4a7-c88e-4b84-8450-19cf87694fed")
 	)
-	(label "+0.675V"
-		(at 210.82 124.46 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae24a717-e29f-4629-9a4c-8e7849d0cc03")
-	)
 	(label "DQS_P0"
 		(at 137.16 99.06 180)
 		(effects
@@ -17332,17 +17343,6 @@
 			(justify left bottom)
 		)
 		(uuid "e60494a3-b83a-4938-af76-d72f351f229f")
-	)
-	(label "+1.35V"
-		(at 203.2 124.46 180)
-		(effects
-			(font
-				(size 0.8 0.8)
-				(italic yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec1f7268-33c1-4f6e-ace9-b872c396ec25")
 	)
 	(label "DQS_N1"
 		(at 137.16 109.22 180)
