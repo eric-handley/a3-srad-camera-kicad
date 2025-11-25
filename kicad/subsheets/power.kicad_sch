@@ -733,6 +733,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "R2	= 0.6 x R1 / (VOUT-0.6)\n	= 0.6 x 200k / (0.9-0.6) \n	= 400k"
 		(exclude_from_sim no)
@@ -779,10 +880,10 @@
 		(uuid "acd39025-d88b-426a-b4be-66699b7b9be4")
 	)
 	(junction
-		(at 152.4 120.65)
+		(at 152.4 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22ad929b-ce55-42cf-b476-767f7bb86b83")
+		(uuid "35da2fbc-8426-4389-b5f8-244bdb3bd9d5")
 	)
 	(junction
 		(at 161.29 69.85)
@@ -791,16 +892,22 @@
 		(uuid "3670aec9-e08e-40e4-a71f-f9042edeea2a")
 	)
 	(junction
-		(at 132.08 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d83a7c7-11d9-4c2a-aeb1-2e4c1f73ba6b")
-	)
-	(junction
 		(at 161.29 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44152d72-4fb6-432d-b4bc-729d6e03ab3d")
+	)
+	(junction
+		(at 165.1 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b3aef9e-4e86-4262-85b0-dc9f860a299b")
+	)
+	(junction
+		(at 132.08 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "562089df-6e7f-4597-8d7b-384bfcd009f8")
 	)
 	(junction
 		(at 132.08 80.01)
@@ -815,22 +922,16 @@
 		(uuid "6fc79210-8be4-43ca-94d5-012aa91be810")
 	)
 	(junction
+		(at 132.08 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70090fd1-4cda-4e8a-9d70-1a6b164b7a9a")
+	)
+	(junction
 		(at 152.4 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75ade912-fab4-4b2f-adc9-5ac4436be112")
-	)
-	(junction
-		(at 152.4 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75e93015-82b5-422a-9638-0e61ad6a3870")
-	)
-	(junction
-		(at 132.08 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d883c24-160e-40c0-94eb-14fc9d5cb04f")
 	)
 	(junction
 		(at 120.65 67.31)
@@ -869,10 +970,22 @@
 		(uuid "c6e51f4a-2abf-4052-b06a-73e225a8e40f")
 	)
 	(junction
+		(at 152.4 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a2c90c-2c11-408f-b403-03128ee32fe6")
+	)
+	(junction
+		(at 165.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea03479c-5fbd-4fa6-b76f-753367d8376f")
+	)
+	(junction
 		(at 152.4 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0965fbd-4d8e-40be-99fe-92403cc08c23")
+		(uuid "f21170da-5976-4533-b71d-fee655729207")
 	)
 	(wire
 		(pts
@@ -896,13 +1009,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 152.4 114.3)
+			(xy 161.29 105.41) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0823cf-1f3b-419e-bf98-46b590da7f84")
+		(uuid "10578f5e-940f-4cc7-9d06-a9b00ce9a6ab")
 	)
 	(wire
 		(pts
@@ -913,6 +1026,16 @@
 			(type default)
 		)
 		(uuid "149f412d-835b-44a6-8c76-354b3fc49804")
+	)
+	(wire
+		(pts
+			(xy 132.08 87.63) (xy 152.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d6aae8-ff7f-438a-8208-b463ffd6ef73")
 	)
 	(wire
 		(pts
@@ -936,16 +1059,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 85.09) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aecb896-b950-4ba1-918b-fe726a2c3642")
-	)
-	(wire
-		(pts
 			(xy 116.84 102.87) (xy 116.84 106.68)
 		)
 		(stroke
@@ -966,13 +1079,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 152.4 83.82)
+			(xy 165.1 104.14) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a28b384-2e54-4da0-ad28-94e147477a05")
+		(uuid "25a70e97-ee4f-4918-b414-e8a176195b31")
 	)
 	(wire
 		(pts
@@ -986,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 120.65) (xy 152.4 120.65)
+			(xy 132.08 123.19) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1026,6 +1139,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 69.85) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39699257-6be5-4975-8ed0-db255eaf39a9")
+	)
+	(wire
+		(pts
 			(xy 116.84 102.87) (xy 120.65 102.87)
 		)
 		(stroke
@@ -1036,23 +1159,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 120.65) (xy 152.4 120.65)
+			(xy 152.4 87.63) (xy 161.29 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ff37eec-d7fc-47bc-953f-1d3960a71a31")
-	)
-	(wire
-		(pts
-			(xy 132.08 85.09) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "474fe260-2d39-457f-9514-53c14a12dca6")
+		(uuid "4ab957ed-f249-4516-9129-c5f853c3e0f7")
 	)
 	(wire
 		(pts
@@ -1066,26 +1179,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 115.57) (xy 132.08 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f784fb7-5976-4cea-8cec-b1aae74a387c")
-	)
-	(wire
-		(pts
-			(xy 161.29 69.85) (xy 165.1 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52dc38c5-e6ba-4086-bea5-919bf2131f8a")
-	)
-	(wire
-		(pts
 			(xy 152.4 113.03) (xy 152.4 111.76)
 		)
 		(stroke
@@ -1096,23 +1189,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 85.09)
+			(xy 132.08 80.01) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55383564-d264-451c-9c75-dcb422871e57")
-	)
-	(wire
-		(pts
-			(xy 161.29 80.01) (xy 161.29 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598ab42b-d8be-48b1-aa2a-dd75061ca858")
 	)
 	(wire
 		(pts
@@ -1146,13 +1229,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 165.1 105.41)
+			(xy 165.1 68.58) (xy 165.1 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d0dba52-0692-40de-a880-5d4dfc731fd7")
+		(uuid "5f768628-dd47-431f-b86e-4a3d995ab039")
+	)
+	(wire
+		(pts
+			(xy 161.29 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a38dd57-213c-441a-90d3-b8ce6e74e910")
 	)
 	(wire
 		(pts
@@ -1216,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95067e2c-8a4a-4b29-843f-eaa0c3832445")
+	)
+	(wire
+		(pts
 			(xy 143.51 77.47) (xy 152.4 77.47)
 		)
 		(stroke
@@ -1266,7 +1369,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 115.57) (xy 161.29 120.65)
+			(xy 161.29 80.01) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab0c4b1-c7af-4ea4-a1af-c4646179bb83")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 161.29 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1286,16 +1399,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6131b10-f8d7-4060-96a4-1f2d3561f0a8")
-	)
-	(wire
-		(pts
 			(xy 143.51 72.39) (xy 143.51 77.47)
 		)
 		(stroke
@@ -1306,6 +1409,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 115.57) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28adc49-d174-4a76-809a-9dc899bfd249")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5615167-793b-478e-8329-1208aeb59fea")
+	)
+	(wire
+		(pts
 			(xy 144.78 69.85) (xy 142.24 69.85)
 		)
 		(stroke
@@ -1313,26 +1436,6 @@
 			(type default)
 		)
 		(uuid "d72c532c-a33e-4ea9-9f9c-a1d7fe3c5835")
-	)
-	(wire
-		(pts
-			(xy 132.08 85.09) (xy 132.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9f97b70-6cbe-4efa-80a5-4b7af64f153a")
-	)
-	(wire
-		(pts
-			(xy 152.4 120.65) (xy 152.4 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da83ee0e-4ba3-4989-a2c6-c5dff961a8f3")
 	)
 	(wire
 		(pts
@@ -1353,16 +1456,6 @@
 			(type default)
 		)
 		(uuid "e00939ad-5a37-48db-8de6-e60758931df3")
-	)
-	(wire
-		(pts
-			(xy 132.08 120.65) (xy 132.08 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e10c7922-33f1-4639-849f-e9edd34b23fc")
 	)
 	(wire
 		(pts
@@ -1447,7 +1540,7 @@
 	)
 	(hierarchical_label "VOUT_0V9"
 		(shape output)
-		(at 165.1 105.41 0)
+		(at 166.37 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1458,7 +1551,7 @@
 	)
 	(hierarchical_label "VOUT_3V3"
 		(shape output)
-		(at 165.1 69.85 0)
+		(at 166.37 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1505,7 +1598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 109.22 0)
 			(effects
 				(font
@@ -1577,6 +1670,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C12891"
+			(at 116.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea87e051-3bda-407a-9c25-b0dd4284e5ec")
 		)
@@ -1594,6 +1696,129 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 152.4 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06608e88-aa82-46e8-aeb0-f04b4e70d1ff")
+		(property "Reference" "R13"
+			(at 153.924 119.8879 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k"
+			(at 153.924 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADDITIONAL CARD DETECTION PINS" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD CONNECTION MODE" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD TYPE" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLEMENTARY FEATURES" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25764"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5268faf5-3a73-43ce-b8e3-2a2ed1dd2c56")
+		)
+		(pin "2"
+			(uuid "6b00d910-c214-4897-8825-78a32e912327")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 152.4 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1602,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e4b736-47da-4676-a7dc-7732821d3af8")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 154.94 107.9499 0)
 			(effects
 				(font
@@ -1620,7 +1845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 152.4 109.22 0)
 			(effects
 				(font
@@ -1692,6 +1917,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C25764"
+			(at 152.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d7d5dbc-8cf9-4c57-a8bf-9f478e858a3c")
 		)
@@ -1701,7 +1935,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1735,7 +1969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 161.29 77.47 0)
 			(effects
 				(font
@@ -1799,6 +2033,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C12891"
 			(at 161.29 77.47 0)
 			(effects
 				(font
@@ -1850,7 +2093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 152.4 73.66 0)
 			(effects
 				(font
@@ -1922,6 +2165,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C25764"
+			(at 152.4 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2057fcdd-9ef0-4b85-a8c4-0b211dfe35ee")
 		)
@@ -1954,7 +2206,7 @@
 				)
 			)
 		)
-		(property "Value" "0.68uH"
+		(property "Value" "680nH"
 			(at 145.8023 101.346 90)
 			(effects
 				(font
@@ -1962,7 +2214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -2054,6 +2306,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C55546"
+			(at 147.32 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "455200e6-0b3e-4fa4-85d7-6f02eb12d9eb")
 		)
@@ -2071,7 +2332,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 86.36 0)
+		(at 132.08 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2079,7 +2340,7 @@
 		(dnp no)
 		(uuid "5e80e08f-3e61-4236-9461-7adfee5d5fe8")
 		(property "Reference" "#PWR019"
-			(at 132.08 92.71 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 90.424 0)
+			(at 132.08 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 86.36 0)
+			(at 132.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 86.36 0)
+			(at 132.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 86.36 0)
+			(at 132.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,6 +2390,130 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6df033ff-2bee-45d5-b1c8-fcfed67e1745")
+		(property "Reference" "R10"
+			(at 153.8986 83.8778 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 153.8986 86.0977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADDITIONAL CARD DETECTION PINS" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD CONNECTION MODE" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD TYPE" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLEMENTARY FEATURES" ""
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25768"
+			(at 152.4 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cea7881-ee93-4955-9aea-409f96054403")
+		)
+		(pin "2"
+			(uuid "40345650-b28f-4c5a-9850-476b1369db7a")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2260,7 +2645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 121.92 0)
+		(at 132.08 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2268,7 +2653,7 @@
 		(dnp no)
 		(uuid "79aa44ab-2754-422e-bb42-055e5e350bb3")
 		(property "Reference" "#PWR020"
-			(at 132.08 128.27 0)
+			(at 132.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 125.984 0)
+			(at 132.08 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 121.92 0)
+			(at 132.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 121.92 0)
+			(at 132.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2688,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 121.92 0)
+			(at 132.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,35 +2709,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 81.28 0)
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99e06c13-ceb5-4785-8cce-f860bedb1eff")
-		(property "Reference" "R9"
-			(at 154.94 80.0099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "44.2k"
-			(at 154.94 82.5499 0)
+		(uuid "9901ccf4-6872-4d31-a34d-8315a130ad9e")
+		(property "Reference" "#FLG01"
+			(at 165.1 66.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 64.4469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 81.28 0)
+			(at 165.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2746,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 81.28 0)
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b547bd9b-3796-453b-9329-e89befbc1f00")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e06c13-ceb5-4785-8cce-f860bedb1eff")
+		(property "Reference" "R9"
+			(at 153.8986 78.7978 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 153.8986 81.0177 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2822,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 152.4 81.28 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2831,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 152.4 81.28 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2840,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 152.4 81.28 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2849,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 152.4 81.28 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2858,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 152.4 81.28 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2867,16 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 152.4 81.28 0)
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25768"
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 147.32 69.85 0)
 			(effects
 				(font
@@ -2555,6 +3016,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C1042"
+			(at 147.32 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d2e94df-408b-4265-916b-53861be6c1a7")
 		)
@@ -2565,6 +3035,129 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 152.4 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae5dc442-1fef-4a59-86df-f32d11cf11fd")
+		(property "Reference" "R12"
+			(at 153.924 114.8079 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200k"
+			(at 153.924 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADDITIONAL CARD DETECTION PINS" ""
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD CONNECTION MODE" ""
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD TYPE" ""
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLEMENTARY FEATURES" ""
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25764"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d05891-b02b-4590-a8d9-7b6daa4f1cd5")
+		)
+		(pin "2"
+			(uuid "6cb138a9-493c-4c67-ac30-b5a7863f5909")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2695,121 +3288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 152.4 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc37cd06-7a61-4628-8768-0401489ac97c")
-		(property "Reference" "R11"
-			(at 154.94 115.5699 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "400k"
-			(at 154.94 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD CONNECTION MODE" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CARD TYPE" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONNECTOR TYPE" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLEMENTARY FEATURES" ""
-			(at 152.4 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c115401d-7668-4af1-b993-a67ddee8d0e7")
-		)
-		(pin "2"
-			(uuid "8b7baf47-acc5-4254-aac0-8444b2060257")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 116.84 73.66 0)
 		(unit 1)
@@ -2836,7 +3314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -2900,6 +3378,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C12891"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -2951,7 +3438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 161.29 113.03 0)
 			(effects
 				(font
@@ -3023,6 +3510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C12891"
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4db46630-6f61-4bf8-8083-a70d849eb8e5")
 		)
@@ -3033,6 +3529,73 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 165.1 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0d84ec-0895-4a8c-80ec-1d0c58748748")
+		(property "Reference" "#FLG02"
+			(at 165.1 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165.1 100.0069 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40caa219-0ec8-478a-ae04-b4d3b9358263")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/7609dbdd-9f9c-4b95-995a-5c84c03ab6a6"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

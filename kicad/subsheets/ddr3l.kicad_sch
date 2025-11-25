@@ -5028,6 +5028,16 @@
 		)
 		(uuid "3fb96a63-ab60-4938-aef2-ee510b193eff")
 	)
+	(wire
+		(pts
+			(xy 129.54 149.86) (xy 129.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406517f5-29fc-4071-a263-c8d568aefa5e")
+	)
 	(bus
 		(pts
 			(xy 139.7 104.14) (xy 139.7 106.68)
@@ -17471,7 +17481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "046c64fb-70cd-4f9e-aa38-e71dccd05f24")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0100"
 			(at 236.22 110.49 0)
 			(effects
 				(font
@@ -17521,7 +17531,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0101")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -17537,7 +17547,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0aa85686-6311-4142-962b-572f2b7ca242")
-		(property "Reference" "C147"
+		(property "Reference" "C145"
 			(at 218.44 70.866 90)
 			(effects
 				(font
@@ -17555,7 +17565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 66.04 0)
 			(effects
 				(font
@@ -17627,7 +17637,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 218.44 66.04 90)
 			(effects
 				(font
@@ -17645,7 +17655,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C147")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -17660,7 +17670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c896fc6-7846-499f-8790-9278d037f55f")
-		(property "Reference" "C139"
+		(property "Reference" "C137"
 			(at 185.42 70.866 90)
 			(effects
 				(font
@@ -17678,7 +17688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -17750,6 +17760,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C12891"
+			(at 185.42 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fe6e69f-75d4-4f57-b538-ccef32606335")
 		)
@@ -17759,7 +17778,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C139")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -17774,7 +17793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ec3df3e-12e3-4d69-a754-036e3fb4f271")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 126.492 141.732 0)
 			(effects
 				(font
@@ -17782,7 +17801,7 @@
 				)
 			)
 		)
-		(property "Value" "240"
+		(property "Value" "120R"
 			(at 126.3903 143.4521 0)
 			(effects
 				(font
@@ -17790,7 +17809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 140.97 0)
 			(effects
 				(font
@@ -17862,6 +17881,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C25079"
+			(at 129.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cad4ad1f-226e-4b1f-ba8f-2e1440a591cf")
 		)
@@ -17871,7 +17899,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -17886,7 +17914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32d90c52-c38e-4353-a81e-85396bb463bb")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0103"
 			(at 96.52 151.13 0)
 			(effects
 				(font
@@ -17936,7 +17964,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0104")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -17951,7 +17979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f47a28-28e3-4f53-9c04-aa7060b8be79")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR099"
 			(at 236.22 80.01 0)
 			(effects
 				(font
@@ -18001,7 +18029,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0100")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -18017,7 +18045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39ce387b-2cc9-4550-8ef2-de515f74f86a")
-		(property "Reference" "C143"
+		(property "Reference" "C141"
 			(at 203.2 70.866 90)
 			(effects
 				(font
@@ -18035,7 +18063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 66.04 0)
 			(effects
 				(font
@@ -18107,7 +18135,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 203.2 66.04 90)
 			(effects
 				(font
@@ -18125,7 +18153,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C143")
+					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -18140,7 +18168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41949dff-31c6-4a33-8a5e-13a5c1fdf42f")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0102"
 			(at 142.24 147.32 0)
 			(effects
 				(font
@@ -18190,7 +18218,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0103")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -18206,7 +18234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41e380b7-7c0f-459f-864d-cc4457286355")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 207.01 126.746 90)
 			(effects
 				(font
@@ -18222,7 +18250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 124.46 0)
 			(effects
 				(font
@@ -18286,6 +18314,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 207.01 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25804"
 			(at 207.01 124.46 90)
 			(effects
 				(font
@@ -18303,7 +18340,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -18319,7 +18356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45b51ba9-4596-4c57-b37b-b1bcfa024aa6")
-		(property "Reference" "R50"
+		(property "Reference" "R51"
 			(at 214.122 127.254 0)
 			(effects
 				(font
@@ -18335,7 +18372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.82 128.27 0)
 			(effects
 				(font
@@ -18407,6 +18444,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C25804"
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9faaedd-6841-4a66-af0a-c7c67ede8d90")
 		)
@@ -18416,7 +18462,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "R50")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -18432,7 +18478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aaca428-e0fe-435b-adc9-2a5d1fd0112e")
-		(property "Reference" "C158"
+		(property "Reference" "C156"
 			(at 214.63 101.346 90)
 			(effects
 				(font
@@ -18450,7 +18496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.63 96.52 0)
 			(effects
 				(font
@@ -18522,7 +18568,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 214.63 96.52 90)
 			(effects
 				(font
@@ -18540,7 +18586,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C158")
+					(reference "C156")
 					(unit 1)
 				)
 			)
@@ -18949,7 +18995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56a2f036-f35c-4126-8ab4-71e028ea088f")
-		(property "Reference" "C140"
+		(property "Reference" "C138"
 			(at 190.5 70.866 90)
 			(effects
 				(font
@@ -18967,7 +19013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.5 66.04 0)
 			(effects
 				(font
@@ -19039,7 +19085,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1779"
 			(at 190.5 66.04 90)
 			(effects
 				(font
@@ -19057,7 +19103,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C140")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -19073,7 +19119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69d3cb19-4ede-4c01-ad17-1b9626dfeda1")
-		(property "Reference" "C164"
+		(property "Reference" "C162"
 			(at 136.398 133.604 0)
 			(effects
 				(font
@@ -19091,7 +19137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.43 135.89 0)
 			(effects
 				(font
@@ -19163,8 +19209,8 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
-			(at 138.43 135.89 90)
+		(property "LCSC PART NAME" "C1525"
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19181,7 +19227,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C164")
+					(reference "C162")
 					(unit 1)
 				)
 			)
@@ -19197,7 +19243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69ed98c9-bee0-444d-a1fc-35cc9dbca158")
-		(property "Reference" "C163"
+		(property "Reference" "C161"
 			(at 198.374 127 0)
 			(effects
 				(font
@@ -19213,7 +19259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 128.27 0)
 			(effects
 				(font
@@ -19285,8 +19331,8 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
-			(at 203.2 128.27 90)
+		(property "LCSC PART NAME" "C1525"
+			(at 203.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19303,7 +19349,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C163")
+					(reference "C161")
 					(unit 1)
 				)
 			)
@@ -19319,7 +19365,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f8ae75-af28-4cbe-a319-fae5f0811134")
-		(property "Reference" "C155"
+		(property "Reference" "C153"
 			(at 203.2 101.346 90)
 			(effects
 				(font
@@ -19337,7 +19383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 203.2 96.52 0)
 			(effects
 				(font
@@ -19409,7 +19455,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 203.2 96.52 90)
 			(effects
 				(font
@@ -19427,7 +19473,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C155")
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -19443,7 +19489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7977df8f-1a90-4a39-bd2d-ba0272cc4e69")
-		(property "Reference" "C160"
+		(property "Reference" "C158"
 			(at 222.25 101.346 90)
 			(effects
 				(font
@@ -19461,7 +19507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 96.52 0)
 			(effects
 				(font
@@ -19533,7 +19579,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 222.25 96.52 90)
 			(effects
 				(font
@@ -19551,7 +19597,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C160")
+					(reference "C158")
 					(unit 1)
 				)
 			)
@@ -19566,7 +19612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c0d13be-11ca-4b42-85c0-4d296020dd23")
-		(property "Reference" "C152"
+		(property "Reference" "C150"
 			(at 190.5 101.346 90)
 			(effects
 				(font
@@ -19584,7 +19630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.5 96.52 0)
 			(effects
 				(font
@@ -19656,7 +19702,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1779"
 			(at 190.5 96.52 90)
 			(effects
 				(font
@@ -19674,7 +19720,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C152")
+					(reference "C150")
 					(unit 1)
 				)
 			)
@@ -19690,7 +19736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "801ad862-48e7-49cd-bd78-07100b7f5468")
-		(property "Reference" "C154"
+		(property "Reference" "C152"
 			(at 199.39 101.346 90)
 			(effects
 				(font
@@ -19708,7 +19754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 199.39 96.52 0)
 			(effects
 				(font
@@ -19780,7 +19826,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 199.39 96.52 90)
 			(effects
 				(font
@@ -19798,7 +19844,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C154")
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -19814,7 +19860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "857c1a3f-a3ba-4085-9988-aa87889e4b5a")
-		(property "Reference" "C166"
+		(property "Reference" "C164"
 			(at 93.98 139.6935 0)
 			(effects
 				(font
@@ -19832,7 +19878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 140.97 0)
 			(effects
 				(font
@@ -19904,8 +19950,8 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
-			(at 96.52 140.97 90)
+		(property "LCSC PART NAME" "C1523"
+			(at 96.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19922,7 +19968,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C166")
+					(reference "C164")
 					(unit 1)
 				)
 			)
@@ -19938,7 +19984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a70f063-5109-471b-b388-ca1f55a7c33d")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0101"
 			(at 210.82 139.7 0)
 			(effects
 				(font
@@ -19988,7 +20034,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0102")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -20004,7 +20050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b790cac-464c-4781-bda4-92dbbf8bf443")
-		(property "Reference" "C144"
+		(property "Reference" "C142"
 			(at 207.01 70.866 90)
 			(effects
 				(font
@@ -20022,7 +20068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.01 66.04 0)
 			(effects
 				(font
@@ -20094,7 +20140,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 207.01 66.04 90)
 			(effects
 				(font
@@ -20112,7 +20158,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C144")
+					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -20128,7 +20174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9398c78e-e629-456d-84b0-3c39a1c3f892")
-		(property "Reference" "C157"
+		(property "Reference" "C155"
 			(at 210.82 101.346 90)
 			(effects
 				(font
@@ -20146,7 +20192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.82 96.52 0)
 			(effects
 				(font
@@ -20218,7 +20264,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 210.82 96.52 90)
 			(effects
 				(font
@@ -20236,7 +20282,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C157")
+					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -20251,7 +20297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98f917cf-b68e-4275-87d9-900a13e7a9f3")
-		(property "Reference" "C165"
+		(property "Reference" "C163"
 			(at 144.272 133.604 0)
 			(effects
 				(font
@@ -20269,7 +20315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 135.89 0)
 			(effects
 				(font
@@ -20341,8 +20387,8 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
-			(at 142.24 135.89 90)
+		(property "LCSC PART NAME" "C1525"
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20359,7 +20405,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C165")
+					(reference "C163")
 					(unit 1)
 				)
 			)
@@ -20375,7 +20421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a019291-3b97-49c9-af0e-9846bdaa9083")
-		(property "Reference" "C156"
+		(property "Reference" "C154"
 			(at 207.01 101.346 90)
 			(effects
 				(font
@@ -20393,7 +20439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.01 96.52 0)
 			(effects
 				(font
@@ -20465,7 +20511,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 207.01 96.52 90)
 			(effects
 				(font
@@ -20483,7 +20529,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C156")
+					(reference "C154")
 					(unit 1)
 				)
 			)
@@ -20499,7 +20545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2c759e2-606a-4fb8-9e88-cfc76fc3ce25")
-		(property "Reference" "C161"
+		(property "Reference" "C159"
 			(at 226.06 101.346 90)
 			(effects
 				(font
@@ -20517,7 +20563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 96.52 0)
 			(effects
 				(font
@@ -20589,7 +20635,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 226.06 96.52 90)
 			(effects
 				(font
@@ -20607,7 +20653,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C161")
+					(reference "C159")
 					(unit 1)
 				)
 			)
@@ -20622,7 +20668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6ca0474-d55d-4dde-86d9-715a104c0f37")
-		(property "Reference" "C141"
+		(property "Reference" "C139"
 			(at 194.31 70.866 90)
 			(effects
 				(font
@@ -20640,7 +20686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 194.31 66.04 0)
 			(effects
 				(font
@@ -20712,7 +20758,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1779"
 			(at 194.31 66.04 90)
 			(effects
 				(font
@@ -20730,7 +20776,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C141")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -20746,7 +20792,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad8636ba-6a57-428a-90ff-9e16e2a5c73b")
-		(property "Reference" "C162"
+		(property "Reference" "C160"
 			(at 229.87 101.346 90)
 			(effects
 				(font
@@ -20764,7 +20810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 229.87 96.52 0)
 			(effects
 				(font
@@ -20836,7 +20882,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 229.87 96.52 90)
 			(effects
 				(font
@@ -20854,7 +20900,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C162")
+					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -20870,7 +20916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2011b8a-2241-4b5c-859f-f5bc328cfd0e")
-		(property "Reference" "C142"
+		(property "Reference" "C140"
 			(at 199.39 70.866 90)
 			(effects
 				(font
@@ -20888,7 +20934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -20960,7 +21006,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 199.39 66.04 90)
 			(effects
 				(font
@@ -20978,7 +21024,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C142")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -20994,7 +21040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5c40381-255b-4176-9cf5-183c88334857")
-		(property "Reference" "C145"
+		(property "Reference" "C143"
 			(at 210.82 70.866 90)
 			(effects
 				(font
@@ -21012,7 +21058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 210.82 66.04 0)
 			(effects
 				(font
@@ -21084,7 +21130,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 210.82 66.04 90)
 			(effects
 				(font
@@ -21102,7 +21148,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C145")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -21118,7 +21164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c69b9467-0d55-4d3c-a225-daba0f4854a8")
-		(property "Reference" "C150"
+		(property "Reference" "C148"
 			(at 229.87 70.866 90)
 			(effects
 				(font
@@ -21136,7 +21182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 229.87 66.04 0)
 			(effects
 				(font
@@ -21208,7 +21254,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 229.87 66.04 90)
 			(effects
 				(font
@@ -21226,7 +21272,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C150")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -21242,7 +21288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c93d791e-ad13-4087-8c75-ba4cd24cf8b8")
-		(property "Reference" "C159"
+		(property "Reference" "C157"
 			(at 218.44 101.346 90)
 			(effects
 				(font
@@ -21260,7 +21306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 218.44 96.52 0)
 			(effects
 				(font
@@ -21332,7 +21378,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 218.44 96.52 90)
 			(effects
 				(font
@@ -21350,7 +21396,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C159")
+					(reference "C157")
 					(unit 1)
 				)
 			)
@@ -21366,7 +21412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca5e3de3-1a0c-4f13-9405-00ffe6c9d5e4")
-		(property "Reference" "R51"
+		(property "Reference" "R52"
 			(at 154.94 125.476 90)
 			(effects
 				(font
@@ -21374,7 +21420,7 @@
 				)
 			)
 		)
-		(property "Value" "240"
+		(property "Value" "220R"
 			(at 154.94 127.508 90)
 			(effects
 				(font
@@ -21382,7 +21428,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 129.54 0)
 			(effects
 				(font
@@ -21454,6 +21500,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C22962"
+			(at 154.94 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "919fd581-f5b6-4ea8-90bd-3bb611d3659d")
 		)
@@ -21463,7 +21518,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "R51")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -21478,7 +21533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca7dcba7-09a1-4d49-b282-64561f7ee7b9")
-		(property "Reference" "C153"
+		(property "Reference" "C151"
 			(at 194.31 101.346 90)
 			(effects
 				(font
@@ -21496,7 +21551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 194.31 96.52 0)
 			(effects
 				(font
@@ -21568,7 +21623,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1779"
 			(at 194.31 96.52 90)
 			(effects
 				(font
@@ -21586,7 +21641,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C153")
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -21602,7 +21657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caae3d8c-d844-4cd4-8553-3bf1f80737a8")
-		(property "Reference" "C146"
+		(property "Reference" "C144"
 			(at 214.63 70.866 90)
 			(effects
 				(font
@@ -21620,7 +21675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -21692,7 +21747,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 214.63 66.04 90)
 			(effects
 				(font
@@ -21710,7 +21765,128 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C146")
+					(reference "C144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 129.54 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf96ce52-b509-4d6a-bdc4-6290c988339b")
+		(property "Reference" "R55"
+			(at 126.492 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 126.3903 149.8021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ADDITIONAL CARD DETECTION PINS" ""
+			(at 129.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD CONNECTION MODE" ""
+			(at 129.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CARD TYPE" ""
+			(at 129.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 129.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLEMENTARY FEATURES" ""
+			(at 129.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25079"
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbb75789-cb56-4478-9f9b-f3bb89078922")
+		)
+		(pin "1"
+			(uuid "6a3e1e69-318d-4563-9865-ac640b100ea3")
+		)
+		(instances
+			(project "srad-camera"
+				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -21718,15 +21894,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 144.78 0)
+		(at 129.54 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ee39ee-5068-4603-bd8c-d2e5251b156f")
-		(property "Reference" "#PWR0106"
-			(at 129.54 151.13 0)
+		(property "Reference" "#PWR0105"
+			(at 129.54 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21735,7 +21911,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 148.844 0)
+			(at 129.54 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21743,7 +21919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 144.78 0)
+			(at 129.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21752,7 +21928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 144.78 0)
+			(at 129.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21761,7 +21937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 144.78 0)
+			(at 129.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21775,7 +21951,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0106")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -21790,7 +21966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d45016cc-32fe-4b3a-971a-f317a3b61b4b")
-		(property "Reference" "C151"
+		(property "Reference" "C149"
 			(at 185.42 101.346 90)
 			(effects
 				(font
@@ -21808,7 +21984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 185.42 96.52 0)
 			(effects
 				(font
@@ -21880,6 +22056,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C12891"
+			(at 185.42 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6cd57e1f-74d2-4fae-a589-2e5dae10bb3f")
 		)
@@ -21889,7 +22074,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C151")
+					(reference "C149")
 					(unit 1)
 				)
 			)
@@ -21904,7 +22089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da83f75d-6aaa-4c6c-870a-e5472a1865f9")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0104"
 			(at 113.03 151.13 0)
 			(effects
 				(font
@@ -21954,7 +22139,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "#PWR0105")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -21969,7 +22154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec40465a-4069-44e2-b7a5-3e5f78e40cb3")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 154.94 134.366 90)
 			(effects
 				(font
@@ -21977,7 +22162,7 @@
 				)
 			)
 		)
-		(property "Value" "240"
+		(property "Value" "220R"
 			(at 154.94 136.398 90)
 			(effects
 				(font
@@ -21985,7 +22170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -22057,6 +22242,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PART NAME" "C22962"
+			(at 154.94 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd0d13da-b37a-42c7-b3d4-98ffb75b6f22")
 		)
@@ -22066,7 +22260,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -22082,7 +22276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef352518-16b6-4040-a8e6-0e0de88268d9")
-		(property "Reference" "C149"
+		(property "Reference" "C147"
 			(at 226.06 70.866 90)
 			(effects
 				(font
@@ -22100,7 +22294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.06 66.04 0)
 			(effects
 				(font
@@ -22172,7 +22366,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 226.06 66.04 90)
 			(effects
 				(font
@@ -22190,7 +22384,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C149")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -22206,7 +22400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbee2ae2-7b6d-49be-a130-3c0a00ac248a")
-		(property "Reference" "C148"
+		(property "Reference" "C146"
 			(at 222.25 70.866 90)
 			(effects
 				(font
@@ -22224,7 +22418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -22296,7 +22490,7 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
+		(property "LCSC PART NAME" "C1525"
 			(at 222.25 66.04 90)
 			(effects
 				(font
@@ -22314,7 +22508,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/51b69045-7733-4023-95b9-0aef3b91d808"
-					(reference "C148")
+					(reference "C146")
 					(unit 1)
 				)
 			)

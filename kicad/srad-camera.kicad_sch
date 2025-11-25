@@ -6167,7 +6167,7 @@
 		)
 		(uuid "545bf9ec-0494-47d3-8d13-ce161fa0152e")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 132.08 125.73 180)
 		(effects
 			(font
@@ -6337,7 +6337,7 @@
 		)
 		(uuid "ce9a3399-d9e2-4762-a994-ec9fa3a492c0")
 	)
-	(label "USB_DM"
+	(label "USB_DN"
 		(at 110.49 45.72 180)
 		(effects
 			(font
@@ -6569,7 +6569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 140.97 171.958 90)
 			(effects
 				(font
@@ -6589,6 +6589,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 140.97 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C14709"
+			(at 140.97 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -6952,7 +6961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.9 74.93 0)
 			(effects
 				(font
@@ -7016,6 +7025,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 215.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25744"
 			(at 215.9 74.93 0)
 			(effects
 				(font
@@ -7198,7 +7216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 143.51 173.99 0)
 			(effects
 				(font
@@ -7270,8 +7288,8 @@
 				(hide yes)
 			)
 		)
-		(property "V" ""
-			(at 143.51 173.99 90)
+		(property "LCSC PART NAME" "C15849"
+			(at 143.51 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7510,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 148.59 173.736 0)
 			(effects
 				(font
@@ -7500,7 +7518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 166.37 0)
 			(effects
 				(font
@@ -7564,6 +7582,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25900"
 			(at 147.32 166.37 0)
 			(effects
 				(font
@@ -7662,7 +7689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART NAME" "间距:0.5mm P数:22P 抽屉式 下接"
+		(property "LCSC PART NAME" ""
 			(at 160.02 138.43 0)
 			(effects
 				(font
@@ -8118,7 +8145,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "22R"
 			(at 204.47 87.63 90)
 			(effects
 				(font
@@ -8126,7 +8153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 83.82 0)
 			(effects
 				(font
@@ -8190,6 +8217,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 204.47 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25092"
 			(at 204.47 83.82 90)
 			(effects
 				(font
@@ -8230,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "22R"
 			(at 208.026 82.296 90)
 			(effects
 				(font
@@ -8238,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 81.28 0)
 			(effects
 				(font
@@ -8302,6 +8338,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 204.47 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25092"
 			(at 204.47 81.28 90)
 			(effects
 				(font
@@ -8475,7 +8520,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "4.7k"
 			(at 149.86 172.974 90)
 			(effects
 				(font
@@ -8484,7 +8529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.86 166.37 0)
 			(effects
 				(font
@@ -8548,6 +8593,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25900"
 			(at 149.86 166.37 0)
 			(effects
 				(font
@@ -8663,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 200.66 74.93 0)
 			(effects
 				(font
@@ -8727,6 +8781,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25744"
 			(at 200.66 74.93 0)
 			(effects
 				(font
@@ -9093,7 +9156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 196.85 107.95 0)
 			(effects
 				(font
@@ -9338,7 +9401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 			(at 193.04 86.36 0)
 			(effects
 				(font
@@ -9601,7 +9664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 234.95 74.93 0)
 			(effects
 				(font
@@ -9665,6 +9728,15 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PART NAME" "C25744"
 			(at 234.95 74.93 0)
 			(effects
 				(font
@@ -9921,7 +9993,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" input
+		(pin "USB_OTG_DN" input
 			(at 115.57 125.73 0)
 			(uuid "2eff3edf-d2d8-4338-a8c5-0eacc02c5357")
 			(effects
@@ -9931,7 +10003,7 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DP" input
+		(pin "USB_OTG_DP" input
 			(at 115.57 128.27 0)
 			(uuid "c294cb61-64d5-4a80-9cf1-144608f62176")
 			(effects
@@ -10022,7 +10094,7 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM" output
+		(pin "USB_DN" output
 			(at 100.33 45.72 0)
 			(uuid "df749b87-7a53-4e2e-9503-f625ea1f7cba")
 			(effects
