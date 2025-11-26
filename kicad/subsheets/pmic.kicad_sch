@@ -3127,7 +3127,7 @@
 		(uuid "3b00a4de-45a7-4efc-b503-bc42c259f746")
 	)
 	(junction
-		(at 118.11 139.7)
+		(at 123.19 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b28d98c-3014-4785-8016-6b86164295cb")
@@ -3175,6 +3175,12 @@
 		(uuid "47506f62-36c8-4476-a295-dff560dfa74d")
 	)
 	(junction
+		(at 187.96 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b61e808-04ea-4ded-b738-fcfd9e84c1c5")
+	)
+	(junction
 		(at 78.74 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3185,12 +3191,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "517975fe-08ab-4642-b91c-c364f052b0c4")
-	)
-	(junction
-		(at 185.42 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57da3e2e-e07e-4c35-bc6e-acea93b1e7e2")
 	)
 	(junction
 		(at 171.45 63.5)
@@ -3674,7 +3674,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 139.7) (xy 118.11 139.7)
+			(xy 127 139.7) (xy 123.19 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3804,6 +3804,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 139.7) (xy 109.22 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17040686-a589-4a6d-bc08-ffaf64d9281d")
+	)
+	(wire
+		(pts
 			(xy 123.19 96.52) (xy 123.19 106.68)
 		)
 		(stroke
@@ -3811,6 +3821,16 @@
 			(type default)
 		)
 		(uuid "18bbb29f-dedc-4b38-a6c1-e36238367a1d")
+	)
+	(wire
+		(pts
+			(xy 123.19 132.08) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5f23d1-55b8-488b-9539-b051de285ea3")
 	)
 	(polyline
 		(pts
@@ -3825,7 +3845,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 100.33) (xy 185.42 102.87)
+			(xy 187.96 100.33) (xy 187.96 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3995,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 93.98) (xy 195.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c00ed25-f73c-4069-9c67-eccbab7d021e")
+	)
+	(wire
+		(pts
 			(xy 114.3 105.41) (xy 114.3 106.68)
 		)
 		(stroke
@@ -4012,16 +4042,6 @@
 			(type default)
 		)
 		(uuid "2c47662f-4c39-4d03-aad5-b8aaba391365")
-	)
-	(wire
-		(pts
-			(xy 118.11 132.08) (xy 118.11 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2d5f48-3aaa-4ecc-abb4-26748711926c")
 	)
 	(wire
 		(pts
@@ -4335,6 +4355,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 132.08) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490a4d40-8437-437a-af90-470db1e26bdd")
+	)
+	(wire
+		(pts
 			(xy 125.73 93.98) (xy 125.73 106.68)
 		)
 		(stroke
@@ -4395,7 +4425,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 110.49) (xy 247.65 110.49)
+			(xy 242.57 110.49) (xy 257.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4526,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 139.7) (xy 113.03 139.7)
+			(xy 110.49 139.7) (xy 118.11 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4597,26 +4627,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 187.96 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ab905e-12ed-434a-94c7-ad4aee04ec15")
-	)
-	(wire
-		(pts
-			(xy 193.04 93.98) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68bd206e-af04-48c6-901b-a8ad326bb4a9")
-	)
-	(wire
-		(pts
 			(xy 194.31 127) (xy 194.31 128.27)
 		)
 		(stroke
@@ -4657,17 +4667,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 110.49) (xy 257.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2e401f-258d-47f0-a99a-ffd3654b035a")
-	)
-	(wire
-		(pts
-			(xy 185.42 93.98) (xy 185.42 95.25)
+			(xy 187.96 93.98) (xy 187.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4697,7 +4697,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 146.05) (xy 110.49 139.7)
+			(xy 110.49 146.05) (xy 110.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4937,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 185.42 93.98)
+			(xy 180.34 93.98) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6130,16 +6130,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 139.7) (xy 110.49 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed112b47-f7f1-40d7-8774-29704292adf2")
-	)
-	(wire
-		(pts
 			(xy 63.5 55.88) (xy 66.04 55.88)
 		)
 		(stroke
@@ -6150,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 140.97) (xy 121.92 139.7)
+			(xy 127 140.97) (xy 127 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14382,6 +14372,16 @@
 		)
 		(uuid "7907a1df-20f4-4c5e-a556-34acba2f9acb")
 	)
+	(label "VCC_RTC"
+		(at 110.49 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2a700a-27d1-4f86-a0ba-29930c09fc58")
+	)
 	(label "VBUCK3"
 		(at 148.59 59.69 0)
 		(effects
@@ -16053,7 +16053,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 185.42 97.79 0)
+		(at 187.96 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16061,7 +16061,7 @@
 		(dnp no)
 		(uuid "21dff8b5-7ae9-4ac8-b568-60768b839c8c")
 		(property "Reference" "C41"
-			(at 187.452 97.028 0)
+			(at 189.992 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16070,7 +16070,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 187.4901 99.0084 0)
+			(at 190.0301 99.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,7 +16079,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 185.42 97.79 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16088,7 +16088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 97.79 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,7 +16097,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 97.79 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16106,7 +16106,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 185.42 97.79 90)
+			(at 187.96 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,7 +16115,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 185.42 97.79 90)
+			(at 187.96 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16124,7 +16124,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 185.42 97.79 90)
+			(at 187.96 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16133,7 +16133,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 185.42 97.79 90)
+			(at 187.96 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16142,7 +16142,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 185.42 97.79 90)
+			(at 187.96 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16151,7 +16151,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "C15850"
-			(at 185.42 97.79 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18752,76 +18752,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/6bb226bc-8621-46e9-a0f1-5501f65ad069"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 190.5 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61b93de7-693d-4336-afe2-b49a1bf93824")
-		(property "Reference" "NT2"
-			(at 190.5 89.8355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 190.5 92.2598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1572179e-e513-41f3-852c-d508a89d4659")
-		)
-		(pin "1"
-			(uuid "e4e4b64f-248c-41b6-b957-5eb190f5f3da")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/6bb226bc-8621-46e9-a0f1-5501f65ad069"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -21475,7 +21405,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 115.57 139.7 270)
+		(at 120.65 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21483,7 +21413,7 @@
 		(dnp no)
 		(uuid "af859475-4980-4df4-b2b8-ef0fd035d269")
 		(property "Reference" "C51"
-			(at 114.046 143.002 90)
+			(at 119.126 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21492,7 +21422,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 114.046 145.034 90)
+			(at 119.126 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21501,7 +21431,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 115.57 139.7 0)
+			(at 120.65 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21510,7 +21440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 139.7 0)
+			(at 120.65 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21519,7 +21449,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 115.57 139.7 0)
+			(at 120.65 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21528,7 +21458,7 @@
 			)
 		)
 		(property "ADDITIONAL CARD DETECTION PINS" ""
-			(at 115.57 139.7 90)
+			(at 120.65 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21537,7 +21467,7 @@
 			)
 		)
 		(property "CARD CONNECTION MODE" ""
-			(at 115.57 139.7 90)
+			(at 120.65 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21546,7 +21476,7 @@
 			)
 		)
 		(property "CARD TYPE" ""
-			(at 115.57 139.7 90)
+			(at 120.65 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21555,7 +21485,7 @@
 			)
 		)
 		(property "CONNECTOR TYPE" ""
-			(at 115.57 139.7 90)
+			(at 120.65 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21564,7 +21494,7 @@
 			)
 		)
 		(property "SUPPLEMENTARY FEATURES" ""
-			(at 115.57 139.7 90)
+			(at 120.65 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21573,7 +21503,7 @@
 			)
 		)
 		(property "LCSC PART NAME" "C15849"
-			(at 115.57 139.7 90)
+			(at 120.65 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22050,16 +21980,16 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 250.19 110.49 0)
+		(at 110.49 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bfe7db05-a1de-4a5b-9282-b347a12d8991")
-		(property "Reference" "NT3"
-			(at 250.19 106.3455 0)
+		(uuid "bfcd5120-244e-4602-851f-ed958215c883")
+		(property "Reference" "NT4"
+			(at 106.3455 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22068,7 +21998,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 250.19 108.7698 0)
+			(at 108.7698 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22077,7 +22007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 110.49 0)
+			(at 110.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22086,7 +22016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 110.49 0)
+			(at 110.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22095,7 +22025,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 250.19 110.49 0)
+			(at 110.49 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22104,15 +22034,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "627d1167-1e78-46e9-8e47-92ae88bacaf7")
+			(uuid "a9c01fcd-3050-45cd-929c-d1accc84920d")
 		)
 		(pin "1"
-			(uuid "40e3c2e0-2c2a-4175-a647-659897332d47")
+			(uuid "05b12470-4420-4a87-9ddc-987d4faf224e")
 		)
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/6bb226bc-8621-46e9-a0f1-5501f65ad069"
-					(reference "NT3")
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -22745,7 +22675,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 140.97 0)
+		(at 127 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22753,7 +22683,7 @@
 		(dnp no)
 		(uuid "d47de909-900b-4923-9e30-f5454f17be12")
 		(property "Reference" "#PWR046"
-			(at 121.92 147.32 0)
+			(at 127 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22762,7 +22692,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 145.034 0)
+			(at 127 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22770,7 +22700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22779,7 +22709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22788,7 +22718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 140.97 0)
+			(at 127 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23749,7 +23679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 102.87 0)
+		(at 187.96 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23757,7 +23687,7 @@
 		(dnp no)
 		(uuid "f78b270b-2e68-4ae5-aed8-52a2c12e9c62")
 		(property "Reference" "#PWR041"
-			(at 185.42 109.22 0)
+			(at 187.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23766,7 +23696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.944 106.426 0)
+			(at 189.484 106.426 0)
 			(effects
 				(font
 					(size 1 1)
@@ -23775,7 +23705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 102.87 0)
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23784,7 +23714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 102.87 0)
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23793,7 +23723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 102.87 0)
+			(at 187.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

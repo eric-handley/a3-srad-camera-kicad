@@ -31069,7 +31069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0843963-28b8-4e6a-adda-5d758ca9faa3")
-		(property "Reference" "NT5"
+		(property "Reference" "NT6"
 			(at 120.65 125.3955 0)
 			(effects
 				(font
@@ -31123,7 +31123,7 @@
 		(instances
 			(project ""
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da"
-					(reference "NT5")
+					(reference "NT6")
 					(unit 1)
 				)
 			)
@@ -32079,7 +32079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f880d25f-d88d-4e4a-80c9-ce51ba2c3829")
-		(property "Reference" "NT4"
+		(property "Reference" "NT5"
 			(at 120.65 83.4855 0)
 			(effects
 				(font
@@ -32133,7 +32133,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/279fc251-45a8-41a3-8fcf-5855d7fe07da"
-					(reference "NT4")
+					(reference "NT5")
 					(unit 1)
 				)
 			)
