@@ -135,9 +135,9 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.175,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.175,
+        "min_via_annular_width": 0.075,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -188,7 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
+        0.15,
         0.25,
         0.5,
         0.6,
@@ -516,7 +516,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.095,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -531,12 +531,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "*VCCA*",
-        "pcb_color": "rgb(45, 120, 255)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -546,7 +540,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "*VCCA*",
+        "netclass": "Default",
         "pattern": "/RK3566 SoC/VCCA_1V8_IMG"
       }
     ]
@@ -556,7 +550,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../plots/pcb/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
