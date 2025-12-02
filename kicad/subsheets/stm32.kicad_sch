@@ -3494,7 +3494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23ea9686-217e-4ab9-bcf7-7736ac72b817")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 128.27 132.08 0)
 			(effects
 				(font
@@ -3544,7 +3544,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46ab4a3b-6624-4bbf-81de-80a0379c1e4c")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 119.38 68.58 0)
 			(effects
 				(font
@@ -4100,7 +4100,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4919,7 +4919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f70318c-58ca-4c64-8fab-1caae21c82e1")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG06"
 			(at 135.89 48.895 0)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299"
-					(reference "#FLG05")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -4985,7 +4985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b47bea5b-48cc-45c3-b567-231b148830a3")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR057"
 			(at 153.67 154.94 0)
 			(effects
 				(font
@@ -5035,7 +5035,7 @@
 		(instances
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299"
-					(reference "#PWR053")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5050,7 +5050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddd96acb-9eba-43a2-8152-ec05f5eaf9f4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 166.37 53.34 0)
 			(effects
 				(font
@@ -5100,7 +5100,7 @@
 		(instances
 			(project ""
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/cf8a0c2d-fb2b-4eaa-949d-0ddbf6dd7299"
-					(reference "#PWR050")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
