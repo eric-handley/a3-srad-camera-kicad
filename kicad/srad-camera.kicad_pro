@@ -190,6 +190,7 @@
         0.0,
         0.15,
         0.25,
+        0.4,
         0.5,
         0.6,
         0.75,
@@ -206,7 +207,7 @@
           "spacing": 1.0
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 100,
           "corner_style": 1,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
@@ -232,8 +233,16 @@
           "drill": 0.15
         },
         {
+          "diameter": 0.35,
+          "drill": 0.15
+        },
+        {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.25
         },
         {
           "diameter": 0.6,
@@ -516,32 +525,140 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.095,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.0,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.0,
+        "microvia_drill": 0.0,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.0,
+        "via_drill": 0.0,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "name": "BGA_DDR",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.35,
+        "via_drill": 0.15
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "name": "BGA_RK",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.35,
+        "via_drill": 0.15
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(0, 0, 132)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.085,
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.13,
+        "name": "MIPI",
+        "pcb_color": "rgb(0, 194, 194)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 132)",
+        "track_width": 0.13,
+        "via_diameter": 0.3,
+        "via_drill": 0.15,
+        "wire_width": 5
+      },
+      {
+        "name": "POWER",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/RK3566 SoC/MIPI_CN": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_CP": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D0_N": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D0_P": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D1_N": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D1_P": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D2_N": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D2_P": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D3_N": [
+        "MIPI_DIFF"
+      ],
+      "/RK3566 SoC/MIPI_D3_P": [
+        "MIPI_DIFF"
+      ]
+    },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/RK3566 SoC/VCCA_1V8_IMG"
+        "netclass": "BGA_RK",
+        "pattern": "/RK*"
+      },
+      {
+        "netclass": "BGA_DDR",
+        "pattern": "/MT4*"
+      },
+      {
+        "netclass": "BGA_DDR",
+        "pattern": "*DDR*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "*MIPI*"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "*CAM*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*VCC*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*VDD*"
       }
     ]
   },
@@ -805,12 +922,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "r",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
