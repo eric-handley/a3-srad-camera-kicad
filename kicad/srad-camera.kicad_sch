@@ -4053,7 +4053,7 @@
 	)
 	(text "01x22 FPC\n0.5mm pitch\n2-sided contacts"
 		(exclude_from_sim no)
-		(at 160.782 107.188 0)
+		(at 140.97 107.95 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -4116,6 +4116,16 @@
 			)
 		)
 		(uuid "f44761af-90de-4942-bd55-e1fe2f0e876c")
+	)
+	(text "MOUNTING HOLES & TEST POINTS"
+		(exclude_from_sim no)
+		(at 194.818 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5ccbc90-be1d-48a1-b39f-f37501d38100")
 	)
 	(junction
 		(at 153.67 127)
@@ -5983,16 +5993,6 @@
 		)
 		(uuid "d4dcbb00-38b2-4bdf-86e9-193d40187a8d")
 	)
-	(wire
-		(pts
-			(xy 62.23 128.27) (xy 74.93 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d61d2dca-ff10-4b73-9c0f-19923c60f64e")
-	)
 	(bus
 		(pts
 			(xy 97.79 115.57) (xy 97.79 110.49)
@@ -6603,58 +6603,9 @@
 		)
 		(uuid "f7987653-200a-42e9-a0d6-9c9fb0030583")
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 150.4806 113.0631) (xy 153.0206 113.0631) (xy 153.0206 148.6231) (xy 150.4806 148.6231)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid f826ea62-b18d-47af-8736-d8adb85a1b20)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 151.7506 113.0631 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5c54ce7-1af7-4393-addf-255ae90a5ba0")
-		(property "Netclass" "MIPI_DIFF"
-			(at 151.0521 110.5231 0)
-			(effects
-				(font
-					(size 1 1)
-					(italic yes)
-					(color 0 132 132 1)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 320.6606 -2.5069 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 115.57 0)
+		(at 186.69 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6662,7 +6613,7 @@
 		(dnp no)
 		(uuid "05abb384-e35c-4c75-8ec1-428a4d1793a4")
 		(property "Reference" "#PWR013"
-			(at 189.23 121.92 0)
+			(at 186.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 119.38 0)
+			(at 186.69 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 115.57 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 115.57 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 115.57 0)
+			(at 186.69 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6864,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 189.23 113.03 0)
+		(at 186.69 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6922,7 +6873,7 @@
 		(fields_autoplaced yes)
 		(uuid "11c2d5ef-38b5-4c51-9abd-ec40bf68a973")
 		(property "Reference" "H1"
-			(at 193.1512 111.76 0)
+			(at 190.6112 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6881,7 @@
 			)
 		)
 		(property "Value" "MntHole"
-			(at 202.3736 112.9721 0)
+			(at 199.8336 115.5121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +6890,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:4-40_MountingHole"
-			(at 189.23 113.03 0)
+			(at 186.69 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 113.03 0)
+			(at 186.69 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6957,7 +6908,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 189.23 113.03 0)
+			(at 186.69 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 129.54 0)
+		(at 199.39 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7238,7 +7189,7 @@
 		(dnp no)
 		(uuid "298a1e12-e7a8-41ed-aff9-2e5dea7f685f")
 		(property "Reference" "#PWR016"
-			(at 201.93 135.89 0)
+			(at 199.39 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7198,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 133.35 0)
+			(at 199.39 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 129.54 0)
+			(at 199.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 129.54 0)
+			(at 199.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +7224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 129.54 0)
+			(at 199.39 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7800,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 201.93 113.03 0)
+		(at 199.39 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7858,7 +7809,7 @@
 		(fields_autoplaced yes)
 		(uuid "464322db-a326-4b38-8598-00cb8126ca77")
 		(property "Reference" "H2"
-			(at 205.8512 111.76 0)
+			(at 203.3112 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7817,7 @@
 			)
 		)
 		(property "Value" "MntHole"
-			(at 215.0736 112.9721 0)
+			(at 212.5336 115.5121 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +7826,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:4-40_MountingHole"
-			(at 201.93 113.03 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 113.03 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +7844,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 201.93 113.03 0)
+			(at 199.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,7 +8437,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 129.54 0)
+		(at 186.69 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8494,7 +8445,7 @@
 		(dnp no)
 		(uuid "60385b98-0d15-49d4-989a-df57187464d7")
 		(property "Reference" "#PWR015"
-			(at 189.23 135.89 0)
+			(at 186.69 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8454,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 133.35 0)
+			(at 186.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 129.54 0)
+			(at 186.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 129.54 0)
+			(at 186.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 129.54 0)
+			(at 186.69 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9468,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 201.93 127 0)
+		(at 199.39 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9526,7 +9477,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bf6fbf6-0824-4e24-8476-2c0d4f359285")
 		(property "Reference" "H4"
-			(at 205.8512 125.73 0)
+			(at 203.3112 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +9485,7 @@
 			)
 		)
 		(property "Value" "MntHole"
-			(at 215.0736 126.9421 0)
+			(at 212.5336 129.4821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9494,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:4-40_MountingHole"
-			(at 201.93 127 0)
+			(at 199.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,7 +9503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 127 0)
+			(at 199.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9512,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 201.93 127 0)
+			(at 199.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +9785,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 189.23 127 0)
+		(at 186.69 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9843,7 +9794,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3477707-bd0d-47bf-bebb-b284bef01a80")
 		(property "Reference" "H3"
-			(at 193.1512 125.73 0)
+			(at 190.6112 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,7 +9802,7 @@
 			)
 		)
 		(property "Value" "MntHole"
-			(at 202.3736 126.9421 0)
+			(at 199.8336 129.4821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +9811,7 @@
 			)
 		)
 		(property "Footprint" "srad-camera-footprints:4-40_MountingHole"
-			(at 189.23 127 0)
+			(at 186.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +9820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 127 0)
+			(at 186.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9829,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 189.23 127 0)
+			(at 186.69 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +10096,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 115.57 0)
+		(at 199.39 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10153,7 +10104,7 @@
 		(dnp no)
 		(uuid "cf441d38-66cd-46d5-a28f-fdbeb0197848")
 		(property "Reference" "#PWR014"
-			(at 201.93 121.92 0)
+			(at 199.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 119.38 0)
+			(at 199.39 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +10121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 115.57 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +10130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 115.57 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 115.57 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,16 +10544,6 @@
 		(pin "VCCIO_3V3_SD" input
 			(at 74.93 139.7 180)
 			(uuid "d9641d34-63f8-4507-8128-0433aae961ec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VCC_1V8" input
-			(at 74.93 128.27 180)
-			(uuid "f47f41a8-9f29-4d44-9b4f-7515f88b49ae")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2139,6 +2139,17 @@
 		)
 		(uuid "ff75c906-2711-49e2-a727-704e7b30fcae")
 	)
+	(hierarchical_label "USB_5V"
+		(shape output)
+		(at 166.37 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74943849-618e-4d6d-9229-30b93ff56c35")
+	)
 	(hierarchical_label "VBUSDET"
 		(shape output)
 		(at 177.8 111.76 0)
@@ -2501,72 +2512,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/2d2335c5-b8ff-4d43-ae83-f45f6f125b07"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 166.37 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d4e82f1-c001-4984-b3be-8055fc1c18cf")
-		(property "Reference" "#PWR030"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_5V"
-			(at 159.0017 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 166.37 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "066666e5-6e45-4fe3-8e0f-92bd802c642e")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/2d2335c5-b8ff-4d43-ae83-f45f6f125b07"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2966,7 +2911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 124.46 86.36 0)
 			(effects
 				(font
