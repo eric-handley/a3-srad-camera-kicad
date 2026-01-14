@@ -127,7 +127,7 @@
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.0015,
+        "min_hole_clearance": 0.001,
         "min_hole_to_hole": 0.0015,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -627,8 +627,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "diff_pair_gap": 0.2032,
-        "diff_pair_width": 0.35,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1,
         "name": "USB_DIFF",
         "pcb_color": "rgb(148, 95, 255)",
         "priority": 4,

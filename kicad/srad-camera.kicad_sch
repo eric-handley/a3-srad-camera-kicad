@@ -3139,131 +3139,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "srad-camera-symbols:0.5K-AX-22PWB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4266,6 +4141,12 @@
 		(uuid "c1e81761-2087-47c2-95e9-60243f3922ea")
 	)
 	(junction
+		(at 259.08 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4e2d63a-f90f-4f16-9f9f-5fb9eddf9e16")
+	)
+	(junction
 		(at 147.32 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4492,6 +4373,16 @@
 			(type default)
 		)
 		(uuid "01a8dae1-b333-4625-a85b-715c1209d242")
+	)
+	(wire
+		(pts
+			(xy 259.08 78.74) (xy 259.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028ea7fe-1846-47a5-b8c5-cbbee418aa50")
 	)
 	(wire
 		(pts
@@ -5095,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 77.47) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bf51a5-7c76-4a5e-83d5-ee1b0bf214d7")
+	)
+	(wire
+		(pts
 			(xy 199.39 57.15) (xy 210.82 57.15)
 		)
 		(stroke
@@ -5272,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "6665c188-dffc-46f0-ba3c-58edbb2a9cec")
+	)
+	(wire
+		(pts
+			(xy 260.35 78.74) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6706d635-ee93-46d4-99ce-57c0d13a9c3f")
 	)
 	(wire
 		(pts
@@ -9603,7 +9514,7 @@
 	(symbol
 		(lib_name "VCC_9")
 		(lib_id "power:VCC")
-		(at 259.08 77.47 270)
+		(at 260.35 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9611,7 +9522,7 @@
 		(dnp no)
 		(uuid "abc915b5-3dc0-4159-bb72-1a5504f9ba98")
 		(property "Reference" "#PWR07"
-			(at 255.27 77.47 0)
+			(at 256.54 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9531,7 @@
 			)
 		)
 		(property "Value" "VCCIO_3V3_IMU"
-			(at 262.128 77.47 90)
+			(at 263.398 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,7 +9540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 77.47 0)
+			(at 260.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9638,7 +9549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 77.47 0)
+			(at 260.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9647,7 +9558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 259.08 77.47 0)
+			(at 260.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,72 +9934,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 259.08 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8cf931d-89c8-4abb-ad03-118b88c609b7")
-		(property "Reference" "#PWR08"
-			(at 255.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_3V3_SYS"
-			(at 262.128 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 259.08 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "694cd332-17c5-4d2e-ae4f-1321bcaa82da")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)

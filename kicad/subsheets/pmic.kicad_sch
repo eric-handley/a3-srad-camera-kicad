@@ -3067,6 +3067,12 @@
 		(uuid "23c3c3af-f421-462a-a10d-591efe3328a5")
 	)
 	(junction
+		(at 193.04 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26fa1c90-d164-4100-81f9-7f3c1a1f4fd8")
+	)
+	(junction
 		(at 120.65 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3131,12 +3137,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b28d98c-3014-4785-8016-6b86164295cb")
-	)
-	(junction
-		(at 193.04 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c2d7237-7a22-4511-ac96-d7ee8c3359a4")
 	)
 	(junction
 		(at 125.73 113.03)
@@ -4751,7 +4751,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 187.96 63.5)
+			(xy 185.42 63.5) (xy 193.04 63.5)
 		)
 		(stroke
 			(width 0)
@@ -20675,76 +20675,6 @@
 			(project "srad-camera"
 				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/6bb226bc-8621-46e9-a0f1-5501f65ad069"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 190.5 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a99d803f-231d-47a4-a55e-3bc00bde2a12")
-		(property "Reference" "NT1"
-			(at 190.5 59.3555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 190.5 61.7798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f521e355-f73c-48e0-b45a-433f2414ccec")
-		)
-		(pin "1"
-			(uuid "187d029e-981d-4b07-867a-828b0c23659a")
-		)
-		(instances
-			(project "srad-camera"
-				(path "/da62c771-e8c9-451f-8df1-ec995aadcb11/6bb226bc-8621-46e9-a0f1-5501f65ad069"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
