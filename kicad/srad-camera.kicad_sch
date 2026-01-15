@@ -1918,6 +1918,9 @@
 		)
 		(symbol "VCC_11"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4159,12 +4162,12 @@
 		(uuid "fbb86a57-4038-4c08-ba41-e4d278277fb1")
 	)
 	(no_connect
-		(at 74.93 43.18)
-		(uuid "dc99388f-e204-4cd7-bdbe-618c97b57db7")
+		(at 199.39 36.83)
+		(uuid "9a0e1346-eff5-4aa7-b0e9-96bc0144f656")
 	)
 	(no_connect
-		(at 201.93 36.83)
-		(uuid "f485d885-467a-438a-9dcf-ff76aa3ac4c3")
+		(at 74.93 43.18)
+		(uuid "dc99388f-e204-4cd7-bdbe-618c97b57db7")
 	)
 	(bus_entry
 		(at 137.16 134.62)
@@ -4563,16 +4566,6 @@
 			(type default)
 		)
 		(uuid "14840113-6fff-409f-b36d-9834f3df22d9")
-	)
-	(wire
-		(pts
-			(xy 199.39 35.56) (xy 199.39 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16873c6b-0d9d-4aca-b7a8-26bffc699389")
 	)
 	(wire
 		(pts
@@ -6076,6 +6069,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 35.56) (xy 201.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18e75c3-6fb1-4841-8404-401e93d85cd1")
+	)
+	(wire
+		(pts
 			(xy 115.57 118.11) (xy 132.08 118.11)
 		)
 		(stroke
@@ -6597,7 +6600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "POWER"
+		(property "Value" "PWR"
 			(at 197.612 40.64 90)
 			(effects
 				(font
@@ -7344,7 +7347,7 @@
 	(symbol
 		(lib_name "VCC_11")
 		(lib_id "power:VCC")
-		(at 199.39 35.56 0)
+		(at 201.93 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7352,7 +7355,7 @@
 		(dnp no)
 		(uuid "33754937-72ba-4ffe-815b-99614ccfa1fc")
 		(property "Reference" "#PWR01"
-			(at 199.39 39.37 0)
+			(at 201.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7361,7 +7364,7 @@
 			)
 		)
 		(property "Value" "VCC_3V3_SYS"
-			(at 199.39 31.496 0)
+			(at 201.93 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7369,7 +7372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 35.56 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 35.56 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 199.39 35.56 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7986,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "0.5K-AX-22PWB"
+		(property "Value" "Amphenol_F32R 1x22"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -7992,7 +7995,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "srad-camera-footprints:FPC-SMD_22P-P0.50_HDGC_0.5K-AX-22PWB"
+		(property "Footprint" "srad-camera-footprints:AMPHENOL_10051922-2210ELF"
 			(at 160.02 138.43 0)
 			(effects
 				(font

@@ -4,15 +4,12 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
-      "GND",
       "MIPI",
       "POWER"
     ],
-    "hidden_nets": [
-      ""
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 1,
-    "net_color_mode": 1,
+    "net_color_mode": 0,
     "opacity": {
       "images": 1.0,
       "pads": 1.0,
@@ -26,7 +23,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -36,6 +33,7 @@
     },
     "visible_items": [
       "vias",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",

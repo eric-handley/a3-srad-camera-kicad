@@ -13153,4 +13153,15 @@
 		(uuid "7320c0f7-e8a5-4cb7-b94d-9b1702515f70")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/srad-camera-models/RK3566--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 -0.03)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
