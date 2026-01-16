@@ -3941,7 +3941,7 @@
 		)
 		(uuid "5074c7fa-6f96-4310-9179-eb37f8d9a407")
 	)
-	(text "90Ω 10% diff. impedance\n5-10 mil spacing\n<5 mils length diff."
+	(text "90Ω 10% Z_{D}\n5-10mil spacing\n±5mil length"
 		(exclude_from_sim no)
 		(at 102.362 38.354 0)
 		(effects
