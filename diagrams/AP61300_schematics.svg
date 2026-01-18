@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .title { font: bold 18px sans-serif; fill: #000; }
+      .subtitle { font: bold 14px sans-serif; fill: #000; }
+      .label { font: 12px sans-serif; fill: #000; }
+      .value { font: 11px sans-serif; fill: #006; }
+      .wire { stroke: #000; stroke-width: 2; fill: none; }
+      .component { stroke: #000; stroke-width: 2; fill: none; }
+      .ic { fill: #e0e0e0; stroke: #000; stroke-width: 2; }
+      .gnd { stroke: #000; stroke-width: 2; fill: none; }
+      .node { fill: #000; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="30" class="title" text-anchor="middle">AP61300/AP61302 Buck Converter Schematics</text>
+  
+  <!-- ============ SCHEMATIC A: 5V to 3.3V ============ -->
+  <text x="300" y="60" class="subtitle" text-anchor="middle">a) 5V to 3.3V @ 3A</text>
+  
+  <!-- Input -->
+  <text x="20" y="105" class="label">VIN</text>
+  <text x="20" y="120" class="value">5V</text>
+  <circle cx="50" cy="100" r="3" class="node"/>
+  <line x1="50" y1="100" x2="90" y2="100" class="wire"/>
+  
+  <!-- Input Capacitor C1 -->
+  <line x1="90" y1="100" x2="90" y2="110" class="wire"/>
+  <line x1="85" y1="110" x2="95" y2="110" class="component"/>
+  <line x1="85" y1="115" x2="95" y2="115" class="component"/>
+  <line x1="90" y1="115" x2="90" y2="130" class="wire"/>
+  <text x="100" y="115" class="value">C1: 22µF</text>
+  
+  <!-- GND from C1 -->
+  <line x1="90" y1="130" x2="90" y2="140" class="gnd"/>
+  <line x1="80" y1="140" x2="100" y2="140" class="gnd"/>
+  <line x1="83" y1="143" x2="97" y2="143" class="gnd"/>
+  <line x1="86" y1="146" x2="94" y2="146" class="gnd"/>
+  
+  <!-- VIN to IC -->
+  <circle cx="90" cy="100" r="2" class="node"/>
+  <line x1="90" y1="100" x2="150" y2="100" class="wire"/>
+  
+  <!-- AP61300 IC -->
+  <rect x="150" y="80" width="80" height="100" class="ic" rx="3"/>
+  <text x="190" y="100" class="label" text-anchor="middle">AP61300</text>
+  <text x="190" y="115" class="label" text-anchor="middle">or</text>
+  <text x="190" y="130" class="label" text-anchor="middle">AP61302</text>
+  
+  <!-- IC Pins -->
+  <!-- VIN pin -->
+  <line x1="150" y1="100" x2="140" y2="100" class="wire"/>
+  <text x="135" y="103" class="value" text-anchor="end">VIN</text>
+  
+  <!-- EN pin -->
+  <line x1="150" y1="120" x2="130" y2="120" class="wire"/>
+  <line x1="130" y1="120" x2="130" y2="100" class="wire"/>
+  <circle cx="130" cy="100" r="2" class="node"/>
+  <text x="125" y="123" class="value" text-anchor="end">EN</text>
+  
+  <!-- GND pin -->
+  <line x1="190" y1="180" x2="190" y2="195" class="wire"/>
+  <line x1="190" y1="195" x2="190" y2="205" class="gnd"/>
+  <line x1="180" y1="205" x2="200" y2="205" class="gnd"/>
+  <line x1="183" y1="208" x2="197" y2="208" class="gnd"/>
+  <line x1="186" y1="211" x2="194" y2="211" class="gnd"/>
+  <text x="195" y="193" class="value">GND</text>
+  
+  <!-- FB pin -->
+  <line x1="150" y1="160" x2="130" y2="160" class="wire"/>
+  <text x="125" y="163" class="value" text-anchor="end">FB</text>
+  
+  <!-- SW pin -->
+  <line x1="230" y1="120" x2="260" y2="120" class="wire"/>
+  <text x="235" y="115" class="value">SW</text>
+  
+  <!-- OUT/PG pin (not used in this config) -->
+  <text x="235" y="103" class="value">OUT/PG</text>
+  
+  <!-- Inductor L -->
+  <line x1="260" y1="120" x2="275" y2="120" class="wire"/>
+  <circle cx="280" cy="120" r="5" class="component"/>
+  <circle cx="290" cy="120" r="5" class="component"/>
+  <circle cx="300" cy="120" r="5" class="component"/>
+  <circle cx="310" cy="120" r="5" class="component"/>
+  <line x1="315" y1="120" x2="340" y2="120" class="wire"/>
+  <text x="295" y="110" class="value" text-anchor="middle">L: 1µH</text>
+  
+  <!-- Output Capacitor C2 -->
+  <circle cx="340" cy="120" r="2" class="node"/>
+  <line x1="340" y1="120" x2="340" y2="140" class="wire"/>
+  <line x1="335" y1="140" x2="345" y2="140" class="component"/>
+  <line x1="335" y1="145" x2="345" y2="145" class="component"/>
+  <line x1="340" y1="145" x2="340" y2="165" class="wire"/>
+  <text x="350" y="145" class="value">C2: 22µF</text>
+  
+  <!-- GND from C2 -->
+  <line x1="340" y1="165" x2="340" y2="175" class="gnd"/>
+  <line x1="330" y1="175" x2="350" y2="175" class="gnd"/>
+  <line x1="333" y1="178" x2="347" y2="178" class="gnd"/>
+  <line x1="336" y1="181" x2="344" y2="181" class="gnd"/>
+  
+  <!-- Output -->
+  <line x1="340" y1="120" x2="380" y2="120" class="wire"/>
+  <circle cx="380" cy="120" r="3" class="node"/>
+  <text x="390" y="115" class="label">VOUT</text>
+  <text x="390" y="130" class="value">3.3V @ 3A</text>
+  
+  <!-- Feedback Resistors -->
+  <line x1="380" y1="120" x2="380" y2="160" class="wire"/>
+  <circle cx="380" cy="160" r="2" class="node"/>
+  
+  <!-- R1 -->
+  <rect x="375" y="165" width="10" height="30" class="component"/>
+  <line x1="380" y1="160" x2="380" y2="165" class="wire"/>
+  <line x1="380" y1="195" x2="380" y2="210" class="wire"/>
+  <text x="395" y="182" class="value">R1: 200kΩ</text>
+  
+  <!-- FB connection -->
+  <circle cx="380" cy="210" r="2" class="node"/>
+  <line x1="380" y1="210" x2="130" y2="210" class="wire"/>
+  <line x1="130" y1="210" x2="130" y2="160" class="wire"/>
+  
+  <!-- R2 -->
+  <rect x="375" y="215" width="10" height="30" class="component"/>
+  <line x1="380" y1="210" x2="380" y2="215" class="wire"/>
+  <line x1="380" y1="245" x2="380" y2="260" class="wire"/>
+  <text x="395" y="232" class="value">R2: 44.2kΩ</text>
+  
+  <!-- GND from R2 -->
+  <line x1="380" y1="260" x2="380" y2="270" class="gnd"/>
+  <line x1="370" y1="270" x2="390" y2="270" class="gnd"/>
+  <line x1="373" y1="273" x2="387" y2="273" class="gnd"/>
+  <line x1="376" y1="276" x2="384" y2="276" class="gnd"/>
+  
+  <!-- Notes for circuit A -->
+  <text x="50" y="310" class="label" font-weight="bold">Notes:</text>
+  <text x="50" y="325" class="value">• Input: 5V DC</text>
+  <text x="50" y="340" class="value">• Output: 3.3V @ 3A max</text>
+  <text x="50" y="355" class="value">• Efficiency: ~90% at full load</text>
+  <text x="50" y="370" class="value">• All capacitors: X7R/X5R ceramic, 10V+ rating</text>
+  <text x="50" y="385" class="value">• Inductor: 1µH, 3.5A+ saturation current, &lt;30mΩ DCR</text>
+  
+  
+  <!-- ============ SCHEMATIC B: 5V to 0.9V ============ -->
+  <text x="900" y="60" class="subtitle" text-anchor="middle">b) 5V to 0.9V @ 3A</text>
+  
+  <!-- Input -->
+  <text x="620" y="105" class="label">VIN</text>
+  <text x="620" y="120" class="value">5V</text>
+  <circle cx="650" cy="100" r="3" class="node"/>
+  <line x1="650" y1="100" x2="690" y2="100" class="wire"/>
+  
+  <!-- Input Capacitor C1 -->
+  <line x1="690" y1="100" x2="690" y2="110" class="wire"/>
+  <line x1="685" y1="110" x2="695" y2="110" class="component"/>
+  <line x1="685" y1="115" x2="695" y2="115" class="component"/>
+  <line x1="690" y1="115" x2="690" y2="130" class="wire"/>
+  <text x="700" y="115" class="value">C1: 22µF</text>
+  
+  <!-- GND from C1 -->
+  <line x1="690" y1="130" x2="690" y2="140" class="gnd"/>
+  <line x1="680" y1="140" x2="700" y2="140" class="gnd"/>
+  <line x1="683" y1="143" x2="697" y2="143" class="gnd"/>
+  <line x1="686" y1="146" x2="694" y2="146" class="gnd"/>
+  
+  <!-- VIN to IC -->
+  <circle cx="690" cy="100" r="2" class="node"/>
+  <line x1="690" y1="100" x2="750" y2="100" class="wire"/>
+  
+  <!-- AP61300 IC -->
+  <rect x="750" y="80" width="80" height="100" class="ic" rx="3"/>
+  <text x="790" y="100" class="label" text-anchor="middle">AP61300</text>
+  <text x="790" y="115" class="label" text-anchor="middle">or</text>
+  <text x="790" y="130" class="label" text-anchor="middle">AP61302</text>
+  
+  <!-- IC Pins -->
+  <!-- VIN pin -->
+  <line x1="750" y1="100" x2="740" y2="100" class="wire"/>
+  <text x="735" y="103" class="value" text-anchor="end">VIN</text>
+  
+  <!-- EN pin -->
+  <line x1="750" y1="120" x2="730" y2="120" class="wire"/>
+  <line x1="730" y1="120" x2="730" y2="100" class="wire"/>
+  <circle cx="730" cy="100" r="2" class="node"/>
+  <text x="725" y="123" class="value" text-anchor="end">EN</text>
+  
+  <!-- GND pin -->
+  <line x1="790" y1="180" x2="790" y2="195" class="wire"/>
+  <line x1="790" y1="195" x2="790" y2="205" class="gnd"/>
+  <line x1="780" y1="205" x2="800" y2="205" class="gnd"/>
+  <line x1="783" y1="208" x2="797" y2="208" class="gnd"/>
+  <line x1="786" y1="211" x2="794" y2="211" class="gnd"/>
+  <text x="795" y="193" class="value">GND</text>
+  
+  <!-- FB pin -->
+  <line x1="750" y1="160" x2="730" y2="160" class="wire"/>
+  <text x="725" y="163" class="value" text-anchor="end">FB</text>
+  
+  <!-- SW pin -->
+  <line x1="830" y1="120" x2="860" y2="120" class="wire"/>
+  <text x="835" y="115" class="value">SW</text>
+  
+  <!-- OUT/PG pin (not used) -->
+  <text x="835" y="103" class="value">OUT/PG</text>
+  
+  <!-- Inductor L -->
+  <line x1="860" y1="120" x2="875" y2="120" class="wire"/>
+  <circle cx="880" cy="120" r="5" class="component"/>
+  <circle cx="890" cy="120" r="5" class="component"/>
+  <circle cx="900" cy="120" r="5" class="component"/>
+  <circle cx="910" cy="120" r="5" class="component"/>
+  <line x1="915" y1="120" x2="940" y2="120" class="wire"/>
+  <text x="895" y="110" class="value" text-anchor="middle">L: 1µH</text>
+  
+  <!-- Output Capacitor C2 -->
+  <circle cx="940" cy="120" r="2" class="node"/>
+  <line x1="940" y1="120" x2="940" y2="140" class="wire"/>
+  <line x1="935" y1="140" x2="945" y2="140" class="component"/>
+  <line x1="935" y1="145" x2="945" y2="145" class="component"/>
+  <line x1="940" y1="145" x2="940" y2="165" class="wire"/>
+  <text x="950" y="145" class="value">C2: 22µF</text>
+  
+  <!-- GND from C2 -->
+  <line x1="940" y1="165" x2="940" y2="175" class="gnd"/>
+  <line x1="930" y1="175" x2="950" y2="175" class="gnd"/>
+  <line x1="933" y1="178" x2="947" y2="178" class="gnd"/>
+  <line x1="936" y1="181" x2="944" y2="181" class="gnd"/>
+  
+  <!-- Output -->
+  <line x1="940" y1="120" x2="980" y2="120" class="wire"/>
+  <circle cx="980" cy="120" r="3" class="node"/>
+  <text x="990" y="115" class="label">VOUT</text>
+  <text x="990" y="130" class="value">0.9V @ 3A</text>
+  
+  <!-- Feedback Resistors -->
+  <line x1="980" y1="120" x2="980" y2="160" class="wire"/>
+  <circle cx="980" cy="160" r="2" class="node"/>
+  
+  <!-- R1 -->
+  <rect x="975" y="165" width="10" height="30" class="component"/>
+  <line x1="980" y1="160" x2="980" y2="165" class="wire"/>
+  <line x1="980" y1="195" x2="980" y2="210" class="wire"/>
+  <text x="995" y="182" class="value">R1: 200kΩ</text>
+  
+  <!-- FB connection -->
+  <circle cx="980" cy="210" r="2" class="node"/>
+  <line x1="980" y1="210" x2="730" y2="210" class="wire"/>
+  <line x1="730" y1="210" x2="730" y2="160" class="wire"/>
+  
+  <!-- R2 -->
+  <rect x="975" y="215" width="10" height="30" class="component"/>
+  <line x1="980" y1="210" x2="980" y2="215" class="wire"/>
+  <line x1="980" y1="245" x2="980" y2="260" class="wire"/>
+  <text x="995" y="232" class="value">R2: 400kΩ</text>
+  
+  <!-- GND from R2 -->
+  <line x1="980" y1="260" x2="980" y2="270" class="gnd"/>
+  <line x1="970" y1="270" x2="990" y2="270" class="gnd"/>
+  <line x1="973" y1="273" x2="987" y2="273" class="gnd"/>
+  <line x1="976" y1="276" x2="984" y2="276" class="gnd"/>
+  
+  <!-- Notes for circuit B -->
+  <text x="650" y="310" class="label" font-weight="bold">Notes:</text>
+  <text x="650" y="325" class="value">• Input: 5V DC</text>
+  <text x="650" y="340" class="value">• Output: 0.9V @ 3A max</text>
+  <text x="650" y="355" class="value">• Efficiency: ~85% at full load</text>
+  <text x="650" y="370" class="value">• All capacitors: X7R/X5R ceramic, 10V+ rating</text>
+  <text x="650" y="385" class="value">• Inductor: 1µH, 3.5A+ saturation current, &lt;30mΩ DCR</text>
+  <text x="650" y="400" class="value">• R2 calculated: 0.6×R1/(VOUT-0.6) = 400kΩ</text>
+  
+  <!-- General Information -->
+  <line x1="50" y1="420" x2="1150" y2="420" stroke="#999" stroke-width="1"/>
+  
+  <text x="50" y="445" class="label" font-weight="bold">General Design Notes:</text>
+  <text x="50" y="465" class="value">1. Input capacitor (C1): Place as close as possible to VIN and GND pins. Use X7R or X5R ceramic with 10V+ rating.</text>
+  <text x="50" y="480" class="value">2. Output capacitor (C2): Place close to load. Low ESR ceramic capacitors recommended.</text>
+  <text x="50" y="495" class="value">3. Inductor: Must handle 3.5A+ saturation current. Keep DCR &lt;30mΩ for efficiency. Place close to SW pin.</text>
+  <text x="50" y="510" class="value">4. Feedback resistors: Use 1% tolerance resistors. Keep FB trace short and away from SW node.</text>
+  <text x="50" y="525" class="value">5. PCB layout: Use 2oz copper. Add vias under GND and VIN pins for thermal management.</text>
+  <text x="50" y="540" class="value">6. EN pin: Tie to VIN for PFM mode (low quiescent current). Use resistor divider for forced PWM mode.</text>
+  <text x="50" y="555" class="value">7. Switching frequency: ~2.2MHz typical (varies with VIN/VOUT ratio).</text>
+  <text x="50" y="570" class="value">8. For 0.9V output: Lower efficiency due to larger duty cycle variation. Consider forced PWM for reduced ripple.</text>
+  
+  <!-- Component Recommendations -->
+  <text x="50" y="600" class="label" font-weight="bold">Recommended Components:</text>
+  <text x="50" y="620" class="value">• Inductor: Murata LQH32PB1R0NNC, TDK SPM6530T-1R0M, or Würth 744325100</text>
+  <text x="50" y="635" class="value">• Capacitors: Murata GRM32ER71A226KE15L (22µF, 10V, X7R) or Samsung CL32A226KQJNNNE</text>
+  <text x="50" y="650" class="value">• Resistors: Any 1% 0603 or 0805 thick film resistors</text>
+  
+  <text x="50" y="680" class="value" font-style="italic">For AP61302 variant: PG pin can be used for power-good indication (requires external pullup resistor)</text>
+  <text x="50" y="695" class="value" font-style="italic">For more details, refer to AP61300/AP61302 datasheet (DS43404)</text>
+  
+  <!-- Footer -->
+  <text x="600" y="770" class="value" text-anchor="middle" font-size="10px">Created based on Diodes Inc. AP61300/AP61302 datasheet Rev. 5-2 (July 2024)</text>
+</svg>

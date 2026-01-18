@@ -54,6 +54,26 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "28c8ebb3-7ffe-4294-abf5-206153deb554")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "16bbf7af-6d45-479a-8920-02bf55cbc0ee")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 2.5 0)
