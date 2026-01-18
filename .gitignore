@@ -5,3 +5,5 @@ kicad/#*
 /symbols
 /docs
 /datasheets/*.txt
+
+/plots
